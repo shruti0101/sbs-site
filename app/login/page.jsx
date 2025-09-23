@@ -1,8 +1,11 @@
 // app/login/page.jsx
-"use client"; // Entire page is client-side
+"use client";
 
 import React, { useState, useEffect } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
+
+// THIS ENSURES NEXT.JS DOES NOT PRERENDER THIS PAGE
+export const dynamic = "force-dynamic";
 
 export default function LoginPage() {
   const [password, setPassword] = useState("");
@@ -12,10 +15,8 @@ export default function LoginPage() {
   const params = useSearchParams();
   const from = params?.get("from") || "/studio";
 
-  // Optional: fade-in animation for form
-  useEffect(() => {
-    setFadeIn(true);
-  }, []);
+  // Optional fade-in animation
+  useEffect(() => setFadeIn(true), []);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -28,14 +29,11 @@ export default function LoginPage() {
         body: JSON.stringify({ password }),
       });
 
-      if (res.ok) {
-        router.push(from);
-      } else {
-        alert("Invalid password");
-      }
+      if (res.ok) router.push(from);
+      else alert("Invalid password");
     } catch (err) {
       console.error(err);
-      alert("Something went wrong. Please try again.");
+      alert("Something went wrong.");
     } finally {
       setLoading(false);
     }
