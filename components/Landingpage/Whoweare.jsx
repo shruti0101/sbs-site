@@ -7,10 +7,10 @@ export default function RemoteControlMaintenance() {
         {/* Left Content */}
         <div>
           {/* Heading */}
-          <h2 className="text-3xl md:text-5xl font-bold text-black leading-snug">
+          <h2 className="text-3xl  md:text-5xl font-bold text-black leading-snug">
             SBS Machinery Pvt Ltd
           </h2>
-          <h3 className="text-[#0057A0]  text-3xl md:text-5xl font-semibold mt-2">
+          <h3 className="text-[#0057A0] font-roboto  text-3xl md:text-5xl font-semibold mt-2">
             Remote Control <br /> Maintenance System
           </h3>
 

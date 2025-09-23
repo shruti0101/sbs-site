@@ -5,13 +5,15 @@ import Image from "next/image";
 
 const categories = [
   { img: "/home/image-1-1024x512.webp" },
-  { img: "/home/nail-arts-machine-1024x512.webp" },
+  // { img: "/home/nail-arts-machine-1024x512.webp" },
   { img: "/home/Green-and-Yellow-Simple-Clean-Shoes-Sale-Banner-6-1024x512.webp" },
   { img: "/home/Green-and-Yellow-Simple-Clean-Shoes-Sale-Banner-3-1024x512.webp" },
   { img: "/home/Green-and-Yellow-Simple-Clean-Shoes-Sale-Banner-1-1-1024x512.webp" },
   { img: "/home/printing-machine-2048x1024.webp" },
   { img: "/home/bsb-1024x512.webp" },
   { img: "/home/nonoven.webp" },
+   { img: "/home/momo.webp" },
+    { img: "/home/noodle.webp" },
 ];
 
 const Categories = () => {
@@ -34,7 +36,7 @@ const Categories = () => {
   };
 
   return (
-    <section className="relative w-full py-14 overflow-hidden bg-[#94E6C5]">
+    <section className="relative w-full mt-10 md:mt-0 py-14 overflow-hidden bg-[#94E6C5]">
       {/* Background Waves */}
       <div className="absolute top-0 left-0 w-full">
         <svg
@@ -64,7 +66,7 @@ const Categories = () => {
       </div>
 
       {/* Title */}
-      <h2 className="text-7xl font-bold text-center mt-15 mb-15">
+      <h2 className="text-5xl md:text-7xl font-bold font-roboto text-center mt-15 mb-15">
         <span className="text-black">Our </span>
         <span className="text-[#1B69AC]">Categories</span>
       </h2>

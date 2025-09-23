@@ -50,19 +50,23 @@ export default function Page() {
     <div>
     
 
-    <section
-        style={{ backgroundImage: "url('/contact-us-banner.webp')" }}
-        className=" w-full h-[80vh] bg-cover  bg-center  "
-      >
-      
-       
-          <h2 className="text-white text-6xl font-bold z-10  ">
-            Contact us
-          </h2>
-       
-      </section>
+ <section
+  style={{ backgroundImage: "url('/contact-us-banner.webp')" }}
+  className="w-full h-[50vh] md:h-[80vh] relative bg-cover bg-center"
+>
+  {/* Overlay (optional for readability) */}
+  <div className="absolute inset-0 bg-black/30"></div>
 
-      <section className="bg-white py-10 px-6 md:px-20">
+  {/* Centered Content */}
+  <div className="absolute inset-0 flex items-center justify-center">
+    <h2 className="text-white text-4xl sm:text-5xl md:text-6xl font-bold text-center px-4">
+      Contact Us
+    </h2>
+  </div>
+</section>
+
+
+      <section className="bg-white py-10 px-6 md:px-20 ">
         {/* Contact Info */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
           <div className="flex bg-[#0196E3] text-white p-6 rounded-md shadow-md flex-col items-center justify-center">

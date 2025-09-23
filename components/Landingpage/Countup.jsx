@@ -27,8 +27,11 @@ export default function CountUpSection() {
         </div>
       </section>
 
-      <section>
-        <div className="w-full bg-[#456C9E] py-15">
+      <section   style={{
+          backgroundImage:
+            "radial-gradient(at center center, #87AFE2 0%, #305788 100%)",
+        }}>
+        <div className="w-full  py-15">
             <div className="max-w-7xl mx-auto px-6 text-center">
 
           <h2 className="text-4xl md:text-6xl font-extrabold text-center text-white">

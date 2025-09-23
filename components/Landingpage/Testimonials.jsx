@@ -124,7 +124,7 @@ export default function TestimonialSlider() {
     allowFullScreen=""
     loading="lazy"
     referrerPolicy="no-referrer-when-downgrade"
-    className="absolute inset-0 w-full"
+    className=" w-full"
   ></iframe>
 </section>
 

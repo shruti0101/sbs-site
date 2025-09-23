@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "next/link";
 const Cta = () => {
   return (
     <section
@@ -9,7 +9,7 @@ const Cta = () => {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between px-6 gap-6">
         {/* Left Text */}
         <div className="text-center md:text-left">
-          <p className="text-black font-bold text-2xl md:text-3xl">
+          <p className="text-black font-roboto font-bold text-2xl md:text-3xl">
             For More Details
           </p>
           <h2 className="text-black font-extrabold text-4xl md:text-6xl mt-2">
@@ -21,9 +21,13 @@ const Cta = () => {
 
         {/* Right Button */}
         <div>
-          <button className="bg-[#1D4E89] text-white font-semibold px-6 py-3 rounded hover:bg-[#163a66] transition">
+
+          <Link href="/contact">
+          
+          <button className="bg-[#1D4E89] cursor-pointer text-white font-semibold px-6 py-3 rounded hover:bg-[#163a66] transition">
             Get Connect
           </button>
+          </Link>
         </div>
       </div>
     </section>

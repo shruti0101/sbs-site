@@ -1,22 +1,24 @@
 'use client'
-import { FaWhatsapp, FaInstagram, FaEnvelope, FaFacebookF } from 'react-icons/fa'
+import { FaWhatsapp, FaInstagram, FaFacebookF } from 'react-icons/fa'
 
 const SocialBar = () => {
   return (
-    <div className="hidden md:flex fixed top-1/3 right-0 z-50 flex-col items-center space-y-3">
+    <div className="hidden md:flex fixed top-1/3 left-0 z-50 flex-col items-center space-y-3">
       {/* WhatsApp */}
       <a
         href="https://wa.me/+91-7042039777"
         target="_blank"
         rel="noopener noreferrer"
-        className="group relative flex items-center w-44 translate-x-[130px] hover:translate-x-0 rounded-l-lg bg-white text-green-600 shadow-md border border-gray-200 transition-all duration-300"
+        className="group relative flex items-center rounded-r-lg bg-white text-green-600 shadow-md border border-gray-200 transition-all duration-300"
       >
-        <div className="flex items-center gap-3 px-4 py-3">
-          <FaWhatsapp size={20} className="min-w-[20px]" />
-          <span className="whitespace-nowrap text-sm font-medium">
-            WhatsApp
-          </span>
+        {/* Icon always visible */}
+        <div className="flex items-center justify-center w-12 h-12">
+          <FaWhatsapp size={20} />
         </div>
+        {/* Label slides in */}
+        <span className="absolute left-12 opacity-0 group-hover:opacity-100 group-hover:translate-x-2 whitespace-nowrap text-sm font-medium transition-all duration-300">
+          WhatsApp
+        </span>
       </a>
 
       {/* Instagram */}
@@ -24,43 +26,30 @@ const SocialBar = () => {
         href="https://www.instagram.com/sbs_manufacturers/?igsh=MTRjNDE4NmVhdmwydQ%3D%3D#"
         target="_blank"
         rel="noopener noreferrer"
-        className="group relative flex items-center w-44 translate-x-[130px] hover:translate-x-0 rounded-l-lg bg-white text-pink-600 shadow-md border border-gray-200 transition-all duration-300"
+        className="group relative flex items-center rounded-r-lg bg-white text-pink-600 shadow-md border border-gray-200 transition-all duration-300"
       >
-        <div className="flex items-center gap-3 px-4 py-3">
-          <FaInstagram size={20} className="min-w-[20px]" />
-          <span className="whitespace-nowrap text-sm font-medium">
-            Instagram
-          </span>
+        <div className="flex items-center justify-center w-12 h-12">
+          <FaInstagram size={20} />
         </div>
+        <span className="absolute left-12 opacity-0 group-hover:opacity-100 group-hover:translate-x-2 whitespace-nowrap text-sm font-medium transition-all duration-300">
+          Instagram
+        </span>
       </a>
 
       {/* Facebook */}
       <a
-        href="https://www.facebook.com/SBS.COMPANY777?mibextid=ZbWKwL" 
+        href="https://www.facebook.com/SBS.COMPANY777?mibextid=ZbWKwL"
         target="_blank"
         rel="noopener noreferrer"
-        className="group relative flex items-center w-44 translate-x-[130px] hover:translate-x-0 rounded-l-lg bg-white text-blue-600 shadow-md border border-gray-200 transition-all duration-300"
+        className="group relative flex items-center rounded-r-lg bg-white text-blue-600 shadow-md border border-gray-200 transition-all duration-300"
       >
-        <div className="flex items-center gap-3 px-4 py-3">
-          <FaFacebookF size={20} className="min-w-[20px]" />
-          <span className="whitespace-nowrap text-sm font-medium">
-            Facebook
-          </span>
+        <div className="flex items-center justify-center w-12 h-12">
+          <FaFacebookF size={20} />
         </div>
+        <span className="absolute left-12 opacity-0 group-hover:opacity-100 group-hover:translate-x-2 whitespace-nowrap text-sm font-medium transition-all duration-300">
+          Facebook
+        </span>
       </a>
-
-      {/* Email */}
-      {/* <a
-        href="mailto:shreeshaktiinfratech@gmail.com"
-        className="group relative flex items-center w-44 translate-x-[130px] hover:translate-x-0 rounded-l-lg bg-white text-gray-700 shadow-md border border-gray-200 transition-all duration-300"
-      >
-        <div className="flex items-center gap-3 px-4 py-3">
-          <FaEnvelope size={20} className="min-w-[20px]" />
-          <span className="whitespace-nowrap text-sm font-medium">
-            Email
-          </span>
-        </div>
-      </a> */}
     </div>
   )
 }

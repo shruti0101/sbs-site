@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div>
       <section>
-        <div className="max-w-7xl mx-auto px-10 py-16">
+        <div className="max-w-7xl mx-auto px-10 py-5 md:py-16">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <Image
               src="/home/about.webp"
@@ -15,7 +15,7 @@ const About = () => {
             />
 
             <div className=" ">
-              <h1 className="text-5xl text-black font-semibold mb-7">
+              <h1 className="text-3xl md:text-5xl text-black font-semibold mb-7">
                 SBS Machinery Pvt. Ltd
               </h1>
               <p className="text-black text-lg leading-relaxed">

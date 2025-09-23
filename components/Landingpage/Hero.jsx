@@ -2,8 +2,11 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
+// import Heroform from "@/components/Landingpage/Heroform";
 
-const images = ["/banner1.webp", "/banner2.webp"]; // ✅ removed empty string
+// ✅ Separate images
+const desktopImages = ["/banner1.webp", "/banner2.webp", "/banner3.webp", "/baner4.webp"];
+const mobileImages = ["/mobile1.webp","/mobile2.webp","/mobile3.webp","/mobile4.webp"];
 
 const Hero = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -19,37 +22,67 @@ const Hero = () => {
 
   const slideNext = () => {
     setDirection(1);
-    setCurrentIndex((prev) => (prev + 1) % images.length);
+    setCurrentIndex((prev) => (prev + 1) % desktopImages.length);
   };
 
   const slidePrev = () => {
     setDirection(-1);
-    setCurrentIndex((prev) => (prev - 1 + images.length) % images.length);
+    setCurrentIndex((prev) => (prev - 1 + desktopImages.length) % desktopImages.length);
   };
 
   return (
-    <section className="relative  w-full  h-screen overflow-hidden">
-      <AnimatePresence initial={false} custom={direction}>
-        <motion.div
-          key={currentIndex}
-          className="absolute inset-0 w-full h-full"
-          custom={direction}
-          initial={{ x: direction > 0 ? "100%" : "-100%" }}
-          animate={{ x: 0 }}
-          exit={{ x: direction > 0 ? "-100%" : "100%" }}
-          transition={{ duration: 1, ease: "easeInOut" }}
-        >
-          <Image
-            src={images[currentIndex]}
-            alt={`Banner image ${currentIndex + 1}`} // ✅ improved alt text
-            fill
-            priority
-            sizes="100vw"
-            className="object-cover"
-          />
-        </motion.div>
-      </AnimatePresence>
-    </section>
+    <>
+      {/* ✅ Desktop Hero */}
+      <section className="relative hidden md:flex justify-end w-full h-[110vh] overflow-hidden">
+        <AnimatePresence initial={false} custom={direction}>
+          <motion.div
+            key={`desktop-${currentIndex}`}
+            className="absolute inset-0 w-full h-full"
+            custom={direction}
+            initial={{ x: direction > 0 ? "100%" : "-100%" }}
+            animate={{ x: 0 }}
+            exit={{ x: direction > 0 ? "-100%" : "100%" }}
+            transition={{ duration: 1, ease: "easeInOut" }}
+          >
+            <Image
+              src={desktopImages[currentIndex]}
+              alt={`Desktop banner ${currentIndex + 1}`}
+              fill
+              priority
+              sizes="100vw"
+              className="object-cover"
+            />
+          </motion.div>
+        </AnimatePresence>
+
+       
+      </section>
+
+      {/* ✅ Mobile Hero */}
+      <section className="relative block md:hidden w-full mt-24 h-[50vh]  overflow-hidden">
+        <AnimatePresence initial={false} custom={direction}>
+          <motion.div
+            key={`mobile-${currentIndex}`}
+            className="absolute inset-0 w-full h-full"
+            custom={direction}
+            initial={{ x: direction > 0 ? "100%" : "-100%" }}
+            animate={{ x: 0 }}
+            exit={{ x: direction > 0 ? "-100%" : "100%" }}
+            transition={{ duration: 1, ease: "easeInOut" }}
+          >
+            <Image
+              src={mobileImages[currentIndex]}
+              alt={`Mobile banner ${currentIndex + 1}`}
+              width={600}
+              height={1200}
+              priority
+              // sizes="100vw"
+              className="object-cover "
+            />
+          </motion.div>
+        </AnimatePresence>
+      </section>
+    </>
   );
 };
 

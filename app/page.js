@@ -10,14 +10,12 @@ import Process from "@/components/Landingpage/Process";
 import Faq from "@/components/Landingpage/Faq";
 import TestimonialSlider from "@/components/Landingpage/Testimonials";
 import Formsection from "@/components/Landingpage/Formsection";
-import Footer from "@/components/Landingpage/Footer";
-import Social from "@/components/Landingpage/Social";
-import Stickybutton from "@/components/Landingpage/Stickybutton";
+import Popup from "@/components/Popup"
+
 export default function Home() {
   return (
    <>
-   <Social></Social>
-   <Stickybutton></Stickybutton>
+  <Popup></Popup>
    <Hero />
    <About />
    <Categories />

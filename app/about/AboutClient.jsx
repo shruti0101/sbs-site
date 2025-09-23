@@ -26,7 +26,7 @@ const page = () => {
     <div>
       <section
         style={{ backgroundImage: "url('/testimonialbg.webp')" }}
-        className=" w-full   bg-cover h-[70vh] bg-cover -rotate-180 "
+        className=" w-full   bg-cover h-[50vh] md:h-[100vh] bg-center -rotate-180 "
       >
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="absolute inset-0 flex items-center justify-center">
@@ -48,7 +48,7 @@ const page = () => {
             />
 
             <div className=" ">
-              <h1 className="text-5xl text-black font-semibold mb-7">
+              <h1 className="text-3xl md:text-5xl text-black font-semibold mb-7">
                 Welcome to SBS Machinery Pvt Ltd
               </h1>
               <p className="text-black text-lg leading-relaxed">
@@ -104,132 +104,133 @@ const page = () => {
         </div>
       </section>
 
-      <section
-        style={{
-          backgroundImage:
-            "radial-gradient(at center center, #87AFE2 0%, #305788 100%)",
-        }}
-      >
-        <div className="max-w-7xl mx-auto py-16 px-6 text-white">
-          {/* first */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-            {/* Left Side - Text */}
-            <div>
-              <h2 className="text-3xl font-bold mb-4">
-                Paper Die Cutting Machine Manufacturers & Supplier in India
-              </h2>
-              <p className="text-lg leading-relaxed">
-                SBS Machinery is one of the leading manufacturers of Paper Die
-                Cutting Machines in India. Our machines are known for their
-                precision, reliability, and cutting-edge technology. They are
-                built to meet the diverse needs of paper manufacturers, ensuring
-                clean and accurate cuts for various paper products. We have a
-                wide presence in cities like Hyderabad, Pune, Kolkata, and
-                Ahmedabad, delivering products that meet the highest standards
-                of quality and efficiency.
-              </p>
-            </div>
+     <section
+  style={{
+    backgroundImage:
+      "radial-gradient(at center center, #87AFE2 0%, #305788 100%)",
+  }}
+>
+  <div className="max-w-7xl mx-auto py-16 px-6 text-white space-y-20">
+    {/* First */}
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+      {/* Left Side - Text */}
+      <div>
+        <h2 className="text-2xl md:text-3xl font-bold mb-4">
+          Paper Die Cutting Machine Manufacturers & Supplier in India
+        </h2>
+        <p className="text-base md:text-lg leading-relaxed">
+          SBS Machinery is one of the leading manufacturers of Paper Die Cutting
+          Machines in India. Our machines are known for their precision,
+          reliability, and cutting-edge technology. They are built to meet the
+          diverse needs of paper manufacturers, ensuring clean and accurate cuts
+          for various paper products. We have a wide presence in cities like
+          Hyderabad, Pune, Kolkata, and Ahmedabad, delivering products that meet
+          the highest standards of quality and efficiency.
+        </p>
+      </div>
 
-            {/* Right Side - Image */}
-            <div className="flex justify-center">
-              <Image
-                width={500}
-                height={300}
-                src="/about/Paper-Die-Cutting-Machine.webp"
-                alt="Paper Die Cutting Machine"
-                className=""
-              />
-            </div>
-          </div>
+      {/* Right Side - Image */}
+      <div className="flex justify-center">
+        <Image
+          width={500}
+          height={300}
+          src="/about/Paper-Die-Cutting-Machine.webp"
+          alt="Paper Die Cutting Machine"
+          className="w-full max-w-md rounded-lg shadow-lg"
+        />
+      </div>
+    </div>
 
-          {/* Second Section */}
-       <div className="grid grid-cols-1  md:grid-cols-2 gap-8 items-center">
-            {/* left Side */}
-            <div className="flex justify-center">
-              <Image
-                width={500}
-                height={300}
-                src="/about/biodegradable-plastic-bag-making-machine-500x500-Photoroom.webp"
-                alt="Biodegradable Plastic Bag Making Machine"
-                className=""
-              />
-            </div>
+    {/* Second Section */}
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+      {/* Left Side - Image */}
+      <div className="flex justify-center">
+        <Image
+          width={500}
+          height={300}
+          src="/about/biodegradable-plastic-bag-making-machine-500x500-Photoroom.webp"
+          alt="Biodegradable Plastic Bag Making Machine"
+          className="w-full max-w-md rounded-lg shadow-lg"
+        />
+      </div>
 
-            {/* Right Side -  */}
-            <div>
-              <h2 className="text-3xl font-bold mb-4">
-                Bio-Degradable Bag Making Machine Manufacturers & Supplier in
-                India
-              </h2>
-              <p className="text-lg leading-relaxed">
-                As one of the top Bio-Degradable Bag Making Machine
-                Manufacturers in India , SBS Machinery offers innovative and
-                sustainable solutions for the growing demand for eco-friendly
-                products. Our machines are designed to produce bio-degradable
-                bags that meet environmental standards while ensuring high
-                efficiency and reliability. Serving key markets such as Delhi
-                NCR, Bangalore, Mumbai, and Pune, we are committed to
-                contributing to the sustainable future of packaging with our
-                state-of-the-art machines.
-              </p>
-            </div>
-          </div>
+      {/* Right Side - Text */}
+      <div>
+        <h2 className="text-2xl md:text-3xl font-bold mb-4">
+          Bio-Degradable Bag Making Machine Manufacturers & Supplier in India
+        </h2>
+        <p className="text-base md:text-lg leading-relaxed">
+          As one of the top Bio-Degradable Bag Making Machine Manufacturers in
+          India, SBS Machinery offers innovative and sustainable solutions for
+          the growing demand for eco-friendly products. Our machines are
+          designed to produce bio-degradable bags that meet environmental
+          standards while ensuring high efficiency and reliability. Serving key
+          markets such as Delhi NCR, Bangalore, Mumbai, and Pune, we are
+          committed to contributing to the sustainable future of packaging with
+          our state-of-the-art machines.
+        </p>
+      </div>
+    </div>
 
+    {/* Third */}
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+      {/* Left Side - Text */}
+      <div>
+        <h2 className="text-2xl md:text-3xl font-bold mb-4">
+          Flexo Printing Machine Manufacturers & Supplier in India
+        </h2>
+        <p className="text-base md:text-lg leading-relaxed">
+          SBS Machinery is renowned for its cutting-edge Flexo Printing
+          Machines, perfect for high-quality printing on various substrates. As
+          prominent Flexo Printing Machine Manufacturers in India, Delhi NCR, we
+          offer machines that ensure exceptional print quality and precision.
+          Our machines are built to handle multiple printing tasks, offering
+          flexibility and efficiency for businesses in the printing industry.
+        </p>
+      </div>
 
+      {/* Right Side - Image */}
+      <div className="flex justify-center">
+        <Image
+          width={500}
+          height={300}
+          src="/about/Flexo-Printing-Machine.webp"
+          alt="Flexo Printing Machine"
+          className="w-full max-w-md rounded-lg shadow-lg"
+        />
+      </div>
+    </div>
 
-          {/* third */}
+    {/* Fourth */}
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+      {/* Left Side - Image */}
+      <div className="flex justify-center">
+        <Image
+          width={800}
+          height={400}
+          src="/about/Non-Woven-Bag-Making-Machine.webp"
+          alt="Non-Woven Bag Making Machine"
+          className="w-full max-w-lg rounded-lg shadow-lg"
+        />
+      </div>
 
- <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-          {/* Left Side - Text */}
-          <div>
-            <h2 className="text-3xl font-bold mb-4">
-             Flexo Printing Machine Manufacturers & Supplier in India
-            </h2>
-            <p className="text-lg leading-relaxed">
-              SBS Machinery is renowned for its cutting-edge Flexo Printing Machines, perfect for high-quality printing on various substrates. As prominent Flexo Printing Machine Manufacturers in India, Delhi NCR , we offer machines that ensure exceptional print quality and precision. Our machines are built to handle multiple printing tasks, offering flexibility and efficiency for businesses in the printing industry.
-            </p>
-          </div>
+      {/* Right Side - Text */}
+      <div>
+        <h2 className="text-2xl md:text-3xl font-bold mb-4">
+          Non-Woven Bag Making Machine Manufacturers & Supplier in India
+        </h2>
+        <p className="text-base md:text-lg leading-relaxed">
+          SBS Machinery is renowned for its advanced Non-Woven Bag Making
+          Machines, designed for efficiency and reliability. As one of the
+          leading Non-Woven Bag Making Machine Manufacturers in India, we
+          provide solutions that help businesses meet growing demand for
+          eco-friendly bags while maintaining quality and productivity.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
-          {/* Right Side - Image */}
-          <div className="flex justify-center">
-            <Image
-              width={500}
-              height={300}
-              src="/about/Flexo-Printing-Machine.webp"
-              alt="Flexo Printing Machine"
-              className=""
-            />
-          </div>
-        </div>
-
-
-{/* fourth */}
-
-  <div className="grid grid-cols-1  md:grid-cols-2 gap-8 items-center">
-            {/* left Side */}
-            <div className="flex justify-center">
-              <Image
-                width={800}
-                height={400}
-                src="/about/Non-Woven-Bag-Making-Machine.webp"
-                alt="Non-Woven-Bag-Making-Machine"
-                className=""
-              />
-            </div>
-
-            {/* Right Side -  */}
-            <div>
-              <h2 className="text-3xl font-bold mb-4">
-              Non-Woven Bag Making Machine Manufacturers & Supplier in India
-              </h2>
-              <p className="text-lg leading-relaxed">
-               SBS Machinery is renowned for its cutting-edge Flexo Printing Machines, perfect for high-quality printing on various substrates. As prominent Flexo Printing Machine Manufacturers in India, Delhi NCR , we offer machines that ensure exceptional print quality and precision. Our machines are built to handle multiple printing tasks, offering flexibility and efficiency for businesses in the printing industry.
-              </p>
-            </div>
-          </div>
-
-        </div>
-      </section>
 
 
       <section className="bg-white py-16 max-w-7xl mx-auto px-6">
