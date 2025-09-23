@@ -15,7 +15,7 @@ const Footer = () => {
   return (
     <footer className="relative bg-gradient-to-r from-[#001f3f] to-[#002d63] text-white">
       {/* Main Footer */}
-      <div className="container mx-auto py-12 grid grid-cols-1 md:grid-cols-5 gap-4">
+      <div className="container mx-auto px-5 md:px-3 py-12 grid grid-cols-1 md:grid-cols-5 gap-4">
         {/* About */}
         <div>
           <h3 className="text-xl font-semibold border-l-2 border-cyan-400 pl-2 mb-4">
