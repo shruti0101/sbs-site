@@ -51,25 +51,20 @@ export default function Page() {
     
 
  <section
-  style={{ backgroundImage: "url('/contact-us-banner.webp')" }}
-  className="w-full h-[50vh] md:h-[80vh] relative bg-cover bg-center"
+  style={{ backgroundImage: "url('/contactbg.jpg')" }}
+  className="w-full h-[50vh] md:h-[75vh] relative bg-cover bg-center"
 >
   {/* Overlay (optional for readability) */}
-  <div className="absolute inset-0 bg-black/30"></div>
+  {/* <div className="absolute inset-0 bg-black/30"></div> */}
 
-  {/* Centered Content */}
-  <div className="absolute inset-0 flex items-center justify-center">
-    <h2 className="text-white text-4xl sm:text-5xl md:text-6xl font-bold text-center px-4">
-      Contact Us
-    </h2>
-  </div>
+ 
 </section>
 
 
       <section className="bg-white py-10 px-6 md:px-20 ">
         {/* Contact Info */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
-          <div className="flex bg-[#0196E3] text-white p-6 rounded-md shadow-md flex-col items-center justify-center">
+          <div className="flex bg-[#1CBC9A] text-white p-6 rounded-md shadow-md flex-col items-center justify-center">
             <div className="flex items-center space-x-2 mb-2">
               <span className="text-2xl">
                 <Phone />
@@ -81,12 +76,12 @@ export default function Page() {
             <p className="text-lg">+91-8527877798</p>
           </div>
 
-          <div className="bg-white border-2 border-[#0196E3] text-center p-6 rounded-md shadow-md">
+          <div className="bg-white border-2 border-[#1CBC9A] text-center p-6 rounded-md shadow-md">
             <div className="flex items-center justify-center space-x-2 mb-2 text-[#0196E3]">
-              <span className="text-2xl">
+              <span className="text-2xl text-[#1CBC9A]">
                 <Mail />
               </span>
-              <h3 className="font-bold text-lg text-[#0196E3]">Email Address</h3>
+              <h3 className="font-bold text-lg text-[#1CBC9A]">Email Address</h3>
             </div>
             <p className="text-gray-800 text-lg">
           
@@ -94,7 +89,7 @@ machinerysbs@gmail.com
             </p>
           </div>
 
-          <div className="bg-[#0196E3] text-white p-6 rounded-md shadow-md flex flex-col items-center justify-center">
+          <div className="bg-[#1CBC9A] text-white p-6 rounded-md shadow-md flex flex-col items-center justify-center">
             <div className="flex items-center space-x-2 mb-2">
               <span className="text-2xl">📍</span>
               <h3 className="font-bold text-lg">Address</h3>
@@ -144,7 +139,7 @@ machinerysbs@gmail.com
                 />
                 <select
                   name="requirement"
-                  className="border rounded-md px-4 py-2 w-full bg-[#0196E3] text-white font-semibold"
+                  className="border rounded-md px-4 py-2 w-full bg-[#1CBC9A] text-white font-semibold"
                 >
                   <option value="Select Machine">Select Machine</option>
 									<option value="Paper Cup Making Machine">Paper Cup Making Machine</option>
@@ -174,7 +169,7 @@ machinerysbs@gmail.com
               <button
                 type="submit"
                 disabled={loading}
-                className="bg-[#0196E3] text-white px-6 py-3 rounded-md font-semibold w-full"
+                className="bg-[#1CBC9A] text-white px-6 py-3 rounded-md font-semibold w-full"
               >
                 {loading ? "Sending..." : "Send"}
               </button>

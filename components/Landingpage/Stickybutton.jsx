@@ -8,7 +8,7 @@ const Stickybutton = () => {
   return (
     <>
       {/* Floating Social + Inquiry Section */}
-      <div className="fixed top-[60%] right-0 z-50 flex flex-col items-center -translate-y-1/2">
+      <div className="fixed top-50 right-0 z-50 flex flex-col items-center ">
         {/* Inquiry Button */}
         <button
           onClick={() => setIsFormOpen(true)}

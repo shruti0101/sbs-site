@@ -2,18 +2,19 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const categories = [
-  { img: "/home/image-1-1024x512.webp" },
+  { img: "/home/image-1-1024x512.webp" ,link:"/categories/paper-die-cutting-machine"},
   // { img: "/home/nail-arts-machine-1024x512.webp" },
-  { img: "/home/Green-and-Yellow-Simple-Clean-Shoes-Sale-Banner-6-1024x512.webp" },
-  { img: "/home/Green-and-Yellow-Simple-Clean-Shoes-Sale-Banner-3-1024x512.webp" },
-  { img: "/home/Green-and-Yellow-Simple-Clean-Shoes-Sale-Banner-1-1-1024x512.webp" },
-  { img: "/home/printing-machine-2048x1024.webp" },
-  { img: "/home/bsb-1024x512.webp" },
-  { img: "/home/nonoven.webp" },
-   { img: "/home/momo.webp" },
-    { img: "/home/noodle.webp" },
+  { img: "/home/Green-and-Yellow-Simple-Clean-Shoes-Sale-Banner-6-1024x512.webp",link:"/categories/paper-plate-making-machine" },
+  { img: "/home/Green-and-Yellow-Simple-Clean-Shoes-Sale-Banner-3-1024x512.webp",link:"/categories/flexo-printing-machine" },
+  { img: "/home/Green-and-Yellow-Simple-Clean-Shoes-Sale-Banner-1-1-1024x512.webp",link:"/categories/bio-degradable-bag-making-machine" },
+  { img: "/home/printing-machine-2048x1024.webp",link:"/categories/offset-printing-machine" },
+  { img: "/home/bsb-1024x512.webp",link:"/categories/paper-cup-making-machine" },
+  { img: "/home/nonoven.webp",link:"/categories/non-woven-bag-making-machines" },
+   { img: "/home/momo.webp",link:"/categories/momo-making-machine" },
+    { img: "/home/noodle.webp",link:"/categories/noodle-making-machine" },
 ];
 
 const Categories = () => {
@@ -70,29 +71,32 @@ const Categories = () => {
         <span className="text-black">Our </span>
         <span className="text-[#1B69AC]">Categories</span>
       </h2>
-
-      {/* Categories Grid */}
-      <div className="max-w-7xl mx-auto grid sm:grid-cols-2 lg:grid-cols-3 gap-6 px-6 relative z-10">
-        {categories.map((cat, i) => (
-          <div
-            key={i}
-            className="relative border-4 border-white rounded-lg overflow-hidden shadow-lg transition-transform duration-150 ease-out"
-            style={{
-              transform: `rotateX(${tilt.x}deg) rotateY(${tilt.y}deg)`,
-            }}
-            onMouseMove={(e) => handleMouseMove(e, e.currentTarget.getBoundingClientRect())}
-            onMouseLeave={handleMouseLeave}
-          >
-            <Image
-              src={cat.img}
-              alt={`Category ${i + 1}`}
-              width={500}
-              height={250}
-              className="object-contain mx-auto"
-            />
-          </div>
-        ))}
+{/* cat grid */}
+   <div className="max-w-7xl mx-auto grid sm:grid-cols-2 lg:grid-cols-3 gap-6 px-6 relative z-10">
+  {categories.map((cat, i) => (
+    <Link key={i} href={cat.link} passHref>
+      <div
+        className="relative border-4 border-white rounded-lg overflow-hidden shadow-lg transition-transform duration-150 ease-out cursor-pointer"
+        style={{
+          transform: `rotateX(${tilt.x}deg) rotateY(${tilt.y}deg)`,
+        }}
+        onMouseMove={(e) =>
+          handleMouseMove(e, e.currentTarget.getBoundingClientRect())
+        }
+        onMouseLeave={handleMouseLeave}
+      >
+        <Image
+          src={cat.img}
+          alt={`Category ${i + 1}`}
+          width={500}
+          height={250}
+          className="object-contain mx-auto"
+        />
       </div>
+    </Link>
+  ))}
+</div>
+
     </section>
   );
 };
