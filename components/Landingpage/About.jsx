@@ -59,16 +59,26 @@ const About = () => {
                   <div>
                     <p className="text-sm text-black">Call 24 hrs / 7 Days</p>
                     <p className="text-lg font-bold text-[#00537B] hover:text-[#003d58] transition">
-                      +91 8810570771 <br /> +91 7042039777
+                      <a
+                        href="tel:+918810570771"
+                        className="block underline"
+                      >
+                        +91 8810570771
+                      </a>
+                      <a
+                        href="tel:+917042039777"
+                        className="block underline"
+                      >
+                        +91 7042039777
+                      </a>
                     </p>
                   </div>
                 </div>
 
                 <Link href="/about">
-                
-                <button className="w-full bg-[#0075C9] text-white px-4 py-3 cursor-pointer rounded-md font-semibold text-lg shadow hover:bg-[#005f9e] transition">
-                  Learn More
-                </button>
+                  <button className="w-full bg-[#0075C9] text-white px-4 py-3 cursor-pointer rounded-md font-semibold text-lg shadow hover:bg-[#005f9e] transition">
+                    Learn More
+                  </button>
                 </Link>
               </div>
             </div>

@@ -51,7 +51,7 @@ export default function Page() {
     
 
  <section
-  style={{ backgroundImage: "url('/contactbg.jpg')" }}
+  style={{ backgroundImage: "url('/contactbg.webp')" }}
   className="w-full h-[50vh] md:h-[75vh] relative bg-cover bg-center"
 >
   {/* Overlay (optional for readability) */}

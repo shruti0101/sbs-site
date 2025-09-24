@@ -13,9 +13,14 @@ const Footer = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
-    <footer className="relative bg-gradient-to-r from-[#001f3f] to-[#002d63] text-white">
+   <footer  className="relative bg-gradient-to-r from-[#001f3f] to-[#002d63] text-white">
+  {/* Watermark */}
+  <span className="hidden md:flex absolute inset-0 flex items-center justify-center md:text-[8rem] font-extrabold tracking-wide text-white/10 select-none pointer-events-none z-0">
+    SBS MACHINERY
+  </span>
+
       {/* Main Footer */}
-      <div className="container mx-auto px-5 md:px-3 py-12 grid grid-cols-1 md:grid-cols-5 gap-4">
+      <div className="container mx-auto px-5 md:px-4 py-12 grid grid-cols-1 md:grid-cols-5 gap-3">
         {/* About */}
         <div>
           <h3 className="text-xl font-semibold border-l-2 border-cyan-400 pl-2 mb-4">
@@ -32,6 +37,10 @@ const Footer = () => {
             Etc.
           </p>
         </div>
+
+
+ 
+
 
         {/* Contact Us */}
         <div>
@@ -76,12 +85,12 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Main Links */}
+  {/* Main Links */}
         <div>
-          <h3 className="text-xl font-semibold border-l-2 border-cyan-400 pl-2 mb-4">
+          <h3 className="text-xl sm:ml-8 font-semibold border-l-2 border-cyan-400 pl-2 mb-4">
             Main Menu
           </h3>
-          <ul className="space-y-2 text-md">
+          <ul className="space-y-2 text-md sm:ml-8">
             <li>
               <a href="/about" className="hover:text-cyan-400">
                 About us
@@ -103,26 +112,30 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-cyan-400">
+              <a href="/termsandcondition" className="hover:text-cyan-400">
                 Terms & Conditions
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-cyan-400">
+              <a href="/privacy-policy" className="hover:text-cyan-400">
                 Privacy Policy
               </a>
             </li>
           </ul>
         </div>
 
-        {/* More Info */}
+
+ {/* More Info */}
         <div>
           <h3 className="text-xl font-semibold border-l-2 border-cyan-400 pl-2 mb-4">
             More Information
           </h3>
           <ul className="space-y-2 text-md cursor-pointer">
             <li>
-              <a href="/categories/paper-cup-making-machine" className="hover:text-cyan-400">
+              <a
+                href="/categories/paper-cup-making-machine"
+                className="hover:text-cyan-400"
+              >
                 Paper Cup Making Machine
               </a>
             </li>
@@ -135,7 +148,10 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="/categories/bio-degradable-bag-making-machine" className="hover:text-cyan-400">
+              <a
+                href="/categories/bio-degradable-bag-making-machine"
+                className="hover:text-cyan-400"
+              >
                 Bio-degradable Bag Making Machine
               </a>
             </li>
@@ -148,10 +164,23 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="/categories/non-woven-bag-making-machines" className="hover:text-cyan-400">
+              <a
+                href="/categories/non-woven-bag-making-machines"
+                className="hover:text-cyan-400"
+              >
                 Non Woven Bag Making Machine
               </a>
             </li>
+
+            <li>
+              <a
+                href="/categories/paper-plate-making-machine"
+                className="hover:text-cyan-400"
+              >
+                Paper Plate Making Machine
+              </a>
+            </li>
+
             <li>
               <a
                 href="/categories/offset-printing-machine"
@@ -161,29 +190,48 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="/categories/momo-making-machine" className="hover:text-cyan-400">
+              <a
+                href="/categories/momo-making-machine"
+                className="hover:text-cyan-400"
+              >
                 Momo Making Machine
               </a>
             </li>
             <li>
-              <a href="/categories/noodle-making-machine" className="hover:text-cyan-400">
+              <a
+                href="/categories/noodle-making-machine"
+                className="hover:text-cyan-400"
+              >
                 Noodle Making Machine
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="/categories/sbs-nail-art-machine"
+                className="hover:text-cyan-400"
+              >
+                Nail Art Machine
               </a>
             </li>
           </ul>
         </div>
+      
 
+
+
+      
         {/* Trust Elite Section */}
-        <div className="px-6 items-center pb-8">
+        <div className="px-6 items-center md:pb-8">
           <div>
             <h3 className="text-xl font-semibold border-l-2 border-cyan-400 pl-2 mb-4">
               Trust Elite Certificate
             </h3>
             <p className="text-sm leading-relaxed">
-              We are proud to present the Trust Elite Certificate of Excellence to
-              SBS Machinery Pvt Ltd, recognizing their commitment to exceptional
-              customer service, outstanding business practices, and a dedication
-              to building trust with their customers.
+              We are proud to present the Trust Elite Certificate of Excellence
+              to SBS Machinery Pvt Ltd, recognizing their commitment to
+              exceptional customer service, outstanding business practices, and
+              a dedication to building trust with their customers.
             </p>
           </div>
           <div className="flex justify-center md:justify-end">
@@ -208,7 +256,7 @@ const Footer = () => {
               ✕
             </button>
             <img
-              src="/trust-elite-certificate.webp"
+              src="/cert.webp"
               alt="Trust Elite Full"
               className="max-w-[90vw] max-h-[90vh] rounded-lg shadow-lg"
             />

@@ -699,7 +699,7 @@ export const categories = [
 
         image: [
           {
-            src: "/products/Offset/OFFSETPLATE.webp",
+            src: "/products/offset/exposure.webp",
             alt: "Offset Plate Exposure Machine",
           },
         ],
@@ -756,7 +756,7 @@ export const categories = [
 
         image: [
           {
-            src: "/products/Offset/OFFSET.webp",
+            src: "/products/offset/OFFSET.webp",
             alt: "Offset Non-Woven Bag Printing Machine",
           },
         ],

@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const Page = () => {
-  const [visibleCount, setVisibleCount] = useState(6);
+  const [visibleCount, setVisibleCount] = useState(9);
 
   // Flatten all products from all categories
   const allProducts = categories.flatMap((cat) =>
@@ -56,7 +56,7 @@ const Page = () => {
           <div className="text-center mt-10">
             <button
               onClick={() => setVisibleCount((prev) => prev + 6)}
-              className="inline-block px-6 py-3 bg-blue-600 text-white font-semibold rounded-md shadow hover:bg-blue-700 transition"
+              className="inline-block px-6 cursor-pointer py-3 bg-blue-600 text-white font-semibold rounded-md shadow hover:bg-blue-700 transition"
             >
               Load More
             </button>

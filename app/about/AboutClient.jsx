@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { FaAward, FaRocket, FaAtom } from "react-icons/fa";
+import Link from "next/link";
 const page = () => {
   const items = [
     {
@@ -21,17 +22,21 @@ const page = () => {
 
   return (
     <div>
-      <section
-        style={{ backgroundImage: "url('/testimonialbg.webp')" }}
-        className=" w-full   bg-cover h-[50vh] md:h-[100vh] bg-center -rotate-180 "
-      >
-        <div className="absolute inset-0 bg-black opacity-50"></div>
-        <div className="absolute inset-0 flex items-center justify-center">
-          <h2 className="text-white text-6xl font-bold z-10 rotate-180 ">
-            About us
-          </h2>
-        </div>
-      </section>
+   <section
+  style={{ backgroundImage: "url('/home/eco3-1024x745.webp')" }}
+  className="relative w-full bg-cover bg-center h-[350px] md:h-[400px] lg:h-[500px]"
+>
+  {/* Dark Overlay */}
+  <div className="absolute inset-0 bg-black/40"></div>
+
+  {/* Centered Text */}
+  <div className="absolute inset-0 flex items-center justify-center">
+    <h2 className="text-white mt-15 md:mt-0 text-3xl sm:text-4xl md:text-6xl font-bold z-10 text-center leading-tight">
+      About us
+    </h2>
+  </div>
+</section>
+
 
       <section>
         <div className="max-w-7xl mx-auto px-10 py-16">
@@ -50,13 +55,32 @@ const page = () => {
               </h1>
               <p className="text-black text-lg leading-relaxed">
                 Welcome to SBS Machinery Pvt Ltd{" "}
-                <span className="text-cyan-500 font-semibold">
-                  Paper Plate Making Machine, Paper Die Cutting Machine, Paper
-                  Plate Making Machine, Bio-degradable Bag Making Machine, Flexo
-                  Printing Machine, Non Woven Bag Making Machines, Offset Bag
-                  Printing Machine,
-                </span>
-                etc. We have earned an international reputation to maintain a
+                <span className="text-cyan-500 underline font-semibold">
+                  <Link href="/categories/paper-plate-making-machine">
+                    Paper Plate Making Machine ,
+                  </Link>{" "}
+                  <Link href="/categories/paper-die-cutting-machine">
+                    {" "}
+                    Paper Die Cutting Machine ,
+                  </Link>{" "}
+                  <Link href="/categories/paper-cup-making-machine">
+                    Paper cup Making Machine ,
+                  </Link>{" "}
+                  <Link href="/categories/bio-degradable-bag-making-machine">
+                    {" "}
+                    Bio-degradable Bag Making Machine ,
+                  </Link>{" "}
+                  <Link href="/categories/flexo-printing-machine">
+                    Flexo Printing Machine ,
+                  </Link>{" "}
+                  <Link href="/categories/non-woven-bag-making-machines">
+                    Non Woven Bag Making Machines ,
+                  </Link>{" "}
+                  <Link href="/categories/offset-printing-machine">
+                    Offset Bag Printing Machine ,
+                  </Link>
+                </span> 
+                   {" "}     etc. We have earned an international reputation to maintain a
                 well defined quality control policy as per international
                 standards of manufacturing. We never compromise in quality of
                 raw material and advanced tooling machines which are commonly
@@ -91,7 +115,18 @@ const page = () => {
                   <div>
                     <p className="text-sm text-black">Call 24 hrs / 7 Days</p>
                     <p className="text-lg font-bold text-[#00537B] hover:text-[#003d58] transition">
-                      +91 8810570771 <br /> +91 7042039777
+                      <a
+                        href="tel:+918810570771"
+                        className="block underline"
+                      >
+                        +91 8810570771
+                      </a>
+                      <a
+                        href="tel:+917042039777"
+                        className="block underline"
+                      >
+                        +91 7042039777
+                      </a>
                     </p>
                   </div>
                 </div>

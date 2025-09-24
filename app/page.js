@@ -12,6 +12,7 @@ import TestimonialSlider from "@/components/Landingpage/Testimonials";
 import Formsection from "@/components/Landingpage/Formsection";
 import Popup from "@/components/Popup"
 
+
 export default function Home() {
   return (
    <>
@@ -21,6 +22,7 @@ export default function Home() {
    <Categories />
    <Countup />
    <Cta></Cta>
+  
    <Whoweare />
    <Whychoose />
    <Process></Process>
