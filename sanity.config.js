@@ -30,6 +30,21 @@ const blog = {
           type: "block",
           marks: {
             annotations: [
+
+
+ {
+            name: "link",
+            title: "Link",
+            type: "object",
+            fields: [
+              {
+                name: "href",
+                title: "URL",
+                type: "url",
+              },
+            ],
+          },
+
               {
                 name: "color",
                 title: "Text Color",
@@ -77,4 +92,3 @@ export default defineConfig({
     types: [blog], // ✅ Blog now includes SEO fields
   },
 });
-

@@ -13,11 +13,11 @@ const Footer = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
-   <footer  className="relative bg-gradient-to-r from-[#001f3f] to-[#002d63] text-white">
-  {/* Watermark */}
-  <span className="hidden md:flex absolute inset-0 flex items-center justify-center md:text-[8rem] font-extrabold tracking-wide text-white/10 select-none pointer-events-none z-0">
-    SBS MACHINERY
-  </span>
+    <footer className="relative bg-gradient-to-r from-[#001f3f] to-[#002d63] text-white">
+      {/* Watermark */}
+      <span className="hidden md:flex absolute inset-0 flex items-center justify-center md:text-[8rem] font-extrabold tracking-wide text-white/10 select-none pointer-events-none z-0">
+        SBS MACHINERY
+      </span>
 
       {/* Main Footer */}
       <div className="container mx-auto px-5 md:px-4 py-12 grid grid-cols-1 md:grid-cols-5 gap-3">
@@ -37,10 +37,6 @@ const Footer = () => {
             Etc.
           </p>
         </div>
-
-
- 
-
 
         {/* Contact Us */}
         <div>
@@ -85,7 +81,7 @@ const Footer = () => {
           </div>
         </div>
 
-  {/* Main Links */}
+        {/* Main Links */}
         <div>
           <h3 className="text-xl sm:ml-8 font-semibold border-l-2 border-cyan-400 pl-2 mb-4">
             Main Menu
@@ -124,8 +120,7 @@ const Footer = () => {
           </ul>
         </div>
 
-
- {/* More Info */}
+        {/* More Info */}
         <div>
           <h3 className="text-xl font-semibold border-l-2 border-cyan-400 pl-2 mb-4">
             More Information
@@ -216,11 +211,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-      
 
-
-
-      
         {/* Trust Elite Section */}
         <div className="px-6 items-center md:pb-8">
           <div>
@@ -241,28 +232,28 @@ const Footer = () => {
               className="w-28 h-28 object-contain cursor-pointer hover:scale-105 transition"
               onClick={() => setIsModalOpen(true)}
             />
+
+            {/* Modal */}
+            {isModalOpen && (
+              <div className="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50">
+                <div className="relative">
+                  <button
+                    className="absolute top-2 right-2 text-white text-2xl font-bold"
+                    onClick={() => setIsModalOpen(false)}
+                  >
+                    ✕
+                  </button>
+                  <img
+                    src="/cert.webp"
+                    alt="Trust Elite Full"
+                    className="max-w-[90vw] max-h-[90vh] rounded-lg shadow-lg"
+                  />
+                </div>
+              </div>
+            )}
           </div>
         </div>
       </div>
-
-      {/* Modal */}
-      {isModalOpen && (
-        <div className="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50">
-          <div className="relative">
-            <button
-              className="absolute top-2 right-2 text-white text-2xl font-bold"
-              onClick={() => setIsModalOpen(false)}
-            >
-              ✕
-            </button>
-            <img
-              src="/cert.webp"
-              alt="Trust Elite Full"
-              className="max-w-[90vw] max-h-[90vh] rounded-lg shadow-lg"
-            />
-          </div>
-        </div>
-      )}
 
       {/* Bottom Bar */}
       <div className="bg-black text-gray-300 text-center text-sm py-3 px-4 flex flex-col md:flex-row justify-between items-center">

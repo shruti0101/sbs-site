@@ -9,7 +9,7 @@ async function getAllBlogs() {
 }
 
 export async function GET() {
-  const baseUrl = "https://www.yourdomain.com"; // Replace with your domain
+  const baseUrl = "https://sbsmachinery.in/"; 
 
   // Flatten all products
   const allProducts = categories.flatMap((c) => c.products);
