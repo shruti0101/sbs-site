@@ -91,13 +91,15 @@ export default async function BlogDetail({ params }) {
     <>
       <section
         style={{ backgroundImage: "url('/testimonialbg.webp')" }}
-        className="relative  h-[70vh] bg-center bg-contain"
+        className="relative h-[50vh]  md:h-[90vh] bg-center bg-cover"
       >
-        <h1 className="text-4xl  absolute inset-0 flex items-center justify-center font-bold">
+
+        <div className="absolute inset-0 bg-black/40 z-10"></div>
+        <h1 className="z-50 text-white leading-tight text-center max-w-3xl px-3 mx-auto mt-10 text-2xl md:text-4xl  absolute inset-0 flex items-center justify-center font-bold">
           {blog.title}
         </h1>
       </section>
-      <div className="max-w-4xl mx-auto px-6 py-10">
+      <div className="max-w-6xl mx-auto px-6 py-10">
         {blog.imageUrl && (
           <Image
             src={blog.imageUrl}
