@@ -39,6 +39,7 @@ const Page = () => {
                 alt={product.image[0]?.alt || product.name}
                 width={300}
                 height={200}
+                title={product.name} 
                 className="w-full h-75 object-cover"
               />
               <div className="p-3">

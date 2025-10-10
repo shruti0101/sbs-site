@@ -40,6 +40,7 @@ export default function CategoryPage({ params }) {
                 <Image
                   src={product.image[0]?.src || "/placeholder.png"}
                   alt={product.image[0]?.alt || product.name}
+                  title={product.name}
                   fill
                   className="object-cover"
                   unoptimized

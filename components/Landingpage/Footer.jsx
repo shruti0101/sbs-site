@@ -259,11 +259,12 @@ const Footer = () => {
       <div className="bg-black text-gray-300 text-center text-sm py-3 px-4 flex flex-col md:flex-row justify-between items-center">
         <p>Copyrights © 2024-25 SBS Machinery Pvt Ltd. All Right Reserved.</p>
         <p>
+             Website Designed  By Promozione Branding Pvt. Ltd.{" "}
           <a
             href="https://promozionebranding.com/"
-            className="hover:text-cyan-400"
+            className="hover:text-cyan-400 underline"
           >
-            Developed & Manage by Promozione Branding Pvt Ltd.
+           Website Designing Company.
           </a>
         </p>
       </div>

@@ -21,7 +21,7 @@ export default function Page() {
 
     try {
       const response = await fetch(
-        "https://formsubmit.co/ajax/shreeshaktiinfratech@gmail.com",
+        "https://formsubmit.co/ajax/machinerysbs@gmail.com",
         {
           method: "POST",
           body: formData,

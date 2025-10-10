@@ -1,3 +1,6 @@
+export const dynamic = "force-dynamic";
+
+
 import { categories } from "@/Data";
 import { client } from "@/lib/sanity";
 import { groq } from "next-sanity";

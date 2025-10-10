@@ -65,6 +65,7 @@ export default function ProductPage({ params }) {
                 <Image
                   src={activeImage.src}
                   alt={activeImage.alt}
+                  title={product.name}
                   width={600}
                   height={400}
                   unoptimized

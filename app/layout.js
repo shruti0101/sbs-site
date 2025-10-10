@@ -2,8 +2,7 @@
 import { Roboto ,Poppins} from "next/font/google"; 
 import "./globals.css";
 import LayoutWrapper from "@/components/LayoutWrapper";
-// import Navbar from "@/components/Landingpage/Navbar";
-// import Footer from "@/components/Landingpage/Footer";
+
 import Social from "@/components/Landingpage/Social";
 import Stickybutton from "@/components/Landingpage/Stickybutton";
 

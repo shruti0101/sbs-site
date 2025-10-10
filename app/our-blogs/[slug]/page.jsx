@@ -65,21 +65,25 @@ const components = {
       </blockquote>
     ),
   },
-  marks: {
-    strong: ({ children }) => <strong className="font-bold">{children}</strong>,
-    em: ({ children }) => <em className="italic">{children}</em>,
-    underline: ({ children }) => <span className="underline">{children}</span>,
-    link: ({ value, children }) => (
-      <a
-        href={value?.href}
-        className="text-blue-600 hover:underline"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        {children}
-      </a>
-    ),
+marks: {
+  strong: ({ children }) => <strong className="font-bold">{children}</strong>,
+  em: ({ children }) => <em className="italic">{children}</em>,
+  underline: ({ children }) => <span className="underline">{children}</span>,
+  link: ({ value, children }) => (
+    <a
+      href={value?.href}
+      className="text-blue-600 hover:underline"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      {children}
+    </a>
+  ),
+  color: ({ value, children }) => {
+    const colorHex = value?.hex || "inherit";
+    return <span style={{ color: colorHex }}>{children}</span>;
   },
+}
 };
 
 export default async function BlogDetail({ params }) {
