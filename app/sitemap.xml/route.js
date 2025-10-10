@@ -20,7 +20,28 @@ export async function GET() {
   // Fetch blogs
   const blogs = await getAllBlogs();
 
-  // Homepage
+
+
+    // Static pages (About, Contact, Blog Listing)
+  const staticPages = [
+    { loc: `${baseUrl}/about`, priority: 0.8, changefreq: "yearly" },
+    { loc: `${baseUrl}/contact`, priority: 0.8, changefreq: "yearly" },
+    { loc: `${baseUrl}/products`, priority: 0.8, changefreq: "yearly" },
+    { loc: `${baseUrl}/our-blogs`, priority: 0.9, changefreq: "weekly" },
+  ]
+    .map(
+      (page) => `
+      <url>
+        <loc>${page.loc}</loc>
+        <lastmod>${new Date().toISOString()}</lastmod>
+        <changefreq>${page.changefreq}</changefreq>
+        <priority>${page.priority}</priority>
+      </url>
+    `
+    )
+    .join("");
+
+   // Homepage
   const homepage = `
     <url>
       <loc>${baseUrl}</loc>
