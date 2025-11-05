@@ -7,9 +7,9 @@ export const categories = [
   {
     id: "paper-cup-making-machine",
     name: "Paper Cup Making Machine",
-    metaTitle: "Paper Cup Making Machines | High Speed & Automatic Models",
+    metaTitle: "Paper Cup Making Machine manufacturer ",
     metaDescription:
-      "Explore high speed and automatic paper cup making machines with durable design, easy operation, and precision. Ideal for commercial production.",
+      "Discover high-quality paper Cup making machines from a leading manufacturer. Boost your production efficiency with our innovative and reliable solutions. ",
 
     products: [
       // product 1
@@ -345,9 +345,9 @@ export const categories = [
   {
     id: "paper-die-cutting-machine",
     name: "Paper Die Cutting Machine",
-    metaTitle: "Paper Die Cutting Machines | Semi & Fully Automatic",
+    metaTitle: "Paper Die Cutting Machine manufacturer",
     metaDescription:
-      "Choose from semi-automatic and fully automatic paper die cutting machines designed for speed, precision, and durability.",
+      "Discover high-quality paper die cutting machines from a leading manufacturer by SBS Machinery. Enhance your production efficiency with our innovative and reliable solutions.",
     products: [
       {
         id: "high-speed-roll-die-cutting-creasing-embossing-machine",
@@ -423,9 +423,9 @@ export const categories = [
   {
     id: "offset-printing-machine",
     name: "Offset Printing Machine",
-    metaTitle: "Offset Bag Printing Machine – sbsmachinery.in",
+    metaTitle: "Offset Printing Machine manufacturer",
     metaDescription:
-      "Reliable single and multi-color offset printing machines ideal for commercial printing, small and medium runs.",
+      "Discover high-quality offset printing machines from a leading manufacturer. Enhance your printing capabilities with our innovative and reliable solutions.",
 
     products: [
       // product 1
@@ -768,9 +768,9 @@ export const categories = [
   {
     id: "bio-degradable-bag-making-machine",
     name: "Bio-degradable Bag Making Machine",
-    metaTitle: "Bio-degradable Bag Making Machines | Automatic & High Speed",
+    metaTitle: "Bio-degradable Bag Making Machine manufacturer",
     metaDescription:
-      "Eco-friendly biodegradable bag making machines with high production speed, efficiency, and durable design.",
+      "Discover the latest bio-degradable bag making machines from our leading manufacturer. Innovative technology, efficient production, and eco-friendly solutions for your business.",
 
     products: [
       // product 1
@@ -1299,9 +1299,9 @@ export const categories = [
   {
     id: "flexo-printing-machine",
     name: "Flexo Printing Machine",
-    metaTitle: "Flexo Printing Machines | 2 & 4 Color High Quality",
+    metaTitle: "Flexo Printing Machine manufacturer",
     metaDescription:
-      "2 and 4 color flexo printing machines suitable for packaging and paper bag printing with precise, vibrant output.",
+      "Discover top-quality flexo printing machines from a leading manufacturer. Enhance your production efficiency with our innovative and reliable solutions.",
     products: [
       // product 1
       {
@@ -1407,9 +1407,9 @@ export const categories = [
   {
     id: "non-woven-bag-making-machines",
     name: "Non Woven Bag Making Machine",
-    metaTitle: "Non Woven Bag Making Machines | Automatic & High Speed",
+    metaTitle: "Non Woven Bag Making Machine manufacturer",
     metaDescription:
-      "High-speed automatic non-woven bag making machines with durable components and efficient performance.",
+      "Discover the leading non-woven bag making machine manufacturer. Explore our innovative solutions for efficient bag production and increased profitability.",
 
     products: [
       // product 1
@@ -1728,9 +1728,9 @@ export const categories = [
   {
     id: "momo-making-machine",
     name: "Momo Making Machine",
-    metaTitle: "Momo Making Machines | Automatic & High Speed",
+    metaTitle: "Momos Making Machine manufacturer",
     metaDescription:
-      "Automatic and high-speed momo making machines for commercial and home use with hygienic operation.",
+      "Discover high-quality Momos making machines from a leading manufacturer. Enhance your production efficiency and delight customers with perfect dumplings every time.",
     products: [
 
 // product 1
@@ -1916,9 +1916,9 @@ export const categories = [
   {
     id: "noodle-making-machine",
     name: "Noodle Making Machine",
-    metaTitle: "Noodle Making Machines | Automatic & High Speed",
+    metaTitle: "noodles making machine manufacturer",
     metaDescription:
-      "Automatic noodle making machines for commercial use, durable, fast, and easy to operate with high production rate.",
+      "Discover the best noodle-making machines from leading manufacturers. Our high-quality machines ensure efficient, consistent noodle production for your business.",
     
     // products
 
@@ -2180,9 +2180,9 @@ export const categories = [
   {
     id: "paper-plate-making-machine",
     name: "Paper Plate Making Machine",
-    metaTitle: "Paper Plate Making Machine | Semi & Fully Automatic",
+    metaTitle: "Paper Plate Making Machine manufacturer ",
     metaDescription:
-      "Choose from semi-automatic and fully automatic Paper Plate Making Machine designed for speed, precision, and durability.",
+      "Discover high-quality paper plate making machines from a leading manufacturer. Boost your production efficiency with our innovative and reliable solutions. ",
 
       // products
     products: [
@@ -2509,9 +2509,9 @@ export const categories = [
   {
     id: "sbs-nail-art-machine",
     name: "SBS Nail Art Machine",
-    metaTitle: "SBS Nail Art Machine ",
+    metaTitle: "SBS Nail Art Machine manufacturer ",
     metaDescription:
-      "Choose from semi-automatic and fully automatic SBS Nail Art Machine designed for speed, precision, and durability.",
+      "Discover SBS Nail Art Machines, the leading manufacturer of innovative nail art solutions.Elevate your salon experience with our cutting-edge technology.",
 
       // products
     products: [

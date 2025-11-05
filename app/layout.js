@@ -21,10 +21,10 @@ const poppins = Poppins({
 })
 
 export const metadata = {
-  title: "SBS Machinery – Best Manufacturer of Paper Cup Machines",
-  description: "SBS Machinery offers best paper cup making machines, offset bag printing machines, paper-die cutting machines, and Non-woven bag making machine.",
+  title: "SBS Machinery – Paper Cup Making Machines Manufacturer in Delhi India",
+  description: "Discover top-quality paper cup Making machines manufactured in Delhi, India. Enhance your production efficiency with our innovative and reliable solutions.",
   icons: {
-    icon: "/logo.webp", // path to your favicon in public folder
+    icon: "/logo.webp", 
   
   },
 };
