@@ -343,6 +343,7 @@ export const categories = [
 
   // category 2  paper die
   {
+    
     id: "paper-die-cutting-machine",
     name: "Paper Die Cutting Machine",
     metaTitle: "Paper Die Cutting Machine manufacturer",
