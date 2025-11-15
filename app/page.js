@@ -10,28 +10,26 @@ import Process from "@/components/Landingpage/Process";
 import Faq from "@/components/Landingpage/Faq";
 import TestimonialSlider from "@/components/Landingpage/Testimonials";
 import Formsection from "@/components/Landingpage/Formsection";
-import Popup from "@/components/Popup"
-
+import Popup from "@/components/Popup";
+import CityPage from "../components/City";
 
 export default function Home() {
   return (
-   <>
-  <Popup></Popup>
-   <Hero />
-   <About />
-   <Categories />
-   <Countup />
-   <Cta></Cta>
-  
-   <Whoweare />
-   <Whychoose />
-   <Process></Process>
-   <Faq></Faq>
-   <TestimonialSlider></TestimonialSlider>
-   <Formsection></Formsection>
+    <>
+      <Popup></Popup>
+      <Hero />
+      <About />
+      <Categories />
+      <Countup />
+      <Cta></Cta>
 
-   </>
-
-  
+      <Whoweare />
+      <Whychoose />
+      <Process></Process>
+      <Faq></Faq>
+      <TestimonialSlider></TestimonialSlider>
+      <Formsection></Formsection>
+      <CityPage />
+    </>
   );
 }
