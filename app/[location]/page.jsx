@@ -5,8 +5,8 @@ export async function generateMetadata({ params }) {
     params.location.split("-")[params.location.split("-").length - 1];
 
   return {
-    title: city && `Paper Cup making machine manufacturer in ${city}`,
-    description: `Find the best paper cup making machine manufacturer in ${city}. SBS Machinery offers high-speed, fully automatic paper cup machines with pan-India delivery.`,
+    title: city && `Paper Cup Making Machines Manufacturer in ${city}`,
+    description: `Looking for a reliable paper cup making machines manufacturer in ${city}? We offer high-performance, durable, and fully automated paper cup machines at competitive prices with fast delivery and expert support`,
   };
 }
 
