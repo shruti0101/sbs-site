@@ -14,8 +14,12 @@ import CityPage from "@/components/City";
 
 const Location = () => {
   const params = useParams();
- const city =
-    params.location.split("-in-")?.[1];
+
+
+const city = params?.location?.includes("-in-")
+  ? params.location.split("-in-")[1]
+  : "India";
+
 
   const [openFaq, setOpenFaq] = useState(null);
 
@@ -32,54 +36,66 @@ const Location = () => {
         >
           <div className="absolute inset-0 bg-gray-900/60" />
 
-          <h1 className="text-center relative font-bold text-white text-2xl px-5 md:py-14 capitalize md:text-4xl">
+          <h1 className="text-center  font-serif leading-snug relative font-bold text-white text-2xl px-5 md:py-14 capitalize md:text-6xl">
             Paper Cup Making Machine Manufacturer in {city}
           </h1>
         </section>
 
         {/* second section  */}
-        <section className="mb-10 py-10 px-2 md:px-20">
-          <p className="text-2xl text-center py-4 font-bold">
-            Elevate Your Production with SBS Machinery’s Paper Cup Making
-            Machines
-          </p>
+   <section className="relative py-15 px-6 md:px-10 bg-gray-50">
+  <div className="max-w-6xl mx-auto text-center">
 
-          <p className="text-center">
-            Choose <span className="font-bold">SBS Machinery</span> for
-            industry-leading paper cup, bag making, and printing solutions. With
-            a focus on quality, customization, and customer satisfaction, we
-            deliver excellence at every step. Here’s why businesses across India
-            trust us:
-          </p>
+  
+    <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 leading-tight">
+      Elevate Your Production with 
+      <span className="text-[#008CA3]"> SBS Machinery’s</span>
+      <br className="hidden md:block" />
+      Paper Cup Making Machines in {city}
+    </h2>
 
-          <p className="py-5">
-            SBS Machinery has gained recognition as the top paper cup making
-            machine manufacturer in India. Our efforts have been continuous in
-            expanding our production to different sectors. The commitment to
-            quality and innovation has been the one and only reason for setting
-            a standard for the world.{" "}
-          </p>
-          <p className="py-5">
-            We have been considered a reliable partner by the organizations from
-            all over the world that are in the process of making their
-            production operations easier. This is largely attributed to our
-            high-quality equipment and a customer-centric approach. Our product
-            range which is designed to fulfill the diverse needs of modern
-            industry reflects our commitment to excellence.
-          </p>
-          <p className="py-5">
-            Approximately 250 productive machines are currently in use around
-            the India from SBS Machinery and they are famous for their high
-            quality and long-lastingness among others. Whenever you are looking
-            for a solution to increase your workforce output, just turn to us
-            and we will be there with the latest technology to help you.
-          </p>
-        </section>
+ 
+    <div className="w-24 h-1 bg-[#008CA3] mt-4 mx-auto  rounded-full"></div>
+
+
+    <p className="text-lg mt-5 md:text-xl text-gray-700  max-w-4xl mx-auto">
+      Choose <span className="font-bold text-gray-900">SBS Machinery</span> for
+      industry-leading paper cup, bag-making, and printing solutions. With a 
+      deep commitment to quality, customization, and customer satisfaction, 
+      we deliver excellence at every step. Here’s why businesses across India trust us:
+    </p>
+
+
+    <div className="mt-7 grid gap-2">
+      <div className="bg-white shadow-md rounded-2xl p-8 text-lg text-black0leading-relaxed hover:shadow-xl transition-shadow duration-300">
+        SBS Machinery has gained recognition as the top paper cup making machine 
+        manufacturer in India. Our continuous efforts in expanding production 
+        across multiple sectors are driven by innovation and a strong focus on 
+        quality — setting global industry standards.
+      </div>
+
+      <div className="bg-white shadow-md rounded-2xl p-8 text-lg text-black leading-relaxed hover:shadow-xl transition-shadow duration-300">
+        Organizations around the world rely on us to simplify and elevate their 
+        production operations. Our customer-first approach ensures top-tier 
+        equipment designed to meet the diverse needs of modern industries — 
+        reflecting our dedication to excellence.
+      </div>
+
+      <div className="bg-white shadow-md rounded-2xl p-8 text-lg text-black leading-relaxed hover:shadow-xl transition-shadow duration-300">
+        Over <span className="font-semibold text-black">250+ high-performance machines</span> from 
+        SBS Machinery are actively running across India. Known for durability, 
+        efficiency, and long life, our machines empower businesses to boost 
+        productivity with the latest technological advancements.
+      </div>
+    </div>
+
+  </div>
+</section>
+
 
         {/* card section  */}
-        <section className="grid grid-cols-1 gap-5 md:grid-cols-2 md:py-5 md:mx-auto md:px-8 lg:grid-cols-3 lg:px-14">
-          {cardDataLandingPage.map(({ title, icon, desc }, idx) => (
-            <div
+        <section className="grid grid-cols-1 gap-5 md:grid-cols-2 md:py-3 md:mx-auto md:px-8 lg:grid-cols-3 lg:px-14">
+          {cardDataLandingPage.map(({ title, icon, desc ,index},idx) => (
+            <div key={index}
               className={`${idx % 2 === 0 ? "bg-[#1CBC9A] text-white" : "bg-transparent text-[#1CBC9A]"} border px-3 py-5 flex flex-col items-center gap-3 hover:rounded-3xl shadow-xl hover:shadow-2xl hover:duration-300`}
             >
               <div className="">{icon}</div>
@@ -90,11 +106,11 @@ const Location = () => {
         </section>
 
         {/* content paragraphs  */}
-        <section className="py-10 px-5 text-center lg:px-32">
+        <section className="mt-10 px-5 text-center lg:px-32">
           <p className="text-2xl font-bold my-5 md:text-4xl capitalize">
             Paper Cup Making Machine Manufacturer in {city}{" "}
           </p>
-          <p className="py-3">
+          <p className="py-3 text-md md:text-lg">
             Are you considering to begin or expand your disposable paper product
             business? Do you have the problem of finding dependable machinery
             that offers the right balance between speed, quality, and
@@ -107,7 +123,7 @@ const Location = () => {
             businesses.
           </p>
 
-          <p className="py-3">
+          <p className="py-3 text-md md:text-lg">
             SBS Machinery’s eco-friendly packaging machines developed by the
             company with the mainstay of innovation, customization, and
             long-term performance are wide-ranging and can be utilized by a
@@ -123,7 +139,7 @@ const Location = () => {
             <li>Flexo and Offset Printing Machines</li>
           </ul>
 
-          <p className="py-3">
+          <p className="py-3 text-md md:text-lg">
             Every single machine is made of top-quality raw materials, and it is
             done in a manner that follows the strictest of manufacturing
             standards, bearing in mind performance and durability that is
