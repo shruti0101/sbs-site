@@ -3185,7 +3185,7 @@ export const ourProductLandingPage = [
       Weight: "2000 kg (approx.)",
       Production: "70-80 pcs./min (depending on the sizes of moulds)",
     },
-    link: "https://sbsmachinery.in/product/paper-cup-machine-sbs-80/?_gl=1*h54x6j*_gcl_au*ODk0OTI5MTI2LjE3NjMxMTc5MTI.",
+    link: "https://sbsmachinery.in/products/PaperCupMachineSBS-120",
   },
   {
     image:
@@ -3202,7 +3202,7 @@ export const ourProductLandingPage = [
       "Main Motor": "15 HP",
       "Air Blower": "5 HP",
     },
-    link: "https://sbsmachinery.in/product/bio-degradable-bag-making-machine-40mm-blowing-plant/?_gl=1*1jab4sq*_gcl_au*ODk0OTI5MTI2LjE3NjMxMTc5MTI.",
+    link: "https://sbsmachinery.in/products/BiodegradableBagPunchingMachine",
   },
   {
     image: "/products/bio/Biodegradable Bag Punching Machine.webp",
@@ -3217,7 +3217,7 @@ export const ourProductLandingPage = [
       "Overall Size": "1700 X 1700 X 1500 MM",
       "Production Speed": "5 – 20 pcs/min",
     },
-    link: "https://sbsmachinery.in/product/sbs-a700-non-woven-bag-making-machine/?_gl=1*1dpadhz*_gcl_au*ODk0OTI5MTI2LjE3NjMxMTc5MTI.",
+    link: "https://sbsmachinery.in/products/BiodegradableBagPunchingMachine",
   },
   {
     image: "/products/plate/2.webp",
@@ -3234,7 +3234,7 @@ export const ourProductLandingPage = [
         "100-800g/m² white cardboard, PE coated paper, Kraft paper etc.",
       "Maximum Pressure": "350T",
     },
-    link: "https://inquiry.sbsmachinery.in/paper-cup-making-machine-manufacturer-in-india/#",
+    link: "https://sbsmachinery.in/products/SBSHYM01SemiAutomaticHydraulicSingleDieMachine",
   },
   {
     image: "/products/flexo/(FOUR COLOUR).webp",
@@ -3248,7 +3248,7 @@ export const ourProductLandingPage = [
       Weight: "3000 – 3500 Kg",
       "Production Speed": "2000 – 8000 IPH",
     },
-    link: "https://sbsmachinery.in/product/flexo-non-woven-bag-printing-machine-double-colour/?_gl=1*gdqyjr*_gcl_au*ODk0OTI5MTI2LjE3NjMxMTc5MTI.",
+    link: "https://sbsmachinery.in/products/FlexoNonWovenBagPrintingMachineFourColour",
   },
   {
     image: "/products/offset/OFFSET.webp",
@@ -3262,7 +3262,7 @@ export const ourProductLandingPage = [
       Weight: "3000 – 3500 Kg",
       "Production Speed": "2000 – 8000 IPH",
     },
-    link: "https://sbsmachinery.in/product/flexo-non-woven-bag-printing-machine-double-colour/?_gl=1*gdqyjr*_gcl_au*ODk0OTI5MTI2LjE3NjMxMTc5MTI.",
+    link: "https://sbsmachinery.in/products/FlexoNonWovenBagPrintingMachineFourColour",
   },
 ];
 
@@ -3290,5 +3290,49 @@ export const InquiryWhyChooseUs = [
     num: "15+ Years",
     desc: "Engineering Experience Trusted by Manufacturers Across India",
     bg: "bg-[#C6FFF4]",
+  },
+];
+
+
+export const faqData = [
+  {
+    question: "What does SBS Machinery specialize in?",
+    answer:
+      "SBS Machinery is a leading paper cup making machine manufacturer in India, specializing in high-speed, fully automatic paper cup machines, biodegradable bag making machines, die cutting units, and printing systems.",
+  },
+  {
+    question: "Where is SBS Machinery based?",
+    answer:
+      "Our manufacturing and support operations are based in Najafgarh, Delhi, with pan-India delivery and service coverage.",
+  },
+  {
+    question: "What types of paper cup machines do you offer?",
+    answer:
+      "We offer a wide range of paper cup machines including single PE, double PE, and ultrasonic paper cup making machines, suited for different cup sizes from 30ml to 350ml and more.",
+  },
+  {
+    question: "Are your machines automatic or semi-automatic?",
+    answer:
+      "SBS Machinery mainly provides fully automatic paper cup machines, designed to increase production efficiency, reduce manual labor, and ensure consistent cup quality.",
+  },
+  {
+    question: "What is the production capacity of your paper cup making machines?",
+    answer:
+      "Our machines can produce anywhere from 45 to 120 paper cups per minute, depending on the model and cup size.",
+  },
+  {
+    question: "Can I customize the cup size and shape?",
+    answer:
+      "Yes, we offer customizable dies and cup sizes based on your specific requirements. You can produce various shapes for tea cups, coffee cups, juice glasses, and ice cream bowls.",
+  },
+  {
+    question: "What power source is required for your machines?",
+    answer:
+      "Most of our machines require a 220V to 380V 3-phase power supply, depending on the model. We’ll recommend the best power configuration during consultation.",
+  },
+  {
+    question: "Do you provide installation and training?",
+    answer:
+      "Yes. As a complete paper cup machine manufacturer, we provide on-site installation, training for operators, and a maintenance guide after delivery.",
   },
 ];

@@ -9,56 +9,14 @@ import { BadgeCheck, ChevronDown } from "lucide-react";
 import Image from "next/image";
 import { useParams } from "next/navigation";
 import React, { useState } from "react";
-
-const faqData = [
-  {
-    question: "What does SBS Machinery specialize in?",
-    answer:
-      "SBS Machinery is a leading paper cup making machine manufacturer in India, specializing in high-speed, fully automatic paper cup machines, biodegradable bag making machines, die cutting units, and printing systems.",
-  },
-  {
-    question: "Where is SBS Machinery based?",
-    answer:
-      "Our manufacturing and support operations are based in Najafgarh, Delhi, with pan-India delivery and service coverage.",
-  },
-  {
-    question: "What types of paper cup machines do you offer?",
-    answer:
-      "We offer a wide range of paper cup machines including single PE, double PE, and ultrasonic paper cup making machines, suited for different cup sizes from 30ml to 350ml and more.",
-  },
-  {
-    question: "Are your machines automatic or semi-automatic?",
-    answer:
-      "SBS Machinery mainly provides fully automatic paper cup machines, designed to increase production efficiency, reduce manual labor, and ensure consistent cup quality.",
-  },
-  {
-    question: "What is the production capacity of your paper cup making machines?",
-    answer:
-      "Our machines can produce anywhere from 45 to 120 paper cups per minute, depending on the model and cup size.",
-  },
-  {
-    question: "Can I customize the cup size and shape?",
-    answer:
-      "Yes, we offer customizable dies and cup sizes based on your specific requirements. You can produce various shapes for tea cups, coffee cups, juice glasses, and ice cream bowls.",
-  },
-  {
-    question: "What power source is required for your machines?",
-    answer:
-      "Most of our machines require a 220V to 380V 3-phase power supply, depending on the model. We’ll recommend the best power configuration during consultation.",
-  },
-  {
-    question: "Do you provide installation and training?",
-    answer:
-      "Yes. As a complete paper cup machine manufacturer, we provide on-site installation, training for operators, and a maintenance guide after delivery.",
-  },
-];
+import { faqData } from "../../Data";
+import CityPage from "@/components/City";
 
 const Location = () => {
   const params = useParams();
   const city =
     params.location.split("-")[params.location.split("-").length - 1];
 
-  console.log(city);
   const [openFaq, setOpenFaq] = useState(null);
 
   return (
@@ -74,7 +32,7 @@ const Location = () => {
         >
           <div className="absolute inset-0 bg-gray-900/60" />
 
-          <h1 className="text-center relative font-bold text-white text-2xl px-5 md:py-14 md:text-4xl">
+          <h1 className="text-center relative font-bold text-white text-2xl px-5 md:py-14 capitalize md:text-4xl">
             Paper Cup Making Machine Manufacturer in {city}
           </h1>
         </section>
@@ -133,7 +91,7 @@ const Location = () => {
 
         {/* content paragraphs  */}
         <section className="py-10 px-5 text-center lg:px-32">
-          <p className="text-2xl font-bold my-5 md:text-4xl">
+          <p className="text-2xl font-bold my-5 md:text-4xl capitalize">
             Paper Cup Making Machine Manufacturer in {city}{" "}
           </p>
           <p className="py-3">
@@ -142,7 +100,7 @@ const Location = () => {
             that offers the right balance between speed, quality, and
             compliance? No need to go anywhere else—SBS Machinery, one of the
             most reliable{" "}
-            <span className="font-bold">
+            <span className="font-bold  capitalize">
               Paper Cup Making Machine Manufacturers based in {city}
             </span>
             , is here to help you as it has been the case with various Indian
@@ -175,12 +133,12 @@ const Location = () => {
         </section>
 
         {/* our products  */}
-        <section className="mb-10 px-3 py-10 flex flex-col gap-10 overflow-hidden">
+        <section className="mb-10 px-3 py-10 flex flex-col gap-10 overflow-hidden lg:gap-5">
           {ourProductLandingPage.map(
             ({ subTitle, title, desc, tabel, link, image }, idx) => (
               <div
                 key={idx}
-                className="flex flex-col items-center md:flex-row md:gap-10 md:px-10 lg:px-32 md:py-14 lg:items-center lg:gap-8"
+                className="flex flex-col items-center md:flex-row md:gap-10 md:px-10 lg:px-32 md:py-14 lg:items-center lg:gap-8 lg:py-8"
               >
                 <div className="md:w-1/2">
                   <Image
@@ -217,6 +175,12 @@ const Location = () => {
                       ))}
                     </tbody>
                   </table>
+                  <a
+                    href={link}
+                    className="bg-[#14b2ca] block my-3 text-center px-5 w-full py-2 rounded-lg text-white font-semibold hover:bg-[#008CA3]"
+                  >
+                    Learn More
+                  </a>
                 </div>
               </div>
             )
@@ -343,6 +307,8 @@ const Location = () => {
             ))}
           </div>
         </section>
+
+        <CityPage />
       </div>
     </>
   );
