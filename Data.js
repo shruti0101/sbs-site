@@ -1,8 +1,14 @@
 // data.js
 
+import {
+  CircleDollarSign,
+  Cog,
+  Earth,
+  Mountain,
+  ShieldCheck,
+} from "lucide-react";
 
 export const categories = [
-
   // category 1 papercup
   {
     id: "paper-cup-making-machine",
@@ -343,7 +349,6 @@ export const categories = [
 
   // category 2  paper die
   {
-    
     id: "paper-die-cutting-machine",
     name: "Paper Die Cutting Machine",
     metaTitle: "Paper Die Cutting Machine manufacturer",
@@ -1723,7 +1728,6 @@ export const categories = [
     ],
   },
 
-  
   // category 7 momo
 
   {
@@ -1733,183 +1737,177 @@ export const categories = [
     metaDescription:
       "Discover high-quality Momos making machines from a leading manufacturer. Enhance your production efficiency and delight customers with perfect dumplings every time.",
     products: [
+      // product 1
 
-// product 1
+      {
+        id: "SBSD100MomoMakingMachine",
+        name: "SBS-D100 Fully Automatic Momo Making Machine",
+        metaTitle:
+          "SBS-D100 Fully Automatic Momo Making Machine – High Capacity & Commercial Use",
+        metaDescription:
+          "The SBS-D100 Fully Automatic Momo Making Machine by SBS Machinery Pvt. Ltd. delivers high-speed production of 3000 momos per hour. Designed for commercial use, it ensures efficiency, consistency, and durability for large-scale food businesses.",
 
-  {
-  id: "SBSD100MomoMakingMachine",
-  name: "SBS-D100 Fully Automatic Momo Making Machine",
-  metaTitle:
-    "SBS-D100 Fully Automatic Momo Making Machine – High Capacity & Commercial Use",
-  metaDescription:
-    "The SBS-D100 Fully Automatic Momo Making Machine by SBS Machinery Pvt. Ltd. delivers high-speed production of 3000 momos per hour. Designed for commercial use, it ensures efficiency, consistency, and durability for large-scale food businesses.",
+        description: [
+          { type: "h2", text: "Overview" },
+          {
+            type: "p",
+            text: "The SBS-D100 Fully Automatic Momo Making Machine is designed for high-performance commercial kitchens and food processing industries. With a capacity of 3000 pieces per hour, this machine ensures consistent quality and output, making it ideal for restaurants, catering businesses, and large-scale food manufacturers.",
+          },
+          { type: "h2", text: "Key Features" },
+          {
+            type: "ul",
+            items: [
+              "<strong>High Production Capacity:</strong> Produces up to 3000 momos per hour, ensuring efficiency and meeting high-demand requirements.",
+              "<strong>Fully Automatic Operation:</strong> Handles dough filling, shaping, and cutting with minimal manual intervention.",
+              "<strong>Commercial-Grade Build:</strong> Built with durable, food-grade materials for long-lasting and hygienic operation.",
+              "<strong>Energy Efficient:</strong> Consumes just 3KW power while delivering high output.",
+              "<strong>Consistent Quality:</strong> Ensures uniform size, shape, and taste across all batches.",
+            ],
+          },
+          { type: "h2", text: "Why Choose SBS-D100?" },
+          {
+            type: "p",
+            text: "The SBS-D100 is the perfect solution for businesses looking to scale up momo production without compromising on quality. With its automation, efficiency, and robust design, it helps food businesses save time, reduce labor costs, and maximize profitability.",
+          },
+        ],
 
-  description: [
-    { type: "h2", text: "Overview" },
-    {
-      type: "p",
-      text: "The SBS-D100 Fully Automatic Momo Making Machine is designed for high-performance commercial kitchens and food processing industries. With a capacity of 3000 pieces per hour, this machine ensures consistent quality and output, making it ideal for restaurants, catering businesses, and large-scale food manufacturers.",
-    },
-    { type: "h2", text: "Key Features" },
-    {
-      type: "ul",
-      items: [
-        "<strong>High Production Capacity:</strong> Produces up to 3000 momos per hour, ensuring efficiency and meeting high-demand requirements.",
-        "<strong>Fully Automatic Operation:</strong> Handles dough filling, shaping, and cutting with minimal manual intervention.",
-        "<strong>Commercial-Grade Build:</strong> Built with durable, food-grade materials for long-lasting and hygienic operation.",
-        "<strong>Energy Efficient:</strong> Consumes just 3KW power while delivering high output.",
-        "<strong>Consistent Quality:</strong> Ensures uniform size, shape, and taste across all batches."
-      ],
-    },
-    { type: "h2", text: "Why Choose SBS-D100?" },
-    {
-      type: "p",
-      text: "The SBS-D100 is the perfect solution for businesses looking to scale up momo production without compromising on quality. With its automation, efficiency, and robust design, it helps food businesses save time, reduce labor costs, and maximize profitability.",
-    }
-  ],
+        specs: [
+          { label: "Model", value: "SBS - D 100" },
+          { label: "Capacity", value: "3000 pcs/hr" },
+          { label: "Usage/Application", value: "Commercial" },
+          { label: "Operation Type", value: "Fully Automatic" },
+          { label: "Voltage", value: "220V" },
+          { label: "Power Consumption", value: "3 KW" },
+          { label: "I Deal In", value: "New Only" },
+          { label: "Brand", value: "SBS" },
+        ],
 
-  specs: [
-    { label: "Model", value: "SBS - D 100" },
-    { label: "Capacity", value: "3000 pcs/hr" },
-    { label: "Usage/Application", value: "Commercial" },
-    { label: "Operation Type", value: "Fully Automatic" },
-    { label: "Voltage", value: "220V" },
-    { label: "Power Consumption", value: "3 KW" },
-    { label: "I Deal In", value: "New Only" },
-    { label: "Brand", value: "SBS" }
-  ],
+        image: [
+          {
+            src: "/products/momo/1.webp",
+            alt: "SBS-D100 Fully Automatic Momo Making Machine",
+          },
+          {
+            src: "/products/momo/2.webp",
+            alt: "SBS-D100 Fully Automatic Momo Making Machine",
+          },
+        ],
+      },
 
-  image: [
-    {
-      src: "/products/momo/1.webp",
-      alt: "SBS-D100 Fully Automatic Momo Making Machine"
-    },
-     {
-      src: "/products/momo/2.webp",
-      alt: "SBS-D100 Fully Automatic Momo Making Machine"
-    }
-  ]
-},
+      // product 2
 
-// product 2
+      {
+        id: "SBSDAutomaticDumplingMomoMakingMachineD80",
+        name: "Automatic Dumpling Momo Making Machine SBS-D80",
+        metaTitle:
+          "Automatic Dumpling Momo Making Machine SBS-D80 – Fully Automatic & Efficient",
+        metaDescription:
+          "The Automatic Dumpling Momo Making Machine SBS-D80 by SBS Machinery Pvt. Ltd. delivers up to 500 dumplings or momos per hour. With a fully automatic design, durable motor, and energy-efficient performance, it is ideal for small to medium-scale food businesses.",
 
-{
-  id: "SBSDAutomaticDumplingMomoMakingMachineD80",
-  name: "Automatic Dumpling Momo Making Machine SBS-D80",
-  metaTitle:
-    "Automatic Dumpling Momo Making Machine SBS-D80 – Fully Automatic & Efficient",
-  metaDescription:
-    "The Automatic Dumpling Momo Making Machine SBS-D80 by SBS Machinery Pvt. Ltd. delivers up to 500 dumplings or momos per hour. With a fully automatic design, durable motor, and energy-efficient performance, it is ideal for small to medium-scale food businesses.",
+        description: [
+          { type: "h2", text: "Overview" },
+          {
+            type: "p",
+            text: "The Automatic Dumpling Momo Making Machine (Model: SBS-D80) is specifically designed for small to medium-scale commercial kitchens and food manufacturers. With a production capacity of 500 pieces per hour, it automates dough filling, shaping, and forming to ensure consistency and efficiency, reducing manual effort while maintaining authentic taste and texture.",
+          },
+          { type: "h2", text: "Key Features" },
+          {
+            type: "ul",
+            items: [
+              "<strong>Dual Use:</strong> Suitable for producing both dumplings and momos with uniform size and shape.",
+              "<strong>Efficient Output:</strong> Produces up to 500 pieces per hour, ideal for medium-scale businesses.",
+              "<strong>Fully Automatic:</strong> Streamlines the process from dough feeding to shaping, minimizing manual labor.",
+              "<strong>Energy Efficient:</strong> Operates at just 2.7KW power consumption with a robust 2KW/220V motor.",
+              "<strong>Food-Grade Build:</strong> Constructed with hygienic, food-safe materials for safe and reliable operation.",
+            ],
+          },
+          { type: "h2", text: "Why Choose SBS-D80?" },
+          {
+            type: "p",
+            text: "The SBS-D80 Automatic Dumpling Momo Making Machine is the perfect choice for businesses aiming to expand their offerings while ensuring consistency, quality, and cost-effectiveness. Compact, efficient, and durable, it is a trusted solution for restaurants, catering services, and food processing units.",
+          },
+        ],
 
-  description: [
-    { type: "h2", text: "Overview" },
-    {
-      type: "p",
-      text: "The Automatic Dumpling Momo Making Machine (Model: SBS-D80) is specifically designed for small to medium-scale commercial kitchens and food manufacturers. With a production capacity of 500 pieces per hour, it automates dough filling, shaping, and forming to ensure consistency and efficiency, reducing manual effort while maintaining authentic taste and texture.",
-    },
-    { type: "h2", text: "Key Features" },
-    {
-      type: "ul",
-      items: [
-        "<strong>Dual Use:</strong> Suitable for producing both dumplings and momos with uniform size and shape.",
-        "<strong>Efficient Output:</strong> Produces up to 500 pieces per hour, ideal for medium-scale businesses.",
-        "<strong>Fully Automatic:</strong> Streamlines the process from dough feeding to shaping, minimizing manual labor.",
-        "<strong>Energy Efficient:</strong> Operates at just 2.7KW power consumption with a robust 2KW/220V motor.",
-        "<strong>Food-Grade Build:</strong> Constructed with hygienic, food-safe materials for safe and reliable operation."
-      ]
-    },
-    { type: "h2", text: "Why Choose SBS-D80?" },
-    {
-      type: "p",
-      text: "The SBS-D80 Automatic Dumpling Momo Making Machine is the perfect choice for businesses aiming to expand their offerings while ensuring consistency, quality, and cost-effectiveness. Compact, efficient, and durable, it is a trusted solution for restaurants, catering services, and food processing units."
-    }
-  ],
+        specs: [
+          { label: "Model", value: "SBS - D 80" },
+          { label: "Capacity", value: "500 pcs/hr" },
+          { label: "Operation Type", value: "Fully Automatic" },
+          { label: "Voltage", value: "220V" },
+          { label: "Power Consumption", value: "2.7 KW" },
+          { label: "Motor", value: "2 KW / 220V" },
+          { label: "I Deal In", value: "New Only" },
+          { label: "Brand", value: "SBS" },
+        ],
 
-  specs: [
-    { label: "Model", value: "SBS - D 80" },
-    { label: "Capacity", value: "500 pcs/hr" },
-    { label: "Operation Type", value: "Fully Automatic" },
-    { label: "Voltage", value: "220V" },
-    { label: "Power Consumption", value: "2.7 KW" },
-    { label: "Motor", value: "2 KW / 220V" },
-    { label: "I Deal In", value: "New Only" },
-    { label: "Brand", value: "SBS" }
-  ],
+        image: [
+          {
+            src: "/products/momo/5.webp",
+            alt: "Automatic Dumpling Momo Making Machine SBS-D80",
+          },
 
-  image: [
-    {
-      src: "/products/momo/5.webp",
-      alt: "Automatic Dumpling Momo Making Machine SBS-D80"
-    },
+          {
+            src: "/products/momo/6.webp",
+            alt: "Automatic Dumpling Momo Making Machine SBS-D80",
+          },
+        ],
+      },
 
-       {
-      src: "/products/momo/6.webp",
-      alt: "Automatic Dumpling Momo Making Machine SBS-D80"
-    }
-  ]
-},
+      // product 3
 
-// product 3
+      {
+        id: "SBSR120MomoMakingMachineRoundShapeSingleHopper",
+        name: "Momo Making Machine (Round Shape Single Hopper) SBS-R120",
+        metaTitle:
+          "Momo Making Machine (Round Shape Single Hopper) SBS-R120 – High Capacity & Fully Automatic",
+        metaDescription:
+          "The SBS-R120 Momo Making Machine (Round Shape Single Hopper) by SBS Machinery Pvt. Ltd. offers a high output of 4000 momos per hour. Fully automatic, energy-efficient, and built with durable materials, it is ideal for commercial-scale food production.",
 
-{
-  id: "SBSR120MomoMakingMachineRoundShapeSingleHopper",
-  name: "Momo Making Machine (Round Shape Single Hopper) SBS-R120",
-  metaTitle:
-    "Momo Making Machine (Round Shape Single Hopper) SBS-R120 – High Capacity & Fully Automatic",
-  metaDescription:
-    "The SBS-R120 Momo Making Machine (Round Shape Single Hopper) by SBS Machinery Pvt. Ltd. offers a high output of 4000 momos per hour. Fully automatic, energy-efficient, and built with durable materials, it is ideal for commercial-scale food production.",
+        description: [
+          { type: "h2", text: "Overview" },
+          {
+            type: "p",
+            text: "The SBS-R120 Momo Making Machine (Round Shape Single Hopper) is designed for large-scale commercial food production. With a capacity of 4000 pieces per hour, this fully automatic machine ensures speed, consistency, and efficiency in momo making. It is perfect for restaurants, hotels, and food manufacturers requiring high-volume production with consistent quality.",
+          },
+          { type: "h2", text: "Key Features" },
+          {
+            type: "ul",
+            items: [
+              "<strong>High Production Capacity:</strong> Produces up to 4000 momos per hour, ideal for large-scale operations.",
+              "<strong>Fully Automatic:</strong> Automates dough feeding, filling, shaping, and forming with precision.",
+              "<strong>Round Shape Single Hopper:</strong> Specialized design for producing round-shaped momos with uniform texture and taste.",
+              "<strong>Energy Efficient:</strong> Consumes only 2.7KW power while delivering maximum output.",
+              "<strong>Durable Build:</strong> Made from high-quality, food-grade materials ensuring hygiene and long-term performance.",
+            ],
+          },
+          { type: "h2", text: "Why Choose SBS-R120?" },
+          {
+            type: "p",
+            text: "The SBS-R120 is a premium choice for businesses aiming to scale up momo production without compromising on quality. With its robust design, automation, and high output, it reduces labor dependency and ensures efficiency, making it the perfect solution for high-demand food businesses.",
+          },
+        ],
 
-  description: [
-    { type: "h2", text: "Overview" },
-    {
-      type: "p",
-      text: "The SBS-R120 Momo Making Machine (Round Shape Single Hopper) is designed for large-scale commercial food production. With a capacity of 4000 pieces per hour, this fully automatic machine ensures speed, consistency, and efficiency in momo making. It is perfect for restaurants, hotels, and food manufacturers requiring high-volume production with consistent quality."
-    },
-    { type: "h2", text: "Key Features" },
-    {
-      type: "ul",
-      items: [
-        "<strong>High Production Capacity:</strong> Produces up to 4000 momos per hour, ideal for large-scale operations.",
-        "<strong>Fully Automatic:</strong> Automates dough feeding, filling, shaping, and forming with precision.",
-        "<strong>Round Shape Single Hopper:</strong> Specialized design for producing round-shaped momos with uniform texture and taste.",
-        "<strong>Energy Efficient:</strong> Consumes only 2.7KW power while delivering maximum output.",
-        "<strong>Durable Build:</strong> Made from high-quality, food-grade materials ensuring hygiene and long-term performance."
-      ]
-    },
-    { type: "h2", text: "Why Choose SBS-R120?" },
-    {
-      type: "p",
-      text: "The SBS-R120 is a premium choice for businesses aiming to scale up momo production without compromising on quality. With its robust design, automation, and high output, it reduces labor dependency and ensures efficiency, making it the perfect solution for high-demand food businesses."
-    }
-  ],
+        specs: [
+          { label: "Minimum Order Quantity", value: "1 Piece" },
+          { label: "Model", value: "SBS D-110" },
+          { label: "Capacity", value: "4000 pcs/hr" },
+          { label: "Operation Type", value: "Fully Automatic" },
+          { label: "Voltage", value: "220V" },
+          { label: "Power Consumption", value: "2.7 KW" },
+          { label: "I Deal In", value: "New Only" },
+          { label: "Brand", value: "SBS" },
+        ],
 
-  specs: [
-    { label: "Minimum Order Quantity", value: "1 Piece" },
-    { label: "Model", value: "SBS D-110" },
-    { label: "Capacity", value: "4000 pcs/hr" },
-    { label: "Operation Type", value: "Fully Automatic" },
-    { label: "Voltage", value: "220V" },
-    { label: "Power Consumption", value: "2.7 KW" },
-    { label: "I Deal In", value: "New Only" },
-    { label: "Brand", value: "SBS" }
-  ],
-
-  image: [
-    {
-      src: "/products/momo/7.webp",
-      alt: "Momo Making Machine (Round Shape Single Hopper) SBS-R120"
-    },
-       {
-      src: "/products/momo/8.webp",
-      alt: "Momo Making Machine (Round Shape Single Hopper) SBS-R120"
-    }
-  ]
-},
-
-
-
-
-    
+        image: [
+          {
+            src: "/products/momo/7.webp",
+            alt: "Momo Making Machine (Round Shape Single Hopper) SBS-R120",
+          },
+          {
+            src: "/products/momo/8.webp",
+            alt: "Momo Making Machine (Round Shape Single Hopper) SBS-R120",
+          },
+        ],
+      },
     ],
   },
 
@@ -1920,264 +1918,255 @@ export const categories = [
     metaTitle: "noodles making machine manufacturer",
     metaDescription:
       "Discover the best noodle-making machines from leading manufacturers. Our high-quality machines ensure efficient, consistent noodle production for your business.",
-    
+
     // products
 
-      products: [
+    products: [
+      // product 1
 
-        // product 1
+      {
+        id: "SBSNDL22FullyAutomaticNoodlesMakingMachine",
+        name: "Fully Automatic Noodles Making Machine (SBS-NDL 22)",
+        metaTitle:
+          "Fully Automatic Noodles Making Machine (SBS-NDL 22) – High Capacity & Durable Design",
+        metaDescription:
+          "The SBS-NDL 22 Fully Automatic Noodles Making Machine by SBS Machinery Pvt. Ltd. delivers a high output of 400 kg/hr with a 22-roller system. Built for efficiency, durability, and precision, it is ideal for commercial-scale noodle production.",
 
-    {
-  id: "SBSNDL22FullyAutomaticNoodlesMakingMachine",
-  name: "Fully Automatic Noodles Making Machine (SBS-NDL 22)",
-  metaTitle:
-    "Fully Automatic Noodles Making Machine (SBS-NDL 22) – High Capacity & Durable Design",
-  metaDescription:
-    "The SBS-NDL 22 Fully Automatic Noodles Making Machine by SBS Machinery Pvt. Ltd. delivers a high output of 400 kg/hr with a 22-roller system. Built for efficiency, durability, and precision, it is ideal for commercial-scale noodle production.",
+        description: [
+          { type: "h2", text: "Overview" },
+          {
+            type: "p",
+            text: "The Fully Automatic Noodles Making Machine (Model: SBS-NDL 22) is designed for high-volume commercial food processing. With an impressive capacity of 400 kg per hour, this machine ensures consistent noodle production with precision and efficiency. Its 22-roller system, robust build, and user-friendly design make it a reliable choice for large-scale noodle manufacturers.",
+          },
+          { type: "h2", text: "Key Features" },
+          {
+            type: "ul",
+            items: [
+              "<strong>High Production Capacity:</strong> Produces up to 400 kg of noodles per hour, meeting large-scale demand.",
+              "<strong>22 Roller System:</strong> Ensures uniform thickness, texture, and quality of noodles.",
+              "<strong>Powerful Motor:</strong> Equipped with a 3HP motor for stable, long-lasting performance.",
+              "<strong>Durable Construction:</strong> Weighing 1500 kg, built with heavy-duty materials for industrial use.",
+              "<strong>Flexible Operation:</strong> Supports both single-phase and three-phase power supply for versatile installation.",
+              "<strong>Compact Size:</strong> With dimensions of 6500*750*1300MM, it fits efficiently into commercial setups.",
+            ],
+          },
+          { type: "h2", text: "Why Choose SBS-NDL 22?" },
+          {
+            type: "p",
+            text: "The SBS-NDL 22 Fully Automatic Noodles Making Machine offers unmatched efficiency, consistency, and durability for commercial manufacturers. With its advanced roller system and robust design, it is a cost-effective solution for businesses aiming to produce noodles at scale with consistent quality.",
+          },
+        ],
 
-  description: [
-    { type: "h2", text: "Overview" },
-    {
-      type: "p",
-      text: "The Fully Automatic Noodles Making Machine (Model: SBS-NDL 22) is designed for high-volume commercial food processing. With an impressive capacity of 400 kg per hour, this machine ensures consistent noodle production with precision and efficiency. Its 22-roller system, robust build, and user-friendly design make it a reliable choice for large-scale noodle manufacturers."
-    },
-    { type: "h2", text: "Key Features" },
-    {
-      type: "ul",
-      items: [
-        "<strong>High Production Capacity:</strong> Produces up to 400 kg of noodles per hour, meeting large-scale demand.",
-        "<strong>22 Roller System:</strong> Ensures uniform thickness, texture, and quality of noodles.",
-        "<strong>Powerful Motor:</strong> Equipped with a 3HP motor for stable, long-lasting performance.",
-        "<strong>Durable Construction:</strong> Weighing 1500 kg, built with heavy-duty materials for industrial use.",
-        "<strong>Flexible Operation:</strong> Supports both single-phase and three-phase power supply for versatile installation.",
-        "<strong>Compact Size:</strong> With dimensions of 6500*750*1300MM, it fits efficiently into commercial setups."
-      ]
-    },
-    { type: "h2", text: "Why Choose SBS-NDL 22?" },
-    {
-      type: "p",
-      text: "The SBS-NDL 22 Fully Automatic Noodles Making Machine offers unmatched efficiency, consistency, and durability for commercial manufacturers. With its advanced roller system and robust design, it is a cost-effective solution for businesses aiming to produce noodles at scale with consistent quality."
-    }
-  ],
+        specs: [
+          { label: "Minimum Order Quantity", value: "1 Piece" },
+          { label: "Model", value: "SBS-NDL 22" },
+          { label: "Capacity", value: "400 kg/hr" },
+          { label: "Weight", value: "1500 kg" },
+          { label: "Voltage", value: "380V" },
+          { label: "Phase", value: "Single/Three Phase" },
+          { label: "Motor Power", value: "3 HP" },
+          { label: "Number Of Roller", value: "22 Roller Machine" },
+          { label: "Roller Width", value: "350 mm" },
+          { label: "Size/Dimension", value: "6500*750*1300 mm" },
+          { label: "I Deal In", value: "New Only" },
+          { label: "Brand", value: "SBS" },
+        ],
 
-  specs: [
-    { label: "Minimum Order Quantity", value: "1 Piece" },
-    { label: "Model", value: "SBS-NDL 22" },
-    { label: "Capacity", value: "400 kg/hr" },
-    { label: "Weight", value: "1500 kg" },
-    { label: "Voltage", value: "380V" },
-    { label: "Phase", value: "Single/Three Phase" },
-    { label: "Motor Power", value: "3 HP" },
-    { label: "Number Of Roller", value: "22 Roller Machine" },
-    { label: "Roller Width", value: "350 mm" },
-    { label: "Size/Dimension", value: "6500*750*1300 mm" },
-    { label: "I Deal In", value: "New Only" },
-    { label: "Brand", value: "SBS" }
-  ],
-
-  image: [
-    {
-      src: "/products/noodle/1.webp",
-      alt: "Fully Automatic Noodles Making Machine SBS-NDL 22"
-    },
-       {
-      src: "/products/noodle/2.webp",
-      alt: "Fully Automatic Noodles Making Machine SBS-NDL 22"
-    }
-  ]
-},
-
+        image: [
+          {
+            src: "/products/noodle/1.webp",
+            alt: "Fully Automatic Noodles Making Machine SBS-NDL 22",
+          },
+          {
+            src: "/products/noodle/2.webp",
+            alt: "Fully Automatic Noodles Making Machine SBS-NDL 22",
+          },
+        ],
+      },
 
       // product 2
-    {
-  id: "SBSSANDLS01SemiAutomaticNoodlesMakingMachine",
-  name: "Semi Automatic Noodles Making Machine (SBS-SA-NDLS-01)",
-  metaTitle:
-    "Semi Automatic Noodles Making Machine (SBS-SA-NDLS-01) – Compact & Efficient",
-  metaDescription:
-    "The SBS-SA-NDLS-01 Semi Automatic Noodles Making Machine by SBS Machinery Pvt. Ltd. delivers 60 kg/hr production capacity. Compact, efficient, and durable, it is ideal for small to medium-scale noodle production businesses.",
-
-  description: [
-    { type: "h2", text: "Overview" },
-    {
-      type: "p",
-      text: "The Semi Automatic Noodles Making Machine (Model: SBS-SA-NDLS-01) is designed for small to medium-scale food businesses looking for reliable and efficient noodle production. With a capacity of 60 kg per hour, this machine balances affordability, ease of use, and performance, making it suitable for restaurants, cafes, and small manufacturing units."
-    },
-    { type: "h2", text: "Key Features" },
-    {
-      type: "ul",
-      items: [
-        "<strong>Moderate Production Capacity:</strong> Produces up to 60 kg of noodles per hour, perfect for small to mid-scale operations.",
-        "<strong>Semi Automatic Operation:</strong> Provides greater control and flexibility while reducing manual effort.",
-        "<strong>Compact & Lightweight:</strong> Weighs only 300 kg, easy to install and maintain.",
-        "<strong>Powerful Motor:</strong> Equipped with a 3 HP motor for consistent, efficient performance.",
-        "<strong>Durable & Reliable:</strong> Built with high-quality materials ensuring long-term usability.",
-        "<strong>Made in India:</strong> Proudly manufactured in India with a focus on quality and reliability."
-      ]
-    },
-    { type: "h2", text: "Why Choose SBS-SA-NDLS-01?" },
-    {
-      type: "p",
-      text: "The SBS-SA-NDLS-01 is a cost-effective solution for businesses starting or expanding their noodle production. Its semi-automatic design offers flexibility, while its durability and efficiency ensure consistent results, making it a dependable choice for food entrepreneurs."
-    }
-  ],
-
-  specs: [
-    { label: "Minimum Order Quantity", value: "1 Piece" },
-    { label: "Model", value: "SBS-SA-NDLS-01" },
-    { label: "Capacity", value: "60 kg/hr" },
-    { label: "Weight", value: "300 kg" },
-    { label: "Phase", value: "Single Phase" },
-    { label: "Motor Power", value: "3 HP" },
-    { label: "I Deal In", value: "New Only" },
-    { label: "Brand", value: "SBS" },
-    { label: "Country of Origin", value: "Made in India" }
-  ],
-
-  image: [
-    {
-      src: "/products/noodle/17.webp",
-      alt: "Semi Automatic Noodles Making Machine SBS-SA-NDLS-01"
-    },
-     {
-      src: "/products/noodle/18.webp",
-      alt: "Semi Automatic Noodles Making Machine SBS-SA-NDLS-01"
-    }
-  ]
-},
-
-// product 3
-
-{
-  id: "SBSDNL16NoodlesMakingMachineWithStand",
-  name: "Noodles Making Machine With Stand (SBS-DNL 16 ROLLER)",
-  metaTitle:
-    "Noodles Making Machine With Stand (SBS-DNL 16 ROLLER) – High Capacity & Durable Design",
-  metaDescription:
-    "The SBS-DNL 16 ROLLER Noodles Making Machine With Stand by SBS Machinery Pvt. Ltd. delivers 300 kg/hr production capacity with a robust 14-roller system. Built for efficiency, durability, and reliability, it is ideal for commercial-scale noodle manufacturing.",
-
-  description: [
-    { type: "h2", text: "Overview" },
-    {
-      type: "p",
-      text: "The Noodles Making Machine With Stand (Model: SBS-DNL 16 ROLLER) is a high-performance, automatic noodle production solution. With a capacity of 300 kg per hour, it is designed to handle commercial-scale operations while ensuring consistency and quality. Equipped with a strong roller system and durable build, it is suitable for food manufacturers looking to maximize efficiency."
-    },
-    { type: "h2", text: "Key Features" },
-    {
-      type: "ul",
-      items: [
-        "<strong>High Capacity:</strong> Produces up to 300 kg of noodles per hour, ideal for commercial food businesses.",
-        "<strong>Automatic Operation:</strong> Streamlines noodle production with minimal manual effort.",
-        "<strong>Robust Roller System:</strong> Equipped with 14 rollers (300mm width) ensuring uniform texture and thickness.",
-        "<strong>Durable Build:</strong> Heavy-duty design weighing 850 kg for stable, long-term use.",
-        "<strong>Powerful Motor:</strong> Operates with a 4KW motor on three-phase power supply for maximum efficiency."
-      ]
-    },
-    { type: "h2", text: "Why Choose SBS-DNL 16 ROLLER?" },
-    {
-      type: "p",
-      text: "The SBS-DNL 16 ROLLER Noodles Making Machine With Stand is built to deliver consistency, speed, and durability for large-scale production. With its powerful motor, robust roller system, and commercial-grade design, it is a reliable choice for businesses aiming to scale their noodle manufacturing operations."
-    }
-  ],
-
-  specs: [
-    { label: "Minimum Order Quantity", value: "1 Piece" },
-    { label: "Model", value: "SBS-NDL14" },
-    { label: "Capacity", value: "300 kg/hr" },
-    { label: "Automation Grade", value: "Automatic" },
-    { label: "Weight", value: "850 kg" },
-    { label: "Features", value: "14 ROLLER" },
-    { label: "Voltage", value: "220V" },
-    { label: "Phase", value: "Three Phase" },
-    { label: "Motor Power", value: "4 KW" },
-    { label: "Number Of Roller", value: "14" },
-    { label: "Roller Width", value: "300 mm" },
-    { label: "I Deal In", value: "New Only" },
-    { label: "Brand", value: "SBS" }
-  ],
-
-  image: [
-    {
-      src: "/products/noodle/31.webp",
-      alt: "Noodles Making Machine With Stand SBS-DNL 16 ROLLER"
-    },
       {
-      src: "/products/noodle/30.webp",
-      alt: "Noodles Making Machine With Stand SBS-DNL 16 ROLLER"
-    },
-  ]
-},
+        id: "SBSSANDLS01SemiAutomaticNoodlesMakingMachine",
+        name: "Semi Automatic Noodles Making Machine (SBS-SA-NDLS-01)",
+        metaTitle:
+          "Semi Automatic Noodles Making Machine (SBS-SA-NDLS-01) – Compact & Efficient",
+        metaDescription:
+          "The SBS-SA-NDLS-01 Semi Automatic Noodles Making Machine by SBS Machinery Pvt. Ltd. delivers 60 kg/hr production capacity. Compact, efficient, and durable, it is ideal for small to medium-scale noodle production businesses.",
 
-// product 4
+        description: [
+          { type: "h2", text: "Overview" },
+          {
+            type: "p",
+            text: "The Semi Automatic Noodles Making Machine (Model: SBS-SA-NDLS-01) is designed for small to medium-scale food businesses looking for reliable and efficient noodle production. With a capacity of 60 kg per hour, this machine balances affordability, ease of use, and performance, making it suitable for restaurants, cafes, and small manufacturing units.",
+          },
+          { type: "h2", text: "Key Features" },
+          {
+            type: "ul",
+            items: [
+              "<strong>Moderate Production Capacity:</strong> Produces up to 60 kg of noodles per hour, perfect for small to mid-scale operations.",
+              "<strong>Semi Automatic Operation:</strong> Provides greater control and flexibility while reducing manual effort.",
+              "<strong>Compact & Lightweight:</strong> Weighs only 300 kg, easy to install and maintain.",
+              "<strong>Powerful Motor:</strong> Equipped with a 3 HP motor for consistent, efficient performance.",
+              "<strong>Durable & Reliable:</strong> Built with high-quality materials ensuring long-term usability.",
+              "<strong>Made in India:</strong> Proudly manufactured in India with a focus on quality and reliability.",
+            ],
+          },
+          { type: "h2", text: "Why Choose SBS-SA-NDLS-01?" },
+          {
+            type: "p",
+            text: "The SBS-SA-NDLS-01 is a cost-effective solution for businesses starting or expanding their noodle production. Its semi-automatic design offers flexibility, while its durability and efficiency ensure consistent results, making it a dependable choice for food entrepreneurs.",
+          },
+        ],
 
-{
-  id: "SBSNDL10AutomaticNoodlesMakingMachine",
-  name: "Automatic Noodles Making Machine (SBS-NDL 10 Roller)",
-  metaTitle:
-    "Automatic Noodles Making Machine (SBS-NDL 10 Roller) – Efficient & Durable Commercial Noodle Production",
-  metaDescription:
-    "The SBS-NDL 10 Roller Automatic Noodles Making Machine by SBS Machinery Pvt. Ltd. delivers 200 kg/hr production capacity with precision and durability. Designed for efficiency and reliability, it is ideal for medium to large-scale noodle manufacturing.",
+        specs: [
+          { label: "Minimum Order Quantity", value: "1 Piece" },
+          { label: "Model", value: "SBS-SA-NDLS-01" },
+          { label: "Capacity", value: "60 kg/hr" },
+          { label: "Weight", value: "300 kg" },
+          { label: "Phase", value: "Single Phase" },
+          { label: "Motor Power", value: "3 HP" },
+          { label: "I Deal In", value: "New Only" },
+          { label: "Brand", value: "SBS" },
+          { label: "Country of Origin", value: "Made in India" },
+        ],
 
-  description: [
-    { type: "h2", text: "Overview" },
-    {
-      type: "p",
-      text: "The Automatic Noodles Making Machine (Model: SBS-NDL 10 Roller) is a reliable and efficient solution for noodle production. With a capacity of 200 kg per hour, it is designed for businesses seeking consistency, speed, and quality in manufacturing. Its robust build ensures long-term durability and performance."
-    },
-    { type: "h2", text: "Key Features" },
-    {
-      type: "ul",
-      items: [
-        "<strong>Medium Capacity:</strong> Produces up to 200 kg of noodles per hour, ideal for growing businesses.",
-        "<strong>Automatic Operation:</strong> Simplifies the noodle-making process with minimal manual involvement.",
-        "<strong>Precision Build:</strong> Equipped with 10 rollers (96mm width) for consistent thickness and texture.",
-        "<strong>Compact Design:</strong> Space-efficient machine with a dimension of 1500*680*1200mm.",
-        "<strong>Durable Construction:</strong> Built with a 400kg frame for long-lasting performance."
-      ]
-    },
-    { type: "h2", text: "Why Choose SBS-NDL 10 Roller?" },
-    {
-      type: "p",
-      text: "The SBS-NDL 10 Roller Automatic Noodles Making Machine is designed to meet the demands of commercial noodle production. With its efficient capacity, robust design, and consistent performance, it is an excellent choice for businesses seeking to expand their production capabilities."
-    }
-  ],
+        image: [
+          {
+            src: "/products/noodle/17.webp",
+            alt: "Semi Automatic Noodles Making Machine SBS-SA-NDLS-01",
+          },
+          {
+            src: "/products/noodle/18.webp",
+            alt: "Semi Automatic Noodles Making Machine SBS-SA-NDLS-01",
+          },
+        ],
+      },
 
-  specs: [
-    { label: "Minimum Order Quantity", value: "1 Piece" },
-    { label: "Capacity", value: "200 kg/hr" },
-    { label: "Automation Grade", value: "Automatic" },
-    { label: "Weight", value: "400 kg" },
-    { label: "Output", value: "100-200 kg/hr" },
-    { label: "Voltage", value: "380V" },
-    { label: "Phase", value: "Three Phase" },
-    { label: "Size/Dimension", value: "1500*680*1200 mm" },
-    { label: "Roller Width", value: "96 mm" },
-    { label: "I Deal In", value: "New Only" },
-    { label: "Brand", value: "SBS" }
-  ],
+      // product 3
 
-  image: [
-    {
-      src: "/products/noodle/15.webp",
-      alt: "Automatic Noodles Making Machine SBS-NDL 10 Roller"
-    },
-       {
-      src: "/products/noodle/16.webp",
-      alt: "Automatic Noodles Making Machine SBS-NDL 10 Roller"
-    },
-  ]
-},
+      {
+        id: "SBSDNL16NoodlesMakingMachineWithStand",
+        name: "Noodles Making Machine With Stand (SBS-DNL 16 ROLLER)",
+        metaTitle:
+          "Noodles Making Machine With Stand (SBS-DNL 16 ROLLER) – High Capacity & Durable Design",
+        metaDescription:
+          "The SBS-DNL 16 ROLLER Noodles Making Machine With Stand by SBS Machinery Pvt. Ltd. delivers 300 kg/hr production capacity with a robust 14-roller system. Built for efficiency, durability, and reliability, it is ideal for commercial-scale noodle manufacturing.",
 
+        description: [
+          { type: "h2", text: "Overview" },
+          {
+            type: "p",
+            text: "The Noodles Making Machine With Stand (Model: SBS-DNL 16 ROLLER) is a high-performance, automatic noodle production solution. With a capacity of 300 kg per hour, it is designed to handle commercial-scale operations while ensuring consistency and quality. Equipped with a strong roller system and durable build, it is suitable for food manufacturers looking to maximize efficiency.",
+          },
+          { type: "h2", text: "Key Features" },
+          {
+            type: "ul",
+            items: [
+              "<strong>High Capacity:</strong> Produces up to 300 kg of noodles per hour, ideal for commercial food businesses.",
+              "<strong>Automatic Operation:</strong> Streamlines noodle production with minimal manual effort.",
+              "<strong>Robust Roller System:</strong> Equipped with 14 rollers (300mm width) ensuring uniform texture and thickness.",
+              "<strong>Durable Build:</strong> Heavy-duty design weighing 850 kg for stable, long-term use.",
+              "<strong>Powerful Motor:</strong> Operates with a 4KW motor on three-phase power supply for maximum efficiency.",
+            ],
+          },
+          { type: "h2", text: "Why Choose SBS-DNL 16 ROLLER?" },
+          {
+            type: "p",
+            text: "The SBS-DNL 16 ROLLER Noodles Making Machine With Stand is built to deliver consistency, speed, and durability for large-scale production. With its powerful motor, robust roller system, and commercial-grade design, it is a reliable choice for businesses aiming to scale their noodle manufacturing operations.",
+          },
+        ],
 
+        specs: [
+          { label: "Minimum Order Quantity", value: "1 Piece" },
+          { label: "Model", value: "SBS-NDL14" },
+          { label: "Capacity", value: "300 kg/hr" },
+          { label: "Automation Grade", value: "Automatic" },
+          { label: "Weight", value: "850 kg" },
+          { label: "Features", value: "14 ROLLER" },
+          { label: "Voltage", value: "220V" },
+          { label: "Phase", value: "Three Phase" },
+          { label: "Motor Power", value: "4 KW" },
+          { label: "Number Of Roller", value: "14" },
+          { label: "Roller Width", value: "300 mm" },
+          { label: "I Deal In", value: "New Only" },
+          { label: "Brand", value: "SBS" },
+        ],
 
+        image: [
+          {
+            src: "/products/noodle/31.webp",
+            alt: "Noodles Making Machine With Stand SBS-DNL 16 ROLLER",
+          },
+          {
+            src: "/products/noodle/30.webp",
+            alt: "Noodles Making Machine With Stand SBS-DNL 16 ROLLER",
+          },
+        ],
+      },
+
+      // product 4
+
+      {
+        id: "SBSNDL10AutomaticNoodlesMakingMachine",
+        name: "Automatic Noodles Making Machine (SBS-NDL 10 Roller)",
+        metaTitle:
+          "Automatic Noodles Making Machine (SBS-NDL 10 Roller) – Efficient & Durable Commercial Noodle Production",
+        metaDescription:
+          "The SBS-NDL 10 Roller Automatic Noodles Making Machine by SBS Machinery Pvt. Ltd. delivers 200 kg/hr production capacity with precision and durability. Designed for efficiency and reliability, it is ideal for medium to large-scale noodle manufacturing.",
+
+        description: [
+          { type: "h2", text: "Overview" },
+          {
+            type: "p",
+            text: "The Automatic Noodles Making Machine (Model: SBS-NDL 10 Roller) is a reliable and efficient solution for noodle production. With a capacity of 200 kg per hour, it is designed for businesses seeking consistency, speed, and quality in manufacturing. Its robust build ensures long-term durability and performance.",
+          },
+          { type: "h2", text: "Key Features" },
+          {
+            type: "ul",
+            items: [
+              "<strong>Medium Capacity:</strong> Produces up to 200 kg of noodles per hour, ideal for growing businesses.",
+              "<strong>Automatic Operation:</strong> Simplifies the noodle-making process with minimal manual involvement.",
+              "<strong>Precision Build:</strong> Equipped with 10 rollers (96mm width) for consistent thickness and texture.",
+              "<strong>Compact Design:</strong> Space-efficient machine with a dimension of 1500*680*1200mm.",
+              "<strong>Durable Construction:</strong> Built with a 400kg frame for long-lasting performance.",
+            ],
+          },
+          { type: "h2", text: "Why Choose SBS-NDL 10 Roller?" },
+          {
+            type: "p",
+            text: "The SBS-NDL 10 Roller Automatic Noodles Making Machine is designed to meet the demands of commercial noodle production. With its efficient capacity, robust design, and consistent performance, it is an excellent choice for businesses seeking to expand their production capabilities.",
+          },
+        ],
+
+        specs: [
+          { label: "Minimum Order Quantity", value: "1 Piece" },
+          { label: "Capacity", value: "200 kg/hr" },
+          { label: "Automation Grade", value: "Automatic" },
+          { label: "Weight", value: "400 kg" },
+          { label: "Output", value: "100-200 kg/hr" },
+          { label: "Voltage", value: "380V" },
+          { label: "Phase", value: "Three Phase" },
+          { label: "Size/Dimension", value: "1500*680*1200 mm" },
+          { label: "Roller Width", value: "96 mm" },
+          { label: "I Deal In", value: "New Only" },
+          { label: "Brand", value: "SBS" },
+        ],
+
+        image: [
+          {
+            src: "/products/noodle/15.webp",
+            alt: "Automatic Noodles Making Machine SBS-NDL 10 Roller",
+          },
+          {
+            src: "/products/noodle/16.webp",
+            alt: "Automatic Noodles Making Machine SBS-NDL 10 Roller",
+          },
+        ],
+      },
     ],
   },
 
-
-
-
-
-    // category 9 plate
+  // category 9 plate
   {
     id: "paper-plate-making-machine",
     name: "Paper Plate Making Machine",
@@ -2185,328 +2174,327 @@ export const categories = [
     metaDescription:
       "Discover high-quality paper plate making machines from a leading manufacturer. Boost your production efficiency with our innovative and reliable solutions. ",
 
-      // products
+    // products
     products: [
-
-
       // product 1
 
-     {
-  id: "SBSHYM01SemiAutomaticHydraulicSingleDieMachine",
-  name: "SBS-HY-M-01 Semi Automatic Hydraulic Single Die Machine",
-  metaTitle:
-    "SBS-HY-M-01 Semi Automatic Hydraulic Single Die Machine – Efficient Paper Plate Production",
-  metaDescription:
-    "The SBS-HY-M-01 Semi Automatic Hydraulic Single Die Machine by SBS Machinery Pvt. Ltd. delivers 20,000–25,000 plates in 10 hours with low power consumption. Ideal for small to medium-scale disposable plate production across India.",
+      {
+        id: "SBSHYM01SemiAutomaticHydraulicSingleDieMachine",
+        name: "SBS-HY-M-01 Semi Automatic Hydraulic Single Die Machine",
+        metaTitle:
+          "SBS-HY-M-01 Semi Automatic Hydraulic Single Die Machine – Efficient Paper Plate Production",
+        metaDescription:
+          "The SBS-HY-M-01 Semi Automatic Hydraulic Single Die Machine by SBS Machinery Pvt. Ltd. delivers 20,000–25,000 plates in 10 hours with low power consumption. Ideal for small to medium-scale disposable plate production across India.",
 
-  description: [
-    { type: "h2", text: "Overview" },
-    {
-      type: "p",
-      text: "The Semi-Automatic Hydraulic Single Die Machine (Model: SBS-HY-M-01) by SBS Machinery Pvt. Ltd. is designed to provide a reliable and efficient solution for manufacturing disposable paper plates. With a production capacity of 20,000–25,000 pieces in 10 hours, this machine ensures high output while maintaining quality and precision, making it ideal for small to medium-scale production units."
-    },
-    { type: "h2", text: "Key Features" },
-    {
-      type: "ul",
-      items: [
-        "<strong>Hydraulic Pressing Mechanism:</strong> Utilizes hydraulic pressure for smooth, consistent pressing, ensuring uniform plate formation with optimal thickness and strength.",
-        "<strong>Single Die Design:</strong> Perfect for producing high-quality, single-size paper plates with simplicity and reliability.",
-        "<strong>Semi-Automatic Operation:</strong> Requires minimal manual intervention, reducing labor costs and improving workflow efficiency.",
-        "<strong>Robust Construction:</strong> Built with high-quality components for long-lasting durability and consistent performance.",
-        "<strong>Energy Efficient:</strong> Operates on single-phase power (2–2.5 kW), offering high output while minimizing power consumption."
-      ]
-    },
-    { type: "h2", text: "Why Choose SBS-HY-M-01?" },
-    {
-      type: "p",
-      text: "The SBS-HY-M-01 Semi Automatic Hydraulic Single Die Machine is the perfect choice for businesses across India that require a cost-effective, efficient, and reliable solution for manufacturing disposable paper plates. With its hydraulic mechanism, semi-automatic design, and robust build, it is ideally suited for production units in major cities such as Delhi, Mumbai, Kolkata, Bangalore, Chennai, Hyderabad, and Pune."
-    }
-  ],
+        description: [
+          { type: "h2", text: "Overview" },
+          {
+            type: "p",
+            text: "The Semi-Automatic Hydraulic Single Die Machine (Model: SBS-HY-M-01) by SBS Machinery Pvt. Ltd. is designed to provide a reliable and efficient solution for manufacturing disposable paper plates. With a production capacity of 20,000–25,000 pieces in 10 hours, this machine ensures high output while maintaining quality and precision, making it ideal for small to medium-scale production units.",
+          },
+          { type: "h2", text: "Key Features" },
+          {
+            type: "ul",
+            items: [
+              "<strong>Hydraulic Pressing Mechanism:</strong> Utilizes hydraulic pressure for smooth, consistent pressing, ensuring uniform plate formation with optimal thickness and strength.",
+              "<strong>Single Die Design:</strong> Perfect for producing high-quality, single-size paper plates with simplicity and reliability.",
+              "<strong>Semi-Automatic Operation:</strong> Requires minimal manual intervention, reducing labor costs and improving workflow efficiency.",
+              "<strong>Robust Construction:</strong> Built with high-quality components for long-lasting durability and consistent performance.",
+              "<strong>Energy Efficient:</strong> Operates on single-phase power (2–2.5 kW), offering high output while minimizing power consumption.",
+            ],
+          },
+          { type: "h2", text: "Why Choose SBS-HY-M-01?" },
+          {
+            type: "p",
+            text: "The SBS-HY-M-01 Semi Automatic Hydraulic Single Die Machine is the perfect choice for businesses across India that require a cost-effective, efficient, and reliable solution for manufacturing disposable paper plates. With its hydraulic mechanism, semi-automatic design, and robust build, it is ideally suited for production units in major cities such as Delhi, Mumbai, Kolkata, Bangalore, Chennai, Hyderabad, and Pune.",
+          },
+        ],
 
-  specs: [
-    { label: "Model", value: "SBS-HY-M-01" },
-    { label: "Moulds Size", value: "4 inches to 14 inches" },
-    { label: "Power", value: "Single Phase / 2 – 2.5 kW" },
-    {
-      label: "Production Capacity",
-      value: "20,000 – 25,000 Pieces in 10 HRS (Depending on mould size)"
-    },
-    { label: "Weight", value: "250 kg (approx.)" }
-  ],
+        specs: [
+          { label: "Model", value: "SBS-HY-M-01" },
+          { label: "Moulds Size", value: "4 inches to 14 inches" },
+          { label: "Power", value: "Single Phase / 2 – 2.5 kW" },
+          {
+            label: "Production Capacity",
+            value: "20,000 – 25,000 Pieces in 10 HRS (Depending on mould size)",
+          },
+          { label: "Weight", value: "250 kg (approx.)" },
+        ],
 
-  image: [
-    {
-      src: "/products/plate/1.webp",
-      alt: "SBS-HY-M-01 Semi Automatic Hydraulic Single Die Machine"
-    }
-  ]
-},
+        image: [
+          {
+            src: "/products/plate/1.webp",
+            alt: "SBS-HY-M-01 Semi Automatic Hydraulic Single Die Machine",
+          },
+        ],
+      },
 
-// produtc 2
+      // produtc 2
 
-{
-  id: "SBSHYM02SemiAutomaticHydraulicDoubleCylinderMachine",
-  name: "SBS-HY-M-02 Semi Automatic Hydraulic Single Die Double Cylinder Machine",
-  metaTitle:
-    "SBS-HY-M-02 Semi Automatic Hydraulic Single Die Double Cylinder Machine – High Performance & Energy Efficient",
-  metaDescription:
-    "The SBS-HY-M-02 Semi Automatic Hydraulic Single Die Double Cylinder Machine by SBS Machinery Pvt. Ltd. delivers 35,000–40,000 paper plates in 10 hours with minimal power consumption. Ideal for small to medium-scale production across India.",
+      {
+        id: "SBSHYM02SemiAutomaticHydraulicDoubleCylinderMachine",
+        name: "SBS-HY-M-02 Semi Automatic Hydraulic Single Die Double Cylinder Machine",
+        metaTitle:
+          "SBS-HY-M-02 Semi Automatic Hydraulic Single Die Double Cylinder Machine – High Performance & Energy Efficient",
+        metaDescription:
+          "The SBS-HY-M-02 Semi Automatic Hydraulic Single Die Double Cylinder Machine by SBS Machinery Pvt. Ltd. delivers 35,000–40,000 paper plates in 10 hours with minimal power consumption. Ideal for small to medium-scale production across India.",
 
-  description: [
-    { type: "h2", text: "Overview" },
-    {
-      type: "p",
-      text: "The Semi-Automatic Hydraulic Single Die Double Cylinder Machine (Model: SBS-HY-M-02) by SBS Machinery Pvt. Ltd. is a high-performance, energy-efficient solution for manufacturing disposable paper plates. With a production capacity of 35,000–40,000 pieces in 10 hours, it ensures precise and consistent output, making it ideal for small to medium-scale production units in India."
-    },
-    { type: "h2", text: "Key Features" },
-    {
-      type: "ul",
-      items: [
-        "<strong>Hydraulic Pressing System:</strong> Utilizes a hydraulic mechanism for smooth, precise pressing, ensuring uniform thickness and strength of paper plates.",
-        "<strong>Double Cylinder Design:</strong> Dual-cylinder system ensures balanced pressure distribution, improving plate quality and performance in high-volume production.",
-        "<strong>Semi-Automatic Operation:</strong> Requires minimal manual effort while offering ease of use, ideal for medium-scale businesses.",
-        "<strong>Durable and Sturdy Construction:</strong> Made with high-quality components for long-lasting performance in demanding production environments.",
-        "<strong>Energy Efficient:</strong> Optimized for reduced power consumption, providing cost savings and higher profitability."
-      ]
-    },
-    { type: "h2", text: "Why Choose SBS-HY-M-02?" },
-    {
-      type: "p",
-      text: "The SBS-HY-M-02 Semi Automatic Hydraulic Single Die Double Cylinder Machine is perfect for businesses across India seeking an efficient, reliable, and cost-effective solution for producing disposable paper plates. Combining advanced hydraulic technology, energy efficiency, and durability, it is ideal for high-volume production in cities like Hyderabad, Pune, Bangalore, Delhi, Mumbai, Chennai, and Kolkata."
-    }
-  ],
+        description: [
+          { type: "h2", text: "Overview" },
+          {
+            type: "p",
+            text: "The Semi-Automatic Hydraulic Single Die Double Cylinder Machine (Model: SBS-HY-M-02) by SBS Machinery Pvt. Ltd. is a high-performance, energy-efficient solution for manufacturing disposable paper plates. With a production capacity of 35,000–40,000 pieces in 10 hours, it ensures precise and consistent output, making it ideal for small to medium-scale production units in India.",
+          },
+          { type: "h2", text: "Key Features" },
+          {
+            type: "ul",
+            items: [
+              "<strong>Hydraulic Pressing System:</strong> Utilizes a hydraulic mechanism for smooth, precise pressing, ensuring uniform thickness and strength of paper plates.",
+              "<strong>Double Cylinder Design:</strong> Dual-cylinder system ensures balanced pressure distribution, improving plate quality and performance in high-volume production.",
+              "<strong>Semi-Automatic Operation:</strong> Requires minimal manual effort while offering ease of use, ideal for medium-scale businesses.",
+              "<strong>Durable and Sturdy Construction:</strong> Made with high-quality components for long-lasting performance in demanding production environments.",
+              "<strong>Energy Efficient:</strong> Optimized for reduced power consumption, providing cost savings and higher profitability.",
+            ],
+          },
+          { type: "h2", text: "Why Choose SBS-HY-M-02?" },
+          {
+            type: "p",
+            text: "The SBS-HY-M-02 Semi Automatic Hydraulic Single Die Double Cylinder Machine is perfect for businesses across India seeking an efficient, reliable, and cost-effective solution for producing disposable paper plates. Combining advanced hydraulic technology, energy efficiency, and durability, it is ideal for high-volume production in cities like Hyderabad, Pune, Bangalore, Delhi, Mumbai, Chennai, and Kolkata.",
+          },
+        ],
 
-  specs: [
-    { label: "Model", value: "SBS-HY-M-02" },
-    { label: "Moulds Size", value: "4 inches to 14 inches" },
-    { label: "Power", value: "Single Phase / 2 – 2.5 kW" },
-    {
-      label: "Production Capacity",
-      value: "35,000 – 40,000 Pieces in 10 HRS (Depending on mould size)"
-    },
-    { label: "Weight", value: "550 kg (approx.)" }
-  ],
+        specs: [
+          { label: "Model", value: "SBS-HY-M-02" },
+          { label: "Moulds Size", value: "4 inches to 14 inches" },
+          { label: "Power", value: "Single Phase / 2 – 2.5 kW" },
+          {
+            label: "Production Capacity",
+            value: "35,000 – 40,000 Pieces in 10 HRS (Depending on mould size)",
+          },
+          { label: "Weight", value: "550 kg (approx.)" },
+        ],
 
-  image: [
-    {
-      src: "/products/plate/2.webp",
-      alt: "SBS-HY-M-02 Semi Automatic Hydraulic Single Die Double Cylinder Machine"
-    }
-  ]
-},
+        image: [
+          {
+            src: "/products/plate/2.webp",
+            alt: "SBS-HY-M-02 Semi Automatic Hydraulic Single Die Double Cylinder Machine",
+          },
+        ],
+      },
 
-// produtc 3
-{
-  id: "SBSDDMS02FullyAutomaticDoubleDieCrankPaperPlateMachine",
-  name: "SBS-DD-MS-02 Fully Automatic Double Die Paper Plate Machine (Crank Model)",
-  metaTitle:
-    "SBS-DD-MS-02 Fully Automatic Double Die Paper Plate Machine (Crank Model) – High Output & Efficient",
-  metaDescription:
-    "The SBS-DD-MS-02 Fully Automatic Double Die Paper Plate Machine (Crank Model) by SBS Machinery Pvt. Ltd. delivers 35,000–40,000 plates in 8 hours with minimal power consumption. Ideal for large-scale production across India.",
+      // produtc 3
+      {
+        id: "SBSDDMS02FullyAutomaticDoubleDieCrankPaperPlateMachine",
+        name: "SBS-DD-MS-02 Fully Automatic Double Die Paper Plate Machine (Crank Model)",
+        metaTitle:
+          "SBS-DD-MS-02 Fully Automatic Double Die Paper Plate Machine (Crank Model) – High Output & Efficient",
+        metaDescription:
+          "The SBS-DD-MS-02 Fully Automatic Double Die Paper Plate Machine (Crank Model) by SBS Machinery Pvt. Ltd. delivers 35,000–40,000 plates in 8 hours with minimal power consumption. Ideal for large-scale production across India.",
 
-  description: [
-    { type: "h2", text: "Overview" },
-    {
-      type: "p",
-      text: "The Fully Automatic Double Die Paper Plate Machine (Crank Model) SBS-DD-MS-02 by SBS Machinery Pvt. Ltd. is engineered for high-volume paper plate production. With a production capacity of 35,000–40,000 pieces in 8 hours, it ensures consistent quality, efficiency, and reliability, making it ideal for large-scale manufacturing units across India."
-    },
-    { type: "h2", text: "Key Features" },
-    {
-      type: "ul",
-      items: [
-        "<strong>Double Die Mechanism:</strong> Enables simultaneous production of two paper plates, increasing output and reducing production time.",
-        "<strong>Crank Model:</strong> Smooth, reliable operation with even pressure for high-quality, consistent plates.",
-        "<strong>Fully Automatic Operation:</strong> Automates feeding, pressing, and plate ejection, reducing labor costs and improving efficiency.",
-        "<strong>Durable Construction:</strong> Built with high-quality materials to withstand long-term, heavy-duty use.",
-        "<strong>Energy Efficient:</strong> Optimized to consume minimal power while maintaining high production efficiency."
-      ]
-    },
-    { type: "h2", text: "Why Choose SBS-DD-MS-02?" },
-    {
-      type: "p",
-      text: "The SBS-DD-MS-02 Fully Automatic Double Die Paper Plate Machine (Crank Model) is perfect for businesses seeking high-volume production with consistent quality. Designed for durability, efficiency, and reliability, it helps Indian manufacturers meet the growing demand for eco-friendly disposable paper plates in cities like Delhi, Mumbai, Bangalore, Chennai, and Hyderabad."
-    }
-  ],
+        description: [
+          { type: "h2", text: "Overview" },
+          {
+            type: "p",
+            text: "The Fully Automatic Double Die Paper Plate Machine (Crank Model) SBS-DD-MS-02 by SBS Machinery Pvt. Ltd. is engineered for high-volume paper plate production. With a production capacity of 35,000–40,000 pieces in 8 hours, it ensures consistent quality, efficiency, and reliability, making it ideal for large-scale manufacturing units across India.",
+          },
+          { type: "h2", text: "Key Features" },
+          {
+            type: "ul",
+            items: [
+              "<strong>Double Die Mechanism:</strong> Enables simultaneous production of two paper plates, increasing output and reducing production time.",
+              "<strong>Crank Model:</strong> Smooth, reliable operation with even pressure for high-quality, consistent plates.",
+              "<strong>Fully Automatic Operation:</strong> Automates feeding, pressing, and plate ejection, reducing labor costs and improving efficiency.",
+              "<strong>Durable Construction:</strong> Built with high-quality materials to withstand long-term, heavy-duty use.",
+              "<strong>Energy Efficient:</strong> Optimized to consume minimal power while maintaining high production efficiency.",
+            ],
+          },
+          { type: "h2", text: "Why Choose SBS-DD-MS-02?" },
+          {
+            type: "p",
+            text: "The SBS-DD-MS-02 Fully Automatic Double Die Paper Plate Machine (Crank Model) is perfect for businesses seeking high-volume production with consistent quality. Designed for durability, efficiency, and reliability, it helps Indian manufacturers meet the growing demand for eco-friendly disposable paper plates in cities like Delhi, Mumbai, Bangalore, Chennai, and Hyderabad.",
+          },
+        ],
 
-  specs: [
-    { label: "Model", value: "SBS-DD-MS-02" },
-    { label: "Moulds Size", value: "4 inches to 14 inches" },
-    { label: "Power", value: "Single Phase / 2 – 2.5 kW" },
-    { label: "Production Capacity", value: "35,000 – 40,000 Pieces/8 hrs (Depending on mould size)" },
-    { label: "Weight", value: "500 kg (approx.)" }
-  ],
+        specs: [
+          { label: "Model", value: "SBS-DD-MS-02" },
+          { label: "Moulds Size", value: "4 inches to 14 inches" },
+          { label: "Power", value: "Single Phase / 2 – 2.5 kW" },
+          {
+            label: "Production Capacity",
+            value: "35,000 – 40,000 Pieces/8 hrs (Depending on mould size)",
+          },
+          { label: "Weight", value: "500 kg (approx.)" },
+        ],
 
-  image: [
-    {
-      src: "/products/plate/3.webp",
-      alt: "SBS-DD-MS-02 Fully Automatic Double Die Paper Plate Machine (Crank Model)"
-    }
-  ]
-},
+        image: [
+          {
+            src: "/products/plate/3.webp",
+            alt: "SBS-DD-MS-02 Fully Automatic Double Die Paper Plate Machine (Crank Model)",
+          },
+        ],
+      },
 
-// product 4
+      // product 4
 
-{
-  id: "SBSSDMS01FullyAutomaticSingleDiePaperPlateMachine",
-  name: "SBS-SD-MS-01 Fully Automatic Single Die Paper Plate Machine",
-  metaTitle:
-    "SBS-SD-MS-01 Fully Automatic Single Die Paper Plate Machine – Efficient & Durable",
-  metaDescription:
-    "The SBS-SD-MS-01 Fully Automatic Single Die Paper Plate Machine by SBS Machinery Pvt. Ltd. delivers 15,000–20,000 plates in 8 hours with minimal power consumption. Ideal for high-volume production across India.",
+      {
+        id: "SBSSDMS01FullyAutomaticSingleDiePaperPlateMachine",
+        name: "SBS-SD-MS-01 Fully Automatic Single Die Paper Plate Machine",
+        metaTitle:
+          "SBS-SD-MS-01 Fully Automatic Single Die Paper Plate Machine – Efficient & Durable",
+        metaDescription:
+          "The SBS-SD-MS-01 Fully Automatic Single Die Paper Plate Machine by SBS Machinery Pvt. Ltd. delivers 15,000–20,000 plates in 8 hours with minimal power consumption. Ideal for high-volume production across India.",
 
-  description: [
-    { type: "h2", text: "Overview" },
-    {
-      type: "p",
-      text: "The Fully Automatic Single Die Paper Plate Machine (Model: SBS-SD-MS-01) by SBS Machinery Pvt. Ltd. is an energy-efficient solution designed for reliable, high-quality paper plate production. With a capacity of 15,000–20,000 pieces in 8 hours, it ensures consistent output while minimizing manual effort, making it ideal for large-scale production units across India."
-    },
-    { type: "h2", text: "Key Features" },
-    {
-      type: "ul",
-      items: [
-        "<strong>Crank Mechanism:</strong> Smooth and reliable operation reduces wear and tear while maintaining consistent quality for high-volume production.",
-        "<strong>Fully Automatic Operation:</strong> Automates feeding, forming, and plate ejection, reducing labor costs and increasing operational efficiency.",
-        "<strong>Single Die Design:</strong> Produces plates of various sizes and shapes with precision, suitable for diverse business needs.",
-        "<strong>Durable Build:</strong> Constructed with heavy-duty materials for long-lasting performance and minimal maintenance.",
-        "<strong>Energy Efficient:</strong> Optimized for low power consumption while maintaining high output, offering cost savings for businesses."
-      ]
-    },
-    { type: "h2", text: "Why Choose SBS-SD-MS-01?" },
-    {
-      type: "p",
-      text: "The SBS-SD-MS-01 Fully Automatic Single Die Paper Plate Machine is perfect for businesses in India seeking a reliable, high-efficiency solution for disposable plate production. Combining durability, precision, and energy efficiency, it is ideal for large-scale production in cities such as Hyderabad, Mumbai, Bangalore, Delhi, Chennai, and Pune."
-    }
-  ],
+        description: [
+          { type: "h2", text: "Overview" },
+          {
+            type: "p",
+            text: "The Fully Automatic Single Die Paper Plate Machine (Model: SBS-SD-MS-01) by SBS Machinery Pvt. Ltd. is an energy-efficient solution designed for reliable, high-quality paper plate production. With a capacity of 15,000–20,000 pieces in 8 hours, it ensures consistent output while minimizing manual effort, making it ideal for large-scale production units across India.",
+          },
+          { type: "h2", text: "Key Features" },
+          {
+            type: "ul",
+            items: [
+              "<strong>Crank Mechanism:</strong> Smooth and reliable operation reduces wear and tear while maintaining consistent quality for high-volume production.",
+              "<strong>Fully Automatic Operation:</strong> Automates feeding, forming, and plate ejection, reducing labor costs and increasing operational efficiency.",
+              "<strong>Single Die Design:</strong> Produces plates of various sizes and shapes with precision, suitable for diverse business needs.",
+              "<strong>Durable Build:</strong> Constructed with heavy-duty materials for long-lasting performance and minimal maintenance.",
+              "<strong>Energy Efficient:</strong> Optimized for low power consumption while maintaining high output, offering cost savings for businesses.",
+            ],
+          },
+          { type: "h2", text: "Why Choose SBS-SD-MS-01?" },
+          {
+            type: "p",
+            text: "The SBS-SD-MS-01 Fully Automatic Single Die Paper Plate Machine is perfect for businesses in India seeking a reliable, high-efficiency solution for disposable plate production. Combining durability, precision, and energy efficiency, it is ideal for large-scale production in cities such as Hyderabad, Mumbai, Bangalore, Delhi, Chennai, and Pune.",
+          },
+        ],
 
-  specs: [
-    { label: "Model", value: "SBS-SD-MS-01" },
-    { label: "Moulds Size", value: "4 inches to 14 inches" },
-    { label: "Power", value: "Single Phase / 2 – 2.5 kW" },
-    { label: "Production Capacity", value: "15,000 – 20,000 Pieces/8 hrs (depending on mould size)" },
-    { label: "Weight", value: "300 kg (approx.)" }
-  ],
+        specs: [
+          { label: "Model", value: "SBS-SD-MS-01" },
+          { label: "Moulds Size", value: "4 inches to 14 inches" },
+          { label: "Power", value: "Single Phase / 2 – 2.5 kW" },
+          {
+            label: "Production Capacity",
+            value: "15,000 – 20,000 Pieces/8 hrs (depending on mould size)",
+          },
+          { label: "Weight", value: "300 kg (approx.)" },
+        ],
 
-  image: [
-    {
-      src: "/products/plate/4.webp",
-      alt: "SBS-SD-MS-01 Fully Automatic Single Die Paper Plate Machine"
-    }
-  ]
-},
+        image: [
+          {
+            src: "/products/plate/4.webp",
+            alt: "SBS-SD-MS-01 Fully Automatic Single Die Paper Plate Machine",
+          },
+        ],
+      },
 
-// product 5
+      // product 5
 
-{
-  id: "SBSHYM03SemiAutomaticDoubleDieSingleCylinderPaperPlateMachine",
-  name: "SBS-HY-M-03 Paper Plate Making Machine (Semi-Automatic) (Double Die Single Cylinder)",
-  metaTitle:
-    "SBS-HY-M-03 Semi-Automatic Double Die Single Cylinder Paper Plate Machine – Efficient & Reliable",
-  metaDescription:
-    "The SBS-HY-M-03 Semi-Automatic Paper Plate Making Machine by SBS Machinery Pvt. Ltd. produces 35,000–40,000 plates in 10 hours with minimal manual intervention. Ideal for medium-scale production units across India.",
+      {
+        id: "SBSHYM03SemiAutomaticDoubleDieSingleCylinderPaperPlateMachine",
+        name: "SBS-HY-M-03 Paper Plate Making Machine (Semi-Automatic) (Double Die Single Cylinder)",
+        metaTitle:
+          "SBS-HY-M-03 Semi-Automatic Double Die Single Cylinder Paper Plate Machine – Efficient & Reliable",
+        metaDescription:
+          "The SBS-HY-M-03 Semi-Automatic Paper Plate Making Machine by SBS Machinery Pvt. Ltd. produces 35,000–40,000 plates in 10 hours with minimal manual intervention. Ideal for medium-scale production units across India.",
 
-  description: [
-    { type: "h2", text: "Overview" },
-    {
-      type: "p",
-      text: "The SBS-HY-M-03 Semi-Automatic Paper Plate Making Machine (Double Die Single Cylinder) by SBS Machinery Pvt. Ltd. is designed for medium-scale production of high-quality disposable paper plates. With a capacity of 35,000–40,000 pieces in 10 hours, it ensures reliable output with minimal manual effort, making it ideal for catering, foodservice, and event sectors in India."
-    },
-    { type: "h2", text: "Key Features" },
-    {
-      type: "ul",
-      items: [
-        "<strong>Double Die Configuration:</strong> Enables simultaneous production of two plates, significantly increasing output efficiency.",
-        "<strong>Double Cylinder Mechanism:</strong> Ensures uniform pressure distribution for consistently superior-quality plates.",
-        "<strong>Semi-Automatic Operation:</strong> Reduces manual intervention, providing flexibility and smooth production.",
-        "<strong>Robust Construction:</strong> Made with high-quality materials for long-term performance and reliable operation under demanding conditions.",
-        "<strong>Versatility:</strong> Capable of producing plates of different sizes and designs to meet diverse market demands."
-      ]
-    },
-    { type: "h2", text: "Why Choose SBS-HY-M-03?" },
-    {
-      type: "p",
-      text: "The SBS-HY-M-03 Semi-Automatic Paper Plate Making Machine is the ideal choice for medium-scale operations in India. It delivers high-quality disposable plates efficiently while being durable, reliable, and eco-friendly, helping businesses meet the growing demand in catering, food service, and event sectors across India."
-    }
-  ],
+        description: [
+          { type: "h2", text: "Overview" },
+          {
+            type: "p",
+            text: "The SBS-HY-M-03 Semi-Automatic Paper Plate Making Machine (Double Die Single Cylinder) by SBS Machinery Pvt. Ltd. is designed for medium-scale production of high-quality disposable paper plates. With a capacity of 35,000–40,000 pieces in 10 hours, it ensures reliable output with minimal manual effort, making it ideal for catering, foodservice, and event sectors in India.",
+          },
+          { type: "h2", text: "Key Features" },
+          {
+            type: "ul",
+            items: [
+              "<strong>Double Die Configuration:</strong> Enables simultaneous production of two plates, significantly increasing output efficiency.",
+              "<strong>Double Cylinder Mechanism:</strong> Ensures uniform pressure distribution for consistently superior-quality plates.",
+              "<strong>Semi-Automatic Operation:</strong> Reduces manual intervention, providing flexibility and smooth production.",
+              "<strong>Robust Construction:</strong> Made with high-quality materials for long-term performance and reliable operation under demanding conditions.",
+              "<strong>Versatility:</strong> Capable of producing plates of different sizes and designs to meet diverse market demands.",
+            ],
+          },
+          { type: "h2", text: "Why Choose SBS-HY-M-03?" },
+          {
+            type: "p",
+            text: "The SBS-HY-M-03 Semi-Automatic Paper Plate Making Machine is the ideal choice for medium-scale operations in India. It delivers high-quality disposable plates efficiently while being durable, reliable, and eco-friendly, helping businesses meet the growing demand in catering, food service, and event sectors across India.",
+          },
+        ],
 
-  specs: [
-    { label: "Moulds Size", value: "4 inches to 14 inches" },
-    { label: "Power", value: "Single Phase / 2 – 2.5 kW" },
-    { label: "Weight", value: "550 Kg (Approx.)" },
-    { label: "Production Capacity", value: "35,000 – 40,000 Pieces in 10 HRS" }
-  ],
+        specs: [
+          { label: "Moulds Size", value: "4 inches to 14 inches" },
+          { label: "Power", value: "Single Phase / 2 – 2.5 kW" },
+          { label: "Weight", value: "550 Kg (Approx.)" },
+          {
+            label: "Production Capacity",
+            value: "35,000 – 40,000 Pieces in 10 HRS",
+          },
+        ],
 
-  image: [
-    {
-      src: "/products/plate/5.webp",
-      alt: "SBS-HY-M-03 Semi-Automatic Double Die Single Cylinder Paper Plate Machine"
-    }
-  ]
-},
+        image: [
+          {
+            src: "/products/plate/5.webp",
+            alt: "SBS-HY-M-03 Semi-Automatic Double Die Single Cylinder Paper Plate Machine",
+          },
+        ],
+      },
 
-// product 6
+      // product 6
 
-{
-  id: "SBSHYM03SemiAutomaticDoubleDieDoubleCylinderPaperPlateMachine",
-  name: "SBS-HY-M-03 Paper Plate Making Machine (Semi-Automatic) (Double Die Double Cylinder)",
-  metaTitle:
-    "SBS-HY-M-03 Semi-Automatic Double Die Double Cylinder Paper Plate Machine – Efficient & Reliable",
-  metaDescription:
-    "The SBS-HY-M-03 Semi-Automatic Double Die Double Cylinder Paper Plate Machine by SBS Machinery Pvt. Ltd. produces 35,000–40,000 plates in 10 hours with minimal manual intervention. Ideal for medium-scale production units across India.",
+      {
+        id: "SBSHYM03SemiAutomaticDoubleDieDoubleCylinderPaperPlateMachine",
+        name: "SBS-HY-M-03 Paper Plate Making Machine (Semi-Automatic) (Double Die Double Cylinder)",
+        metaTitle:
+          "SBS-HY-M-03 Semi-Automatic Double Die Double Cylinder Paper Plate Machine – Efficient & Reliable",
+        metaDescription:
+          "The SBS-HY-M-03 Semi-Automatic Double Die Double Cylinder Paper Plate Machine by SBS Machinery Pvt. Ltd. produces 35,000–40,000 plates in 10 hours with minimal manual intervention. Ideal for medium-scale production units across India.",
 
-  description: [
-    { type: "h2", text: "Overview" },
-    {
-      type: "p",
-      text: "The SBS-HY-M-03 Semi-Automatic Paper Plate Making Machine (Double Die Double Cylinder) by SBS Machinery Pvt. Ltd. provides a reliable and efficient solution for medium-scale production of high-quality disposable paper plates. With a capacity of 35,000–40,000 pieces in 10 hours, it combines ease of operation with enhanced productivity, making it suitable for businesses in Delhi, Mumbai, Bangalore, Hyderabad, and Chennai."
-    },
-    { type: "h2", text: "Key Features" },
-    {
-      type: "ul",
-      items: [
-        "<strong>Double Die Configuration:</strong> Enables simultaneous production of two plates, improving output efficiency for medium-scale businesses.",
-        "<strong>Double Cylinder Mechanism:</strong> Ensures uniform pressure distribution, producing consistent, high-quality plates for catering, restaurants, and supermarkets.",
-        "<strong>Semi-Automatic Operation:</strong> Minimal manual intervention allows flexible and smooth production, ideal for cities like Delhi, Mumbai, and Kolkata.",
-        "<strong>Durable Build:</strong> Constructed from high-quality materials for long-lasting performance even under high-volume production.",
-        "<strong>Versatility:</strong> Produces plates in various sizes and designs, meeting diverse market demands, including eco-friendly and custom designs."
-      ]
-    },
-    { type: "h2", text: "Why Choose SBS-HY-M-03?" },
-    {
-      type: "p",
-      text: "The SBS-HY-M-03 Semi-Automatic Paper Plate Machine (Double Die Double Cylinder) is engineered to offer maximum efficiency, minimal downtime, and reliable production. Perfect for medium-scale businesses in India’s foodservice and packaging industries, it reduces labor costs while ensuring consistent, high-quality disposable plates."
-    }
-  ],
+        description: [
+          { type: "h2", text: "Overview" },
+          {
+            type: "p",
+            text: "The SBS-HY-M-03 Semi-Automatic Paper Plate Making Machine (Double Die Double Cylinder) by SBS Machinery Pvt. Ltd. provides a reliable and efficient solution for medium-scale production of high-quality disposable paper plates. With a capacity of 35,000–40,000 pieces in 10 hours, it combines ease of operation with enhanced productivity, making it suitable for businesses in Delhi, Mumbai, Bangalore, Hyderabad, and Chennai.",
+          },
+          { type: "h2", text: "Key Features" },
+          {
+            type: "ul",
+            items: [
+              "<strong>Double Die Configuration:</strong> Enables simultaneous production of two plates, improving output efficiency for medium-scale businesses.",
+              "<strong>Double Cylinder Mechanism:</strong> Ensures uniform pressure distribution, producing consistent, high-quality plates for catering, restaurants, and supermarkets.",
+              "<strong>Semi-Automatic Operation:</strong> Minimal manual intervention allows flexible and smooth production, ideal for cities like Delhi, Mumbai, and Kolkata.",
+              "<strong>Durable Build:</strong> Constructed from high-quality materials for long-lasting performance even under high-volume production.",
+              "<strong>Versatility:</strong> Produces plates in various sizes and designs, meeting diverse market demands, including eco-friendly and custom designs.",
+            ],
+          },
+          { type: "h2", text: "Why Choose SBS-HY-M-03?" },
+          {
+            type: "p",
+            text: "The SBS-HY-M-03 Semi-Automatic Paper Plate Machine (Double Die Double Cylinder) is engineered to offer maximum efficiency, minimal downtime, and reliable production. Perfect for medium-scale businesses in India’s foodservice and packaging industries, it reduces labor costs while ensuring consistent, high-quality disposable plates.",
+          },
+        ],
 
-  specs: [
-    { label: "Model", value: "SBS-HY-M-03" },
-    { label: "Moulds Size", value: "4 inches to 14 inches" },
-    { label: "Power", value: "Single Phase / 2 – 2.5 kW" },
-    { label: "Weight", value: "550 Kg (Approx.)" },
-    { label: "Production Capacity", value: "35,000 – 40,000 Pieces in 10 HRS" }
-  ],
+        specs: [
+          { label: "Model", value: "SBS-HY-M-03" },
+          { label: "Moulds Size", value: "4 inches to 14 inches" },
+          { label: "Power", value: "Single Phase / 2 – 2.5 kW" },
+          { label: "Weight", value: "550 Kg (Approx.)" },
+          {
+            label: "Production Capacity",
+            value: "35,000 – 40,000 Pieces in 10 HRS",
+          },
+        ],
 
-  image: [
-    {
-      src: "/products/plate/6.webp",
-      alt: "SBS-HY-M-03 Semi-Automatic Double Die Double Cylinder Paper Plate Machine"
-    }
-  ]
-},
-
-
-
-
-
-
-
-
+        image: [
+          {
+            src: "/products/plate/6.webp",
+            alt: "SBS-HY-M-03 Semi-Automatic Double Die Double Cylinder Paper Plate Machine",
+          },
+        ],
+      },
     ],
   },
 
-
-
-  
-    // category 10 nail
+  // category 10 nail
   {
     id: "sbs-nail-art-machine",
     name: "SBS Nail Art Machine",
@@ -2514,76 +2502,837 @@ export const categories = [
     metaDescription:
       "Discover SBS Nail Art Machines, the leading manufacturer of innovative nail art solutions.Elevate your salon experience with our cutting-edge technology.",
 
-      // products
+    // products
     products: [
-
-
       // product 1
 
-     {
-  id: "SBSNailArtMachine",
-  name: "SBS Nail Art Machine",
-  metaTitle:
-    "SBS Nail Art Machine – High-Precision Digital Nail Printing System",
-  metaDescription:
-    "The SBS Nail Art Machine by SBS Machinery Pvt. Ltd. is a state-of-the-art digital nail printing system for salons, beauty parlors, and nail art studios in India. It delivers high-resolution, customizable designs quickly and efficiently.",
+      {
+        id: "SBSNailArtMachine",
+        name: "SBS Nail Art Machine",
+        metaTitle:
+          "SBS Nail Art Machine – High-Precision Digital Nail Printing System",
+        metaDescription:
+          "The SBS Nail Art Machine by SBS Machinery Pvt. Ltd. is a state-of-the-art digital nail printing system for salons, beauty parlors, and nail art studios in India. It delivers high-resolution, customizable designs quickly and efficiently.",
 
-  description: [
-    { type: "h2", text: "Overview" },
-    {
-      type: "p",
-      text: "The SBS Nail Art Machine is a high-performance digital nail printing system designed for professional salons, beauty parlors, and nail art studios in India. It allows rapid and precise application of intricate nail designs, logos, photos, and patterns directly onto natural or artificial nails, enabling stunning, customized nail art in seconds."
-    },
-    { type: "h2", text: "Key Features" },
-    {
-      type: "ul",
-      items: [
-        "<strong>Fully Automatic Operation:</strong> High-speed, precise nail art printing with minimal manual effort.",
-        "<strong>High-Resolution Prints:</strong> Produces vibrant, long-lasting nail designs.",
-        "<strong>Built-in Design Library:</strong> Over 1000 pre-loaded patterns for instant use.",
-        "<strong>Custom Photo Support:</strong> Import designs via USB or mobile app.",
-        "<strong>Touch Screen Control:</strong> Intuitive interface for easy operation.",
-        "<strong>Compact & Salon-Friendly:</strong> Ideal for professional and mobile beauty services.",
-        "<strong>Safe Technology:</strong> Skin-friendly and suitable for all nail types."
-      ]
-    },
-    { type: "h2", text: "Applications" },
-    {
-      type: "p",
-      text: "Perfect for beauty salons, nail bars, bridal makeup artists, and freelance nail technicians across India, the SBS Nail Art Machine enables quick transformation of ordinary manicures into stunning works of art."
-    },
-    { type: "h2", text: "Why Choose SBS Nail Art Machine?" },
-    {
-      type: "p",
-      text: "The SBS Nail Art Machine is ideal for salon owners looking to enhance services with trendy, high-quality nail art. With wide availability, after-sales support, and cutting-edge technology, it is a smart investment for modern nail businesses in India."
-    }
-  ],
+        description: [
+          { type: "h2", text: "Overview" },
+          {
+            type: "p",
+            text: "The SBS Nail Art Machine is a high-performance digital nail printing system designed for professional salons, beauty parlors, and nail art studios in India. It allows rapid and precise application of intricate nail designs, logos, photos, and patterns directly onto natural or artificial nails, enabling stunning, customized nail art in seconds.",
+          },
+          { type: "h2", text: "Key Features" },
+          {
+            type: "ul",
+            items: [
+              "<strong>Fully Automatic Operation:</strong> High-speed, precise nail art printing with minimal manual effort.",
+              "<strong>High-Resolution Prints:</strong> Produces vibrant, long-lasting nail designs.",
+              "<strong>Built-in Design Library:</strong> Over 1000 pre-loaded patterns for instant use.",
+              "<strong>Custom Photo Support:</strong> Import designs via USB or mobile app.",
+              "<strong>Touch Screen Control:</strong> Intuitive interface for easy operation.",
+              "<strong>Compact & Salon-Friendly:</strong> Ideal for professional and mobile beauty services.",
+              "<strong>Safe Technology:</strong> Skin-friendly and suitable for all nail types.",
+            ],
+          },
+          { type: "h2", text: "Applications" },
+          {
+            type: "p",
+            text: "Perfect for beauty salons, nail bars, bridal makeup artists, and freelance nail technicians across India, the SBS Nail Art Machine enables quick transformation of ordinary manicures into stunning works of art.",
+          },
+          { type: "h2", text: "Why Choose SBS Nail Art Machine?" },
+          {
+            type: "p",
+            text: "The SBS Nail Art Machine is ideal for salon owners looking to enhance services with trendy, high-quality nail art. With wide availability, after-sales support, and cutting-edge technology, it is a smart investment for modern nail businesses in India.",
+          },
+        ],
 
-  specs: [
-    { label: "Operating Temperature", value: "5°C – 35°C" },
-    { label: "Operating Relative Humidity", value: "20% – 80% (non-condensing)" },
-    { label: "Storage Temperature", value: "-20°C – 60°C" },
-    { label: "Storage Relative Humidity", value: "20% – 93% (non-condensing)" },
-    { label: "Wireless Connection", value: "WiFi 2.4GHz, 802.11b/g/n" },
-    { label: "Bluetooth", value: "Bluetooth 4.0" },
-    { label: "Power Supply", value: "Universal power adapter, Input Voltage: 100-240 VAC, 50-60 Hz" },
-    { label: "Output Voltage", value: "24Vdc, 2500 mA" },
-    { label: "Output Power Consumption", value: "60W" },
-    { label: "Acoustic Emission", value: "Sound Pressure 67 dB" },
-    { label: "Dimensions (W/D/H)", value: "233mm / 177mm / 326mm" },
-    { label: "Weight", value: "2750g" }
-  ],
+        specs: [
+          { label: "Operating Temperature", value: "5°C – 35°C" },
+          {
+            label: "Operating Relative Humidity",
+            value: "20% – 80% (non-condensing)",
+          },
+          { label: "Storage Temperature", value: "-20°C – 60°C" },
+          {
+            label: "Storage Relative Humidity",
+            value: "20% – 93% (non-condensing)",
+          },
+          { label: "Wireless Connection", value: "WiFi 2.4GHz, 802.11b/g/n" },
+          { label: "Bluetooth", value: "Bluetooth 4.0" },
+          {
+            label: "Power Supply",
+            value:
+              "Universal power adapter, Input Voltage: 100-240 VAC, 50-60 Hz",
+          },
+          { label: "Output Voltage", value: "24Vdc, 2500 mA" },
+          { label: "Output Power Consumption", value: "60W" },
+          { label: "Acoustic Emission", value: "Sound Pressure 67 dB" },
+          { label: "Dimensions (W/D/H)", value: "233mm / 177mm / 326mm" },
+          { label: "Weight", value: "2750g" },
+        ],
 
-  image: [
-    {
-      src: "/products/nail/1.webp",
-      alt: "SBS Nail Art Machine"
-    }
-  ]
-}
-
-
-      
+        image: [
+          {
+            src: "/products/nail/1.webp",
+            alt: "SBS Nail Art Machine",
+          },
+        ],
+      },
     ],
+  },
+];
+
+export const serviceLocations = [
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-uttarakhand",
+    label: "Uttarakhand",
+    id: 3,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-delhi-ncr",
+    label: "Delhi NCR",
+    id: 5,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-bahadurgarh",
+    label: "Bahadurgarh",
+    id: 7,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-bengaluru",
+    label: "Bengaluru",
+    id: 8,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-bhiwadi",
+    label: "Bhiwadi",
+    id: 9,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-bhopal",
+    label: "Bhopal",
+    id: 10,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-bhubaneswar",
+    label: "Bhubaneswar",
+    id: 11,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-bihar",
+    label: "Bihar",
+    id: 12,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-chandigarh",
+    label: "Chandigarh",
+    id: 13,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-chennai",
+    label: "Chennai",
+    id: 14,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-chhattisgarh",
+    label: "Chhattisgarh",
+    id: 15,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-daman",
+    label: "Daman",
+    id: 16,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-dehradun",
+    label: "Dehradun",
+    id: 17,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-delhi",
+    label: "Delhi",
+    id: 18,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-gandhinagar",
+    label: "Gandhinagar",
+    id: 19,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-ghaziabad",
+    label: "Ghaziabad",
+    id: 20,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-goa",
+    label: "Goa",
+    id: 21,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-greater-noida",
+    label: "Greater Noida",
+    id: 22,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-gujarat",
+    label: "Gujarat",
+    id: 23,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-gurgaon",
+    label: "Gurgaon",
+    id: 24,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-guwahati",
+    label: "Guwahati",
+    id: 25,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-gwalior",
+    label: "Gwalior",
+    id: 26,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-haridwar",
+    label: "Haridwar",
+    id: 27,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-haryana",
+    label: "Haryana",
+    id: 28,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-himachal-pradesh",
+    label: "Himachal Pradesh",
+    id: 29,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-hyderabad",
+    label: "Hyderabad",
+    id: 30,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-indore",
+    label: "Indore",
+    id: 31,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-jaipur",
+    label: "Jaipur",
+    id: 32,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-jammu-and-kashmir",
+    label: "Jammu & Kashmir",
+    id: 33,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-jharkhand",
+    label: "Jharkhand",
+    id: 34,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-kanpur",
+    label: "Kanpur",
+    id: 35,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-karnataka",
+    label: "Karnataka",
+    id: 36,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-kerala",
+    label: "Kerala",
+    id: 37,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-kolkata",
+    label: "Kolkata",
+    id: 38,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-kundli",
+    label: "Kundli",
+    id: 39,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-leh",
+    label: "Leh",
+    id: 40,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-lucknow",
+    label: "Lucknow",
+    id: 41,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-ludhiana",
+    label: "Ludhiana",
+    id: 42,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-madhya-pradesh",
+    label: "Madhya Pradesh",
+    id: 43,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-maharashtra",
+    label: "Maharashtra",
+    id: 44,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-manali",
+    label: "Manali",
+    id: 45,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-manesar",
+    label: "Manesar",
+    id: 46,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-mathura",
+    label: "Mathura",
+    id: 47,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-meerut",
+    label: "Meerut",
+    id: 48,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-mumbai",
+    label: "Mumbai",
+    id: 49,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-nagpur",
+    label: "Nagpur",
+    id: 50,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-noida",
+    label: "Noida",
+    id: 51,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-orissa",
+    label: "Orissa",
+    id: 52,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-panipat",
+    label: "Panipat",
+    id: 53,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-patna",
+    label: "Patna",
+    id: 54,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-pune",
+    label: "Pune",
+    id: 55,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-punjab",
+    label: "Punjab",
+    id: 56,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-raipur",
+    label: "Raipur",
+    id: 57,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-rajasthan",
+    label: "Rajasthan",
+    id: 58,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-ranchi",
+    label: "Ranchi",
+    id: 59,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-rohtak",
+    label: "Rohtak",
+    id: 60,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-roorkee",
+    label: "Roorkee",
+    id: 61,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-rudrapur",
+    label: "Rudrapur",
+    id: 62,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-shimla",
+    label: "Shimla",
+    id: 63,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-sikkim",
+    label: "Sikkim",
+    id: 64,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-sonipat",
+    label: "Sonipat",
+    id: 65,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-srinagar",
+    label: "Srinagar",
+    id: 66,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-tamil-nadu",
+    label: "Tamil Nadu",
+    id: 67,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-telangana",
+    label: "Telangana",
+    id: 68,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-thiruvananthapuram",
+    label: "Thiruvananthapuram",
+    id: 69,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-uttar-pradesh",
+    label: "Uttar Pradesh",
+    id: 70,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-uttaranchal",
+    label: "Uttaranchal",
+    id: 71,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-west-bengal",
+    label: "West Bengal",
+    id: 72,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-ayodhya",
+    label: "Ayodhya",
+    id: 73,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-haora",
+    label: "Haora",
+    id: 77,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-hugli",
+    label: "Hugli",
+    id: 78,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-nadia",
+    label: "Nadia",
+    id: 79,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-murshidabad",
+    label: "Murshidabad",
+    id: 80,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-faridabad",
+    label: "Faridabad",
+    id: 81,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-bhiwani",
+    label: "Bhiwani",
+    id: 82,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-sirsa",
+    label: "Sirsa",
+    id: 83,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-jind",
+    label: "Jind",
+    id: 84,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-yamuna-nagar",
+    label: "Yamuna Nagar",
+    id: 85,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-karnal",
+    label: "Karnal",
+    id: 86,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-kurukshetra",
+    label: "Kurukshetra",
+    id: 87,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-ambala",
+    label: "Ambala",
+    id: 88,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-jhajjar",
+    label: "Jhajjar",
+    id: 89,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-rewari",
+    label: "Rewari",
+    id: 90,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-punchkula",
+    label: "Punchkula",
+    id: 91,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-mohali",
+    label: "Mohali",
+    id: 92,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-kapurthala",
+    label: "Kapurthala",
+    id: 93,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-patiala",
+    label: "Patiala",
+    id: 94,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-bhatinda",
+    label: "Bhatinda",
+    id: 95,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-hoshiyarpur",
+    label: "Hoshiyarpur",
+    id: 96,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-gurdaspur",
+    label: "Gurdaspur",
+    id: 97,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-allahabad",
+    label: "Allahabad",
+    id: 98,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-moradabad",
+    label: "Moradabad",
+    id: 99,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-bareilly",
+    label: "Bareilly",
+    id: 100,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-hardoi",
+    label: "Hardoi",
+    id: 101,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-varanasi",
+    label: "Varanasi",
+    id: 102,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-aligarh",
+    label: "Aligarh",
+    id: 103,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-bulandshahar",
+    label: "Bulandshahar",
+    id: 104,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-shahjahanpur",
+    label: "Shahjahanpur",
+    id: 105,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-jhansi",
+    label: "Jhansi",
+    id: 106,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-alwar",
+    label: "Alwar",
+    id: 107,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-ajmer",
+    label: "Ajmer",
+    id: 108,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-kota",
+    label: "Kota",
+    id: 109,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-bikaner",
+    label: "Bikaner",
+    id: 110,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-jodhpur",
+    label: "Jodhpur",
+    id: 111,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-surat",
+    label: "Surat",
+    id: 112,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-vadodra",
+    label: "vadodra",
+    id: 113,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-rajkot",
+    label: "Rajkot",
+    id: 114,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-muzaffarpur",
+    label: "Muzaffarpur",
+    id: 115,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-madurai",
+    label: "Madurai",
+    id: 116,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-puducherry",
+    label: "Puducherry",
+    id: 117,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-faizabad",
+    label: "Faizabad",
+    id: 118,
+  },
+];
+
+export const cardDataLandingPage = [
+  {
+    title: "Quality Assurance",
+    icon: <ShieldCheck size={40} />,
+    desc: "At SBS Machinery, quality is our top priority. All our machines are built using premium-grade materials and adhere to stringent manufacturing standards. Whether it’s a paper cup machine or a flexo printer, each unit is tested for performance, safety, and durability — ensuring long-lasting operation even in high-output environments.",
+  },
+  {
+    title: "Customization Options",
+    icon: <ShieldCheck size={40} />,
+    desc: "We offer extensive customization for all machine models — from paper cup sizes and printing color options to die-cut patterns and bag handle types. Our team works closely with each client to develop systems that align with your exact production needs, factory layout, and capacity goals",
+  },
+  {
+    title: "Extensive Industry Experience",
+    icon: <Cog size={40} />,
+    desc: "With over a decade of experience in manufacturing eco-packaging machines, SBS Machinery has built a reputation for reliability and innovation. Our expert engineers and technicians ensure smooth installation, training, and support for clients ranging from small startups to large industrial units.",
+  },
+  {
+    title: "Nationwide Availability",
+    icon: <Mountain size={40} />,
+    desc: "Our machines are readily available across major industrial cities in India, including Delhi, Mumbai, Bangalore, Hyderabad, and Ahmedabad. With quick shipping and local service teams, we guarantee reliable delivery and post-sales support anywhere in the country.",
+  },
+  {
+    title: "Customer-Centric Approach",
+    icon: <Earth size={40} />,
+    desc: "Customer satisfaction is at the heart of our operations. We build strong partnerships with clients by offering personalized consultation, transparent pricing, and after-sales service that ensures long-term success. Your growth is our mission.",
+  },
+  {
+    title: "Value for Money",
+    icon: <CircleDollarSign size={40} />,
+    desc: "SBS Machinery offers competitive pricing without compromising on quality. With industry-leading warranties, service packages, and high ROI, our machines give you the best value. Invest with confidence, knowing you’re getting reliable solutions that perform exceptionally.",
+  },
+];
+
+export const ourProductLandingPage = [
+  {
+    image: "/products/Paper Cup Machine/Paper Cup Machine SBS-80.webp",
+    subTitle: "Paper Cup Machines",
+    title: "Fully Automatic Paper Cup Making Machine",
+    desc: "SBS Machinery’s flagship product. Ideal for manufacturing disposable paper cups ranging from 30ml to 350ml. Features include ultrasonic sealing, automatic cup collection, servo motor control, and options for single or double PE-coated paper. Capable of producing 45–120 cups per minute depending on the model.",
+    tabel: {
+      Model: "SBS-80",
+      "Moulds Size": "40ml to 300ml",
+      Power: "5 KW / Three Phase",
+      Weight: "2000 kg (approx.)",
+      Production: "70-80 pcs./min (depending on the sizes of moulds)",
+    },
+    link: "https://sbsmachinery.in/products/PaperCupMachineSBS-120",
+  },
+  {
+    image:
+      "/products/bio/BIO-DEGRADABLE BAG MAKING MACHINE (40MM BLOWING PLANT).webp",
+
+    subTitle: "Biodegradable Packaging Machines",
+    title: "Biodegradable Bag Making Machine",
+    desc: "Designed to manufacture compostable and eco-friendly bags using biodegradable film. Supports roll-to-bag operation, automatic folding, cutting, and sealing. Fully compliant with India’s plastic ban policies. Ideal for businesses looking to switch to sustainable packaging.",
+    tabel: {
+      "Tower Height": "10-14 Feet",
+      "Machine Nip Roller Size": "32″ Inch",
+      "Connecting Load": "32 kW (42 HP)",
+      "Maximum Output": "35 to 50 Kg./Hr",
+      "Main Motor": "15 HP",
+      "Air Blower": "5 HP",
+    },
+    link: "https://sbsmachinery.in/products/BiodegradableBagPunchingMachine",
+  },
+  {
+    image: "/products/bio/Biodegradable Bag Punching Machine.webp",
+    subTitle: "Biodegradable Packaging Machines",
+    title: "Non-Woven Bag Making Machine",
+    desc: "Designed to manufacture compostable and eco-friendly bags using biodegradable film. Supports roll-to-bag operation, automatic folding, cutting, and sealing. Fully compliant with India’s plastic ban policies. Ideal for businesses looking to switch to sustainable packaging.",
+    tabel: {
+      Model: "A-700",
+      "Moulds Size": "40ml to 300ml",
+      "Power Supply": "220 V",
+      Power: "5 kW",
+      "Overall Size": "1700 X 1700 X 1500 MM",
+      "Production Speed": "5 – 20 pcs/min",
+    },
+    link: "https://sbsmachinery.in/products/BiodegradableBagPunchingMachine",
+  },
+  {
+    image: "/products/plate/2.webp",
+    subTitle: "Cutting & Plate Making",
+    title: "Paper Plate & Die Cutting Machine",
+    desc: "High-speed hydraulic or pneumatic die cutting machines suitable for making disposable plates, bowls, and trays. Can handle paper and biodegradable sheets. Available in multiple tonnage capacities and auto/manual options.",
+    tabel: {
+      Type: "SBS-1200",
+      "Paper Convey Width": "1200mm-400mm",
+      "Cut Precision": "± 0.10mm",
+      "Production Capacity": "150-200 times/min",
+      "Maximum Cutting Size": "1200 x 640mm",
+      "Suitable Material":
+        "100-800g/m² white cardboard, PE coated paper, Kraft paper etc.",
+      "Maximum Pressure": "350T",
+    },
+    link: "https://sbsmachinery.in/products/SBSHYM01SemiAutomaticHydraulicSingleDieMachine",
+  },
+  {
+    image: "/products/flexo/(FOUR COLOUR).webp",
+    subTitle: "Printing Machines",
+    title: "Flexo Printing Machine",
+    desc: "Designed for printing on PE-coated paper, kraft paper, and non-woven fabric. Multi-color options available (1–6 colors). Ideal for printing logos, designs, and branding on cups and bags before forming.",
+    tabel: {
+      "Paper Thickness": "30 – 250 G/M2",
+      "Bag Thickness": "42 – 150 GSM",
+      Power: "3.5 – 4 kW (Single Phase)",
+      Weight: "3000 – 3500 Kg",
+      "Production Speed": "2000 – 8000 IPH",
+    },
+    link: "https://sbsmachinery.in/products/FlexoNonWovenBagPrintingMachineFourColour",
+  },
+  {
+    image: "/products/offset/OFFSET.webp",
+    subTitle: "Printing Machines",
+    title: "Offset Printing Machine",
+    desc: "Used for high-resolution printing on paper sheets. Suitable for printing cup blanks, box packaging, labels, and promotional materials. Ensures sharp image clarity and fast throughput, making it suitable for bulk printing.",
+    tabel: {
+      "Paper Thickness": "30 – 250 G/M2",
+      "Bag Thickness": "42 – 150 GSM",
+      Power: "3.5 – 4 kW (Single Phase)",
+      Weight: "3000 – 3500 Kg",
+      "Production Speed": "2000 – 8000 IPH",
+    },
+    link: "https://sbsmachinery.in/products/FlexoNonWovenBagPrintingMachineFourColour",
+  },
+];
+
+export const InquiryWhyChooseUs = [
+  {
+    image: "/sbsImage/supplier.png",
+    num: "1000+",
+    desc: "Machines Successfully installed Pan india & Export Markets",
+    bg: "bg-[#FFF1F1]",
+  },
+  {
+    image: "/sbsImage/testing.png",
+    num: "100+",
+    desc: "Industries Served Catering, Packaging, FMCG & More",
+    bg: "bg-[#F8E0FC]",
+  },
+  {
+    image: "/sbsImage/india.png",
+    num: "PAN India",
+    desc: "Delivery & Service Network With Spare Parts & AMC Support",
+    bg: "bg-[#F9FFE1]",
+  },
+  {
+    image: "/sbsImage/registration.png",
+    num: "15+ Years",
+    desc: "Engineering Experience Trusted by Manufacturers Across India",
+    bg: "bg-[#C6FFF4]",
+  },
+];
+
+
+export const faqData = [
+  {
+    question: "What does SBS Machinery specialize in?",
+    answer:
+      "SBS Machinery is a leading paper cup making machine manufacturer in India, specializing in high-speed, fully automatic paper cup machines, biodegradable bag making machines, die cutting units, and printing systems.",
+  },
+  {
+    question: "Where is SBS Machinery based?",
+    answer:
+      "Our manufacturing and support operations are based in Najafgarh, Delhi, with pan-India delivery and service coverage.",
+  },
+  {
+    question: "What types of paper cup machines do you offer?",
+    answer:
+      "We offer a wide range of paper cup machines including single PE, double PE, and ultrasonic paper cup making machines, suited for different cup sizes from 30ml to 350ml and more.",
+  },
+  {
+    question: "Are your machines automatic or semi-automatic?",
+    answer:
+      "SBS Machinery mainly provides fully automatic paper cup machines, designed to increase production efficiency, reduce manual labor, and ensure consistent cup quality.",
+  },
+  {
+    question: "What is the production capacity of your paper cup making machines?",
+    answer:
+      "Our machines can produce anywhere from 45 to 120 paper cups per minute, depending on the model and cup size.",
+  },
+  {
+    question: "Can I customize the cup size and shape?",
+    answer:
+      "Yes, we offer customizable dies and cup sizes based on your specific requirements. You can produce various shapes for tea cups, coffee cups, juice glasses, and ice cream bowls.",
+  },
+  {
+    question: "What power source is required for your machines?",
+    answer:
+      "Most of our machines require a 220V to 380V 3-phase power supply, depending on the model. We’ll recommend the best power configuration during consultation.",
+  },
+  {
+    question: "Do you provide installation and training?",
+    answer:
+      "Yes. As a complete paper cup machine manufacturer, we provide on-site installation, training for operators, and a maintenance guide after delivery.",
   },
 ];
