@@ -15,7 +15,7 @@ import CityPage from "@/components/City";
 const Location = () => {
   const params = useParams();
   const city =
-    params.location.split("-")[params.location.split("-").length - 1];
+    params.location.split("-in-")?.[1];
 
   const [openFaq, setOpenFaq] = useState(null);
 
