@@ -1,5 +1,6 @@
 export const dynamic = "force-dynamic";
 
+import { serviceLocations } from "@/Data";
 
 import { categories } from "@/Data";
 import { client } from "@/lib/sanity";
@@ -95,6 +96,23 @@ export async function GET() {
     )
     .join("");
 
+
+
+
+    const locationUrls = serviceLocations
+  .map(
+    (loc) => `
+      <url>
+        <loc>${baseUrl}${loc.href}</loc>
+        <lastmod>${new Date().toISOString()}</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+      </url>
+    `
+  )
+  .join("");
+
+
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     ${homepage}
@@ -102,6 +120,8 @@ export async function GET() {
     ${categoryUrls}
     ${productUrls}
     ${blogUrls}
+    ${locationUrls}
+
   </urlset>`;
 
   return new Response(sitemap, {

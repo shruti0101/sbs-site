@@ -2581,564 +2581,6 @@ export const categories = [
   },
 ];
 
-export const serviceLocations = [
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-uttarakhand",
-    label: "Uttarakhand",
-    id: 3,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-delhi-ncr",
-    label: "Delhi NCR",
-    id: 5,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-bahadurgarh",
-    label: "Bahadurgarh",
-    id: 7,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-bengaluru",
-    label: "Bengaluru",
-    id: 8,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-bhiwadi",
-    label: "Bhiwadi",
-    id: 9,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-bhopal",
-    label: "Bhopal",
-    id: 10,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-bhubaneswar",
-    label: "Bhubaneswar",
-    id: 11,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-bihar",
-    label: "Bihar",
-    id: 12,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-chandigarh",
-    label: "Chandigarh",
-    id: 13,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-chennai",
-    label: "Chennai",
-    id: 14,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-chhattisgarh",
-    label: "Chhattisgarh",
-    id: 15,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-daman",
-    label: "Daman",
-    id: 16,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-dehradun",
-    label: "Dehradun",
-    id: 17,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-delhi",
-    label: "Delhi",
-    id: 18,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-gandhinagar",
-    label: "Gandhinagar",
-    id: 19,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-ghaziabad",
-    label: "Ghaziabad",
-    id: 20,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-goa",
-    label: "Goa",
-    id: 21,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-greater-noida",
-    label: "Greater Noida",
-    id: 22,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-gujarat",
-    label: "Gujarat",
-    id: 23,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-gurgaon",
-    label: "Gurgaon",
-    id: 24,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-guwahati",
-    label: "Guwahati",
-    id: 25,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-gwalior",
-    label: "Gwalior",
-    id: 26,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-haridwar",
-    label: "Haridwar",
-    id: 27,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-haryana",
-    label: "Haryana",
-    id: 28,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-himachal-pradesh",
-    label: "Himachal Pradesh",
-    id: 29,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-hyderabad",
-    label: "Hyderabad",
-    id: 30,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-indore",
-    label: "Indore",
-    id: 31,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-jaipur",
-    label: "Jaipur",
-    id: 32,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-jammu-and-kashmir",
-    label: "Jammu & Kashmir",
-    id: 33,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-jharkhand",
-    label: "Jharkhand",
-    id: 34,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-kanpur",
-    label: "Kanpur",
-    id: 35,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-karnataka",
-    label: "Karnataka",
-    id: 36,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-kerala",
-    label: "Kerala",
-    id: 37,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-kolkata",
-    label: "Kolkata",
-    id: 38,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-kundli",
-    label: "Kundli",
-    id: 39,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-leh",
-    label: "Leh",
-    id: 40,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-lucknow",
-    label: "Lucknow",
-    id: 41,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-ludhiana",
-    label: "Ludhiana",
-    id: 42,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-madhya-pradesh",
-    label: "Madhya Pradesh",
-    id: 43,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-maharashtra",
-    label: "Maharashtra",
-    id: 44,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-manali",
-    label: "Manali",
-    id: 45,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-manesar",
-    label: "Manesar",
-    id: 46,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-mathura",
-    label: "Mathura",
-    id: 47,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-meerut",
-    label: "Meerut",
-    id: 48,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-mumbai",
-    label: "Mumbai",
-    id: 49,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-nagpur",
-    label: "Nagpur",
-    id: 50,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-noida",
-    label: "Noida",
-    id: 51,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-orissa",
-    label: "Orissa",
-    id: 52,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-panipat",
-    label: "Panipat",
-    id: 53,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-patna",
-    label: "Patna",
-    id: 54,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-pune",
-    label: "Pune",
-    id: 55,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-punjab",
-    label: "Punjab",
-    id: 56,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-raipur",
-    label: "Raipur",
-    id: 57,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-rajasthan",
-    label: "Rajasthan",
-    id: 58,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-ranchi",
-    label: "Ranchi",
-    id: 59,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-rohtak",
-    label: "Rohtak",
-    id: 60,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-roorkee",
-    label: "Roorkee",
-    id: 61,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-rudrapur",
-    label: "Rudrapur",
-    id: 62,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-shimla",
-    label: "Shimla",
-    id: 63,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-sikkim",
-    label: "Sikkim",
-    id: 64,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-sonipat",
-    label: "Sonipat",
-    id: 65,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-srinagar",
-    label: "Srinagar",
-    id: 66,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-tamil-nadu",
-    label: "Tamil Nadu",
-    id: 67,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-telangana",
-    label: "Telangana",
-    id: 68,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-thiruvananthapuram",
-    label: "Thiruvananthapuram",
-    id: 69,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-uttar-pradesh",
-    label: "Uttar Pradesh",
-    id: 70,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-uttaranchal",
-    label: "Uttaranchal",
-    id: 71,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-west-bengal",
-    label: "West Bengal",
-    id: 72,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-ayodhya",
-    label: "Ayodhya",
-    id: 73,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-haora",
-    label: "Haora",
-    id: 77,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-hugli",
-    label: "Hugli",
-    id: 78,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-nadia",
-    label: "Nadia",
-    id: 79,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-murshidabad",
-    label: "Murshidabad",
-    id: 80,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-faridabad",
-    label: "Faridabad",
-    id: 81,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-bhiwani",
-    label: "Bhiwani",
-    id: 82,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-sirsa",
-    label: "Sirsa",
-    id: 83,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-jind",
-    label: "Jind",
-    id: 84,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-yamuna-nagar",
-    label: "Yamuna Nagar",
-    id: 85,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-karnal",
-    label: "Karnal",
-    id: 86,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-kurukshetra",
-    label: "Kurukshetra",
-    id: 87,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-ambala",
-    label: "Ambala",
-    id: 88,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-jhajjar",
-    label: "Jhajjar",
-    id: 89,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-rewari",
-    label: "Rewari",
-    id: 90,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-punchkula",
-    label: "Punchkula",
-    id: 91,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-mohali",
-    label: "Mohali",
-    id: 92,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-kapurthala",
-    label: "Kapurthala",
-    id: 93,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-patiala",
-    label: "Patiala",
-    id: 94,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-bhatinda",
-    label: "Bhatinda",
-    id: 95,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-hoshiyarpur",
-    label: "Hoshiyarpur",
-    id: 96,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-gurdaspur",
-    label: "Gurdaspur",
-    id: 97,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-allahabad",
-    label: "Allahabad",
-    id: 98,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-moradabad",
-    label: "Moradabad",
-    id: 99,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-bareilly",
-    label: "Bareilly",
-    id: 100,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-hardoi",
-    label: "Hardoi",
-    id: 101,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-varanasi",
-    label: "Varanasi",
-    id: 102,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-aligarh",
-    label: "Aligarh",
-    id: 103,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-bulandshahar",
-    label: "Bulandshahar",
-    id: 104,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-shahjahanpur",
-    label: "Shahjahanpur",
-    id: 105,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-jhansi",
-    label: "Jhansi",
-    id: 106,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-alwar",
-    label: "Alwar",
-    id: 107,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-ajmer",
-    label: "Ajmer",
-    id: 108,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-kota",
-    label: "Kota",
-    id: 109,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-bikaner",
-    label: "Bikaner",
-    id: 110,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-jodhpur",
-    label: "Jodhpur",
-    id: 111,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-surat",
-    label: "Surat",
-    id: 112,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-vadodra",
-    label: "vadodra",
-    id: 113,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-rajkot",
-    label: "Rajkot",
-    id: 114,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-muzaffarpur",
-    label: "Muzaffarpur",
-    id: 115,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-madurai",
-    label: "Madurai",
-    id: 116,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-puducherry",
-    label: "Puducherry",
-    id: 117,
-  },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-faizabad",
-    label: "Faizabad",
-    id: 118,
-  },
-];
-
 export const cardDataLandingPage = [
   {
     title: "Quality Assurance",
@@ -3293,7 +2735,6 @@ export const InquiryWhyChooseUs = [
   },
 ];
 
-
 export const faqData = [
   {
     question: "What does SBS Machinery specialize in?",
@@ -3316,7 +2757,8 @@ export const faqData = [
       "SBS Machinery mainly provides fully automatic paper cup machines, designed to increase production efficiency, reduce manual labor, and ensure consistent cup quality.",
   },
   {
-    question: "What is the production capacity of your paper cup making machines?",
+    question:
+      "What is the production capacity of your paper cup making machines?",
     answer:
       "Our machines can produce anywhere from 45 to 120 paper cups per minute, depending on the model and cup size.",
   },
@@ -3334,5 +2776,581 @@ export const faqData = [
     question: "Do you provide installation and training?",
     answer:
       "Yes. As a complete paper cup machine manufacturer, we provide on-site installation, training for operators, and a maintenance guide after delivery.",
+  },
+];
+
+export const serviceLocations = [
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-ajmer",
+    label: "Ajmer",
+    id: 1,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-aligarh",
+    label: "Aligarh",
+    id: 2,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-ambala",
+    label: "Ambala",
+    id: 3,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-ayodhya",
+    label: "Ayodhya",
+    id: 4,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-alwar",
+    label: "Alwar",
+    id: 5,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-bahadurgarh",
+    label: "Bahadurgarh",
+    id: 6,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-bareilly",
+    label: "Bareilly",
+    id: 7,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-bathinda ",
+    label: "Bathinda ",
+    id: 8,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-bengaluru",
+    label: "Bengaluru",
+    id: 9,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-bharatpur",
+    label: "Bharatpur",
+    id: 10,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-bhiwani",
+    label: "Bhiwani",
+    id: 11,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-bhiwadi",
+    label: "Bhiwadi",
+    id: 12,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-bhopal",
+    label: "Bhopal",
+    id: 13,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-bhubaneswar",
+    label: "Bhubaneswar",
+    id: 14,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-bihar",
+    label: "Bihar",
+    id: 15,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-bikaner",
+    label: "Bikaner",
+    id: 16,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-bulandshahr",
+    label: "Bulandshahr",
+    id: 17,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-chandigarh",
+    label: "Chandigarh",
+    id: 18,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-chennai",
+    label: "Chennai",
+    id: 19,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-chhattisgarh",
+    label: "Chhattisgarh",
+    id: 20,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-daman",
+    label: "Daman",
+    id: 21,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-dehradun",
+    label: "Dehradun",
+    id: 22,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-delhi",
+    label: "Delhi",
+    id: 23,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-delhi-ncr",
+    label: "Delhi NCR",
+    id: 24,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-faizabad",
+    label: "Faizabad",
+    id: 25,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-faridabad",
+    label: "Faridabad",
+    id: 26,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-gandhinagar",
+    label: "Gandhinagar",
+    id: 27,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-ghaziabad",
+    label: "Ghaziabad",
+    id: 28,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-goa",
+    label: "Goa",
+    id: 29,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-greater-noida",
+    label: "Greater Noida",
+    id: 30,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-gujarat",
+    label: "Gujarat",
+    id: 31,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-gurdaspur",
+    label: "Gurdaspur",
+    id: 32,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-gurgaon",
+    label: "Gurgaon",
+    id: 33,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-guwahati",
+    label: "Guwahati",
+    id: 34,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-gwalior",
+    label: "Gwalior",
+    id: 35,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-hardoi",
+    label: "Hardoi",
+    id: 36,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-haridwar",
+    label: "Haridwar",
+    id: 37,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-haryana",
+    label: "Haryana",
+    id: 38,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-himachal-pradesh",
+    label: "Himachal Pradesh",
+    id: 39,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-hoshiarpur",
+    label: "Hoshiarpur",
+    id: 40,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-howrah",
+    label: "Howrah",
+    id: 41,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-hooghly",
+    label: "Hooghly",
+    id: 42,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-hyderabad",
+    label: "Hyderabad",
+    id: 43,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-indore",
+    label: "Indore",
+    id: 44,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-jabalpur",
+    label: "Jabalpur",
+    id: 45,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-jaipur",
+    label: "Jaipur",
+    id: 46,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-jammu-and-kashmir",
+    label: "Jammu & Kashmir",
+    id: 47,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-jhajjar",
+    label: "Jhajjar",
+    id: 48,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-jhansi",
+    label: "Jhansi",
+    id: 49,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-jharkhand",
+    label: "Jharkhand",
+    id: 50,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-jind",
+    label: "Jind",
+    id: 51,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-jodhpur",
+    label: "Jodhpur",
+    id: 52,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-kanpur",
+    label: "Kanpur",
+    id: 53,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-kapurthala",
+    label: "Kapurthala",
+    id: 54,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-karnal",
+    label: "Karnal",
+    id: 55,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-karnataka",
+    label: "Karnataka",
+    id: 56,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-kerala",
+    label: "Kerala",
+    id: 57,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-kolkata",
+    label: "Kolkata",
+    id: 58,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-kota",
+    label: "Kota",
+    id: 59,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-kundli",
+    label: "Kundli",
+    id: 60,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-kurukshetra",
+    label: "Kurukshetra",
+    id: 61,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-leh",
+    label: "Leh",
+    id: 62,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-lucknow",
+    label: "Lucknow",
+    id: 63,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-ludhiana",
+    label: "Ludhiana",
+    id: 64,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-madhya-pradesh",
+    label: "Madhya Pradesh",
+    id: 65,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-madurai",
+    label: "Madurai",
+    id: 66,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-maharashtra",
+    label: "Maharashtra",
+    id: 67,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-manali",
+    label: "Manali",
+    id: 68,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-manesar",
+    label: "Manesar",
+    id: 69,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-mathura",
+    label: "Mathura",
+    id: 70,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-meerut",
+    label: "Meerut",
+    id: 71,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-mohali",
+    label: "Mohali",
+    id: 72,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-moradabad",
+    label: "Moradabad",
+    id: 73,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-mumbai",
+    label: "Mumbai",
+    id: 74,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-murshidabad",
+    label: "Murshidabad",
+    id: 75,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-muzaffarpur",
+    label: "Muzaffarpur",
+    id: 76,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-nadia",
+    label: "Nadia",
+    id: 77,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-nagpur",
+    label: "Nagpur",
+    id: 78,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-noida",
+    label: "Noida",
+    id: 79,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-odisha",
+    label: "Odisha",
+    id: 80,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-panipat",
+    label: "Panipat",
+    id: 81,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-panchkula",
+    label: "Panchkula",
+    id: 82,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-patiala",
+    label: "Patiala",
+    id: 83,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-patna",
+    label: "Patna",
+    id: 84,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-puducherry-pondicherry",
+    label: "Puducherry (Pondicherry)",
+    id: 85,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-pune",
+    label: "Pune",
+    id: 86,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-punjab",
+    label: "Punjab",
+    id: 87,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-raipur",
+    label: "Raipur",
+    id: 88,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-rajasthan",
+    label: "Rajasthan",
+    id: 89,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-rajkot",
+    label: "Rajkot",
+    id: 90,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-ranchi",
+    label: "Ranchi",
+    id: 91,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-rewari",
+    label: "Rewari",
+    id: 92,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-rohtak",
+    label: "Rohtak",
+    id: 93,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-roorkee",
+    label: "Roorkee",
+    id: 94,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-rudrapur",
+    label: "Rudrapur",
+    id: 95,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-shahjahanpur",
+    label: "Shahjahanpur",
+    id: 96,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-shimla",
+    label: "Shimla",
+    id: 97,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-sikkim",
+    label: "Sikkim",
+    id: 98,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-sirsa",
+    label: "Sirsa",
+    id: 99,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-sonipat",
+    label: "Sonipat",
+    id: 100,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-srinagar",
+    label: "Srinagar",
+    id: 101,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-surat",
+    label: "Surat",
+    id: 102,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-tamil-nadu",
+    label: "Tamil Nadu",
+    id: 103,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-telangana",
+    label: "Telangana",
+    id: 104,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-thiruvananthapuram",
+    label: "Thiruvananthapuram",
+    id: 105,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-uttar-pradesh",
+    label: "Uttar Pradesh",
+    id: 106,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-uttarakhand",
+    label: "Uttarakhand",
+    id: 107,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-vadodara",
+    label: "Vadodara",
+    id: 108,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-varanasi",
+    label: "Varanasi",
+    id: 109,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-west-bengal",
+    label: "West Bengal",
+    id: 110,
+  },
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-yamuna-nagar",
+    label: "Yamuna Nagar",
+    id: 111,
+  },
+
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-delhi",
+    label: "Delhi",
+    id: 112,
+  },
+
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-goa",
+    label: "Goa",
+    id: 113,
+  },
+
+  {
+    href: "/paper-cup-making-machine-manufacturer-in-rewari",
+    label: "Rewari ",
+    id: 114,
   },
 ];

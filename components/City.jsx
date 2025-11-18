@@ -4,7 +4,14 @@ import React from "react";
 
 const CityPage = () => {
   return (
-    <div className="flex gap-2 px-2 flex-wrap overflow-hidden py-10 bg-blue-200 md:px-20">
+    <>
+    <section className="py-10 bg-blue-200 md:px-20">
+
+
+     <h2 className="my-5 text-2xl md:text-5xl font-bold  text-[#304B99]">Our Supply Network</h2>
+    <div className="flex gap-2 px-2 flex-wrap overflow-hidden ">
+   
+    
       {serviceLocations.map(({ href, label }, idx) => (
         <Link
           href={href}
@@ -15,6 +22,8 @@ const CityPage = () => {
         </Link>
       ))}
     </div>
+    </section>
+    </>
   );
 };
 

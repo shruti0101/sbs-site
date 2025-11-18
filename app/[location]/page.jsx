@@ -1,7 +1,12 @@
 import Location from "./Location";
 
 export async function generateMetadata({ params }) {
-  const city = params.location
+  const { location } = await params;
+
+  // ✅ Extract city only (everything after the last "in-")
+  const rawCity = location.split("in-").pop();
+
+  const city = rawCity
     .split("-")
     .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
     .join(" ");
@@ -12,9 +17,10 @@ export async function generateMetadata({ params }) {
   };
 }
 
+const Page = async ({ params }) => {
+  const { location } = await params;
 
-const Page = ({ params }) => {
-  return <Location />;
+  return <Location city={location} />;
 };
 
 export default Page;
