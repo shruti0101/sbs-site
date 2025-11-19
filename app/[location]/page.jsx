@@ -1,9 +1,9 @@
 import Location from "./Location";
+import { notFound } from "next/navigation";
 
 export async function generateMetadata({ params }) {
   const { location } = await params;
 
-  // ✅ Extract city only (everything after the last "in-")
   const rawCity = location.split("in-").pop();
 
   const city = rawCity
@@ -19,6 +19,19 @@ export async function generateMetadata({ params }) {
 
 const Page = async ({ params }) => {
   const { location } = await params;
+
+  // 🔥 Must contain "-in-"
+  if (!location.includes("in-")) {
+    notFound();
+  }
+
+  // 🔥 Extract city part after "in-"
+  const city = location.split("in-")[1];
+
+  // 🔥 If city is empty or invalid → redirect to Home
+  if (!city || city.trim().length === 0) {
+    notFound();
+  }
 
   return <Location city={location} />;
 };

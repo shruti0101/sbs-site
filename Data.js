@@ -2710,25 +2710,25 @@ export const ourProductLandingPage = [
 
 export const InquiryWhyChooseUs = [
   {
-    image: "/sbsImage/supplier.png",
+    image: "/sbsImage/supplier.webp",
     num: "1000+",
     desc: "Machines Successfully installed Pan india & Export Markets",
     bg: "bg-[#FFF1F1]",
   },
   {
-    image: "/sbsImage/testing.png",
+    image: "/sbsImage/testing.webp",
     num: "100+",
     desc: "Industries Served Catering, Packaging, FMCG & More",
     bg: "bg-[#F8E0FC]",
   },
   {
-    image: "/sbsImage/india.png",
+    image: "/sbsImage/india.webp",
     num: "PAN India",
     desc: "Delivery & Service Network With Spare Parts & AMC Support",
     bg: "bg-[#F9FFE1]",
   },
   {
-    image: "/sbsImage/registration.png",
+    image: "/sbsImage/registration.webp",
     num: "15+ Years",
     desc: "Engineering Experience Trusted by Manufacturers Across India",
     bg: "bg-[#C6FFF4]",
@@ -2890,11 +2890,7 @@ export const serviceLocations = [
     label: "Dehradun",
     id: 22,
   },
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-delhi",
-    label: "Delhi",
-    id: 23,
-  },
+ 
   {
     href: "/paper-cup-making-machine-manufacturer-in-delhi-ncr",
     label: "Delhi NCR",
@@ -3336,21 +3332,9 @@ export const serviceLocations = [
     id: 111,
   },
 
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-delhi",
-    label: "Delhi",
-    id: 112,
-  },
+ 
 
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-goa",
-    label: "Goa",
-    id: 113,
-  },
+  
 
-  {
-    href: "/paper-cup-making-machine-manufacturer-in-rewari",
-    label: "Rewari ",
-    id: 114,
-  },
+
 ];

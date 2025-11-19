@@ -26,7 +26,7 @@ const Location = () => {
       <div className="mt-[20vh] ">
         <section
           style={{
-            backgroundImage: "url('/sbsImage/PaperCupsBG.jpg')",
+            backgroundImage: "url('/sbsImage/PaperCupsBG.webp')",
             backgroundSize: "cover",
             objectPosition: "center",
           }}

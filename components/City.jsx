@@ -5,7 +5,7 @@ import React from "react";
 const CityPage = () => {
   return (
     <>
-    <section className="py-10 bg-blue-200 md:px-20">
+    <section className="py-5 md:py-10 bg-blue-200 px-4 md:px-20">
 
 
      <h2 className="my-5 text-2xl md:text-5xl font-bold  text-[#304B99]">Our Supply Network</h2>
