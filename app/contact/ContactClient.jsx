@@ -1,50 +1,86 @@
 "use client";
 
-import { useState } from "react";
-import Image from "next/image";
+
+
 import { Phone, Mail } from "lucide-react";
 
+import React, { useState } from "react";
+import axios from "axios";
 
 
 
 
 
 export default function Page() {
-  const [status, setStatus] = useState(null);
   const [loading, setLoading] = useState(false);
+  const [status, setStatus] = useState(null); // null, 'success', 'error'
 
-  const handleSubmit = async (e) => {
+  const [name, setName] = useState("");
+  const [phone, setPhone] = useState("");
+  const [email, setEmail] = useState("");
+  const [city, setCity] = useState("");
+  const [requirement, setRequirement] = useState("");
+  const [message, setMessage] = useState("");
+
+ const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
-
-    const formData = new FormData(e.target);
+    setStatus("");
 
     try {
-      const response = await fetch(
-        "https://formsubmit.co/ajax/machinerysbs@gmail.com",
-        {
-          method: "POST",
-          body: formData,
-          headers: {
-            Accept: "application/json",
-          },
-        }
+      const formData = {
+        platform: "SBS Machinery Contact Form",
+        platformEmail: "machinerysbs@gmail.com",
+        name,
+        phone,
+        email,
+        city,
+        product: requirement,
+        message,
+        place: city || "N/A",
+      };
+
+      const { data } = await axios.post(
+        "https://brandbnalo.com/api/form/add",
+        formData
       );
 
-      if (response.ok) {
+      if (data?.success) {
         setStatus("success");
-        e.target.reset();
+
+        const whatsappText = `Hi, I am ${name}.
+Email: ${email}
+Product: ${requirement}
+City: ${city}
+Message: ${message}
+Contact: ${phone}`;
+
+        setTimeout(() => {
+          window.open(
+            `https://wa.me/917042039777?text=${encodeURIComponent(
+              whatsappText
+            )}`,
+            "_blank"
+          );
+        }, 1000);
+
+        setName("");
+        setPhone("");
+        setEmail("");
+        setCity("");
+        setRequirement("");
+        setMessage("");
       } else {
         setStatus("error");
       }
-    } catch (err) {
+    } catch (error) {
+      console.error(error);
       setStatus("error");
     } finally {
       setLoading(false);
-      // Hide message after 5 seconds
-      setTimeout(() => setStatus(null), 5000);
     }
   };
+
 
   return (
     <div>
@@ -106,86 +142,104 @@ machinerysbs@gmail.com
 
         {/* Form + Map */}
         <div className="relative grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
-          <div>
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">
-              Get in Touch with Us
-            </h2>
-            <form className="space-y-4" onSubmit={handleSubmit}>
-              <div className="grid grid-cols-2 gap-4">
-                <input
-                  type="text"
-                  name="name"
-                  required
-                  placeholder="Name"
-                  className="border rounded-md px-4 py-2 w-full"
-                />
-                <input
-                  type="tel"
-                  name="phone"
-                  required
-                  maxLength={10}
-                  pattern="[0-9]{10}"
-                  placeholder="Phone No."
-                  className="border rounded-md px-4 py-2 w-full"
-                />
-              </div>
+        <div>
+      <h2 className="text-2xl font-bold text-gray-900 mb-6">
+        Get in Touch with Us
+      </h2>
+      <form className="space-y-4" onSubmit={handleSubmit}>
+        <div className="grid grid-cols-2 gap-4">
+          <input
+            type="text"
+            name="name"
+            required
+            placeholder="Name"
+            className="border rounded-md px-4 py-2 w-full"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            disabled={loading}
+          />
+          <input
+            type="tel"
+            name="phone"
+            required
+            maxLength={10}
+            pattern="[0-9]{10}"
+            placeholder="Phone No."
+            className="border rounded-md px-4 py-2 w-full"
+            value={phone}
+            onChange={(e) => setPhone(e.target.value)}
+            disabled={loading}
+          />
+        </div>
 
-              <div className="grid grid-cols-2 gap-4">
-                <input
-                  type="text"
-                  name="city"
-                  placeholder="City / Location"
-                  className="border rounded-md px-4 py-2 w-full"
-                />
-                <select
-                  name="requirement"
-                  className="border rounded-md px-4 py-2 w-full bg-[#1CBC9A] text-white font-semibold"
-                >
-                  <option value="Select Machine">Select Machine</option>
-									<option value="Paper Cup Making Machine">Paper Cup Making Machine</option>
-									<option value="Paper Die Cutting Machine">Paper Die Cutting Machine</option>
-									<option value="Paper Plate Making Machine">Paper Plate Making Machine</option>
-									<option value="Bio-degradable Bag Making Machine">Bio-degradable Bag Making Machine</option>
-									<option value="Flexoprinting Machine">Flexoprinting Machine</option>
-									<option value="Non Woven Bag Making Machines">Non Woven Bag Making Machines</option>
-									<option value="Offset Bag Printing Machine">Offset Bag Printing Machine</option>
-                </select>
-              </div>
+        <div className="grid grid-cols-2 gap-4">
+          <input
+            type="text"
+            name="city"
+            placeholder="City / Location"
+            className="border rounded-md px-4 py-2 w-full"
+            value={city}
+            onChange={(e) => setCity(e.target.value)}
+            disabled={loading}
+          />
+          <select
+            name="requirement"
+            className="border rounded-md px-4 py-2 w-full bg-[#1CBC9A] text-white font-semibold"
+            value={requirement}
+            onChange={(e) => setRequirement(e.target.value)}
+            disabled={loading}
+          >
+            <option value="">Select Machine</option>
+            <option value="Paper Cup Making Machine">Paper Cup Making Machine</option>
+            <option value="Paper Die Cutting Machine">Paper Die Cutting Machine</option>
+            <option value="Paper Plate Making Machine">Paper Plate Making Machine</option>
+            <option value="Bio-degradable Bag Making Machine">Bio-degradable Bag Making Machine</option>
+            <option value="Flexoprinting Machine">Flexoprinting Machine</option>
+            <option value="Non Woven Bag Making Machines">Non Woven Bag Making Machines</option>
+            <option value="Offset Bag Printing Machine">Offset Bag Printing Machine</option>
+          </select>
+        </div>
 
-              <input
-                type="email"
-                name="email"
-                required
-                placeholder="Email Address"
-                className="border rounded-md px-4 py-2 w-full"
-              />
-              <textarea
-                name="message"
-                placeholder="Message for us.."
-                rows={4}
-                className="border rounded-md px-4 py-2 w-full"
-              />
+        <input
+          type="email"
+          name="email"
+          required
+          placeholder="Email Address"
+          className="border rounded-md px-4 py-2 w-full"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          disabled={loading}
+        />
+        <textarea
+          name="message"
+          placeholder="Message for us.."
+          rows={4}
+          className="border rounded-md px-4 py-2 w-full"
+          value={message}
+          onChange={(e) => setMessage(e.target.value)}
+          disabled={loading}
+        />
 
-              <button
-                type="submit"
-                disabled={loading}
-                className="bg-[#1CBC9A] text-white px-6 py-3 rounded-md font-semibold w-full"
-              >
-                {loading ? "Sending..." : "Send"}
-              </button>
+        <button
+          type="submit"
+          disabled={loading}
+          className="bg-[#1CBC9A] text-white px-6 py-3 rounded-md font-semibold w-full"
+        >
+          {loading ? "Sending..." : "Send"}
+        </button>
 
-              {status === "success" && (
-                <p className="text-green-600 font-semibold mt-2">
-                  Thank you! Your message has been sent.
-                </p>
-              )}
-              {status === "error" && (
-                <p className="text-red-600 font-semibold mt-2">
-                  Oops! Something went wrong. Please try again.
-                </p>
-              )}
-            </form>
-          </div>
+        {status === "success" && (
+          <p className="text-green-600 font-semibold mt-2">
+            Thank you! Your message has been sent.
+          </p>
+        )}
+        {status === "error" && (
+          <p className="text-red-600 font-semibold mt-2">
+            Oops! Something went wrong. Please try again.
+          </p>
+        )}
+      </form>
+    </div>
 
           <div className=" h-[400px]">
          <iframe
