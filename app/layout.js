@@ -12,6 +12,7 @@ const roboto = Roboto({
   weight: ["300", "400", "500", "700"],
 });
 
+// Poppins
 const poppins = Poppins({
   variable: "--font-poppins",
   subsets: ["latin"],
@@ -42,6 +43,22 @@ export default function RootLayout({ children }) {
       </Script>
       {/* End Google Tag Manager */}
 
+      {/* Google Ads Global Site Tag */}
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=AW-16881818475"
+        strategy="afterInteractive"
+      />
+
+      <Script id="google-ads-tag" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){ dataLayer.push(arguments); }
+          gtag('js', new Date());
+          gtag('config', 'AW-16881818475');
+        `}
+      </Script>
+      {/* End Google Ads */}
+
       <body className={`${roboto.variable} ${poppins.variable} antialiased`}>
         {/* Google Tag Manager (noscript) */}
         <noscript>
@@ -52,7 +69,7 @@ export default function RootLayout({ children }) {
             style={{ display: "none", visibility: "hidden" }}
           ></iframe>
         </noscript>
-        {/* End Google Tag Manager (noscript) */}
+        {/* End GTM noscript */}
 
         <LayoutWrapper>
           <Social />
