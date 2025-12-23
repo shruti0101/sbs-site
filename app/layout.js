@@ -20,7 +20,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "SBS Machinery – Paper Cup Making Machines Manufacturer in Delhi India",
+  title: "Paper Cup Making Machine",
   description:
     "Discover top-quality paper cup Making machines manufactured in Delhi, India. Enhance your production efficiency with our innovative and reliable solutions.",
   icons: {
