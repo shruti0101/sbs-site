@@ -20,9 +20,9 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Paper Cup Making Machine",
+  title: " Paper Cup Making Machines Manufacturer |  Paper Cup Production Machines",
   description:
-    "Discover top-quality paper cup Making machines manufactured in Delhi, India. Enhance your production efficiency with our innovative and reliable solutions.",
+    "Leading manufacturer of paper cup making machines in India. Offering durable, high-performance, and fully automatic machines for paper cup production. Contact us for bulk orders and customization.",
   icons: {
     icon: "/logo.webp",
   },
