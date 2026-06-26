@@ -71,11 +71,13 @@ export default function RootLayout({ children }) {
         </noscript>
         {/* End GTM noscript */}
 
-        <LayoutWrapper>
+        {/* <LayoutWrapper>
           <Social />
           <Stickybutton />
           {children}
-        </LayoutWrapper>
+        </LayoutWrapper> */}
+
+         {children}
       </body>
     </html>
   );
